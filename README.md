@@ -29,7 +29,7 @@ After the script completes, antibody structures will be saved in a new directory
 
 ## Uncertainty scoring
 
-Calculate uncertainty for a csv of sequences with the columns `heavy for heavy chain sequences, `light` for light chain sequences, and `fitness` for some experimental antibody fitness metric.
+Calculate uncertainty for a csv of sequences with the columns `heavy` for heavy chain sequences, `light` for light chain sequences, and `fitness` for some experimental antibody fitness metric.
 
 ```bash
 $ example line here
