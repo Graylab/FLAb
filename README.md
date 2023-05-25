@@ -1,7 +1,7 @@
 # FLAb
 Official repository for FLAb: Benchmarking tasks in Fitness Landscape Inference for Antibodies.
 
-INSERT PICTURE HERE
+![Biophysical Properties](biophysical_properties.png)
 
 ## Install
 
