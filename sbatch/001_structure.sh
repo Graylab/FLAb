@@ -9,4 +9,4 @@ source /home/mchungy1/data_jgray21/mchungy1/miniconda3/bin/activate igfold
 
 csv_path=$1
 
-python 001_igfold_structure.py $csv_path
+python scripts/001_structure.py $csv_path
