@@ -1,5 +1,5 @@
-# FLAb
-Official repository for FLAb: Benchmarking tasks in Fitness Landscape Inference for Antibodies.
+# FLAb: Fitness Landscapes for Antibodies
+Official repository for FLAb: Benchmarking deep learning methods for antibody fitness prediction.
 
 ![Biophysical Properties](biophysical_properties.png)
 
