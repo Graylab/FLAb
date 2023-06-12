@@ -82,7 +82,7 @@ def _cli():
          "H": df['heavy'][row],
          "L": df["light"][row]
       }
-      """
+
       pred_pdb = "{}_{}.pdb".format(name_only, row)
 
       igfold = IgFoldRunner()
@@ -90,16 +90,13 @@ def _cli():
          pred_pdb, # Output PDB file
          sequences=sequences, # Antibody sequences
          do_refine=True, # Refine the antibody structure with PyRosetta
-         #do_renum=True, # Renumber predicted antibody structure (Chothia)
+         do_renum=False, # Renumber predicted antibody structure (Chothia)
       )
-      """
-      print(sequences)
-      print()
 
    """
    out.prmsd # Predicted RMSD for each residue's N, CA, C, CB atoms (dim: 1, L, 4)
    """
-   
+
    # change the working directory back to original directory
    os.chdir('..')
 

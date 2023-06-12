@@ -21,4 +21,8 @@ if [ "$score_method" = "antiberty" ]; then
 	source /home/mchungy1/data_jgray21/mchungy1/miniconda3/bin/activate /home/mchungy1/scr16_jgray21/mchungy1/conda_envs/antiberty
 fi
 
+if [ "$score_method" = "progen" ]; then
+        source /home/mchungy1/data_jgray21/mchungy1/miniconda3/bin/activate /scratch16/jgray21/mchungy1/conda_envs/progen
+fi
+
 for CSV in $fitness_path*; do python scripts/002_score.py $CSV $score_method $model_version $device; done
