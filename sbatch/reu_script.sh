@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#SBATCH --partition=defq
+#SBATCH --nodes=1
+#SBATCH --time=48:0:0
+#SBATCH --mem-per-cpu=2GB
+
 path_to_csv_structures=$1
 
 parent_dir=$(dirname "$path_to_csv_structures")
