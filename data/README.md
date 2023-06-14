@@ -1,4 +1,4 @@
-# Dataset Desciptions
+# Dataset Descriptions
 
 All datasets are formatted to contain variable region heavy chain, variable region light chain, and one or more fitness metric.
 
