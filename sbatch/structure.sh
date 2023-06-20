@@ -7,4 +7,6 @@
 
 source /home/mchungy1/data_jgray21/mchungy1/miniconda3/bin/activate igfold
 
-python structure.py
+csv_path=$1
+
+python scripts/structure.py $csv_path

@@ -101,7 +101,7 @@ def _cli():
             os.mkdir(os.path.join('.', score_dir, score_method, progen_model, fitness_dir))
         else:
             print(f'Directory "{score_dir}/{score_method}/{progen_model}/{fitness_dir}" exists already')
-        
+
         # check if the 'name_only' directory (ex: Hie2022_C143_Kd) exists inside 'score/score_method/progen_model/binding/', create if it doesn't
         if not os.path.exists(os.path.join('.', score_dir, score_method, progen_model, fitness_dir, name_only)):
             print(f'Directory "{score_dir}/{score_method}/{progen_model}/{fitness_dir}/{name_only}" does not exist, creating directory')
