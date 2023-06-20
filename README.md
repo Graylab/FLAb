@@ -5,7 +5,7 @@ Official repository for FLAb: Benchmarking deep learning methods for antibody fi
 
 ## Install
 
-For easiest use, [create a conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) for each scoring and structure prediction model:
+For easiest use, [create a conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) for each scoring and structure prediction method:
 
 ```bash
 $ conda env create --name iglm --file envs/iglm.yml
