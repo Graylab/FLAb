@@ -35,6 +35,12 @@ Calculate perplexity for a csv of sequences with the columns `heavy` for heavy c
 $ sbatch sbatch/score_seq.sh data/tm/Hie2022_C143_Tm.csv antiberty
 ```
 
+For structure-based scoring methods, structures must first be predicted.
+
+```bash
+$ sbatch sbatch/score_struc.sh data/tm/Hie2022_C143_Tm.csv esmif
+```
+
 ### Expected output
 
 After the script completes, the CSV with heavy and light sequences will be updated with a new column for uncertainty. The CSV will be saved in a new directory path within `scores/tm/Hie2022_C143_Tm/`
