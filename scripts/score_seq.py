@@ -194,12 +194,12 @@ def _cli():
     p_list.append(pearson_p_value)
 
     # Spearman's rank measures monotonic relationship between 2 variables
-    spearman_corr, spearman_p_value = spearmanr(df[fitness_metric], df['heavy_perplexity'])
+    spearman_corr, spearman_p_value = spearmanr(df[fitness_metric], df['average_perplexity'])
     correlation_list.append(spearman_corr)
     p_list.append(spearman_p_value)
 
     # Kendall's tau measures ordinal relationship between 2 variables
-    kendall_corr, kendall_p_value = kendalltau(df[fitness_metric], df['heavy_perplexity'])
+    kendall_corr, kendall_p_value = kendalltau(df[fitness_metric], df['average_perplexity'])
     correlation_list.append(kendall_corr)
     p_list.append(kendall_p_value)
 

@@ -5,6 +5,7 @@ import pandas as pd
 import pyrosetta
 from igfold import IgFoldRunner, init_pyrosetta
 import os
+from extra import dir_create
 
 init_pyrosetta()
 
@@ -31,50 +32,36 @@ def _get_args():
 
 def _cli():
    args = _get_args()
-
+   
    csv_path = args.csv_path
-
-   # split csv_path into the directory path and filename
-   dir_path, filename = os.path.split(csv_path)
-   # remove file extension from filename
-   name_only, extension = os.path.splitext(filename)
-   # print filename without directory path and extension
-   print(f'The filename is {name_only}')
-   # Split the directory path into the parent directory and directory name
-   parent_dir, dir_name = os.path.split(dir_path)
-   # print directory name without full path
-   print(f'The directory name is {dir_name}')
-
-   structure_dir='structure'
-   # check if the 'structure' directory exists, create if it doesn't
-   if not os.path.exists(os.path.join('.', structure_dir)):
-      print(f'Directory "{structure_dir}" does not exist, creating directory')
-      os.mkdir(os.path.join('.', structure_dir))
-   else:
-      print(f'Directory "{structure_dir}" exists already')
-
-   # check if the 'binding' directory exists inside 'structure/', create if it doesn't
-   if not os.path.exists(os.path.join('.', structure_dir, dir_name)):
-      print(f'Directory "{structure_dir}/{dir_name}" does not exist, creating directory')
-      os.mkdir(os.path.join('.', structure_dir, dir_name))
-   else:
-      print(f'Directory "{structure_dir}/{dir_name}" exists already')
-
-   # check if the 'name_only' directory exists inside 'structure/dir_name/', create if it doesn't
-   if not os.path.exists(os.path.join('.', structure_dir, dir_name, name_only)):
-      print(f'Directory "{structure_dir}/{dir_name}/{name_only}" does not exist, creating directory')
-      os.mkdir(os.path.join('.', structure_dir, dir_name, name_only))
-   else:
-      print(f'Directory "{structure_dir}/{dir_name}/{name_only}" exists already')
 
    device_type = 'cuda' if torch.cuda.is_available(
    ) and args.use_gpu else 'cpu'
    device = torch.device(device_type)
 
+   # CREATE DIRECTORY PATH
+
+   # split csv_path data/fitness/filename into variables
+   dir_name, filename = os.path.split(csv_path)
+   data_dir, fitness_dir = os.path.split(dir_name)
+
+   # remove file extension from filename
+   name_only, extension = os.path.splitext(filename)
+
+   structure_dir = 'structure'
+   # create score/
+   dir_create(structure_dir)
+
+   # check score/fitness
+   dir_create(structure_dir, fitness_dir)
+
+   # create score/fitness/csv
+   dir_create(structure_dir, fitness_dir, name_only)
+
    df = pd.read_csv(csv_path)
 
    # change to the 'structure/dir_name/name_only/' directory
-   output_dir = os.path.join('.', structure_dir, dir_name, name_only)
+   output_dir = os.path.join('.', structure_dir, fitness_dir, name_only)
    os.chdir(output_dir)
 
    for row in range(len(df)):
