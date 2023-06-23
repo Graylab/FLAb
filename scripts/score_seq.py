@@ -13,6 +13,7 @@ from scipy.stats import spearmanr
 from scipy.stats import kendalltau
 
 from models import iglm_score,antiberty_score,progen_score
+from extra import dir_create
 
 """
 Input: relative path to csv file (columns: heavy,light,fitness)
@@ -57,6 +58,10 @@ def _cli():
     progen_model = args.progen_model
     device = args.device
 
+    device_type = 'cuda' if torch.cuda.is_available(
+    ) and args.use_gpu else 'cpu'
+    device = torch.device(device_type)
+
     # CREATE DIRECTORY PATH
 
     # split csv_path data/fitness/filename into variables
@@ -66,66 +71,29 @@ def _cli():
     # remove file extension from filename
     name_only, extension = os.path.splitext(filename)
 
-    # print filename without directory path and extension
-    print(f'The filename is {name_only}')
-
-    # print directory name without full path
-    print(f'The fitness directory name is {fitness_dir}')
-
     score_dir = 'score'
-    # create score directory if it does not exist
-    if not os.path.exists(os.path.join('.', score_dir)):
-        print(f'Directory "{score_dir}" does not exist, creating directory')
-        os.mkdir(os.path.join('.', score_dir))
-    else:
-        print(f'Directory "{score_dir}" exists already')
+    # create score/
+    dir_create(score_dir)
 
-    # check if the 'iglm' directory exists inside 'score/', create if it doesn't
-    if not os.path.exists(os.path.join('.', score_dir, score_method)):
-        print(f'Directory "{score_dir}/{score_method}" does not exist, creating directory')
-        os.mkdir(os.path.join('.', score_dir, score_method))
-    else:
-        print(f'Directory "{score_dir}/{score_method}" exists already')
+    # create score/model/
+    dir_create(score_dir, score_method)
 
     if score_method=='progen':
-        # if the model is progen, check if progen_model exists inside progen/, create if it doesn't
-        if not os.path.exists(os.path.join('.', score_dir, score_method, progen_model)):
-            print(f'Directory "{score_dir}/{score_method}/{progen_model}" does not exist, creating directory')
-            os.mkdir(os.path.join('.', score_dir, score_method, progen_model))
-        else:
-            print(f'Directory "{score_dir}/{score_method}/{progen_model}" exists already')
+        # create score/model/progen_size/
+        dir_create(score_dir, score_method, progen_model)
 
-        # check if the fitness diretcory exists inside of 'score/score_method/progen_model/, create if not
-        if not os.path.exists(os.path.join('.', score_dir, score_method, progen_model, fitness_dir)):
-            print(f'Directory "{score_dir}/{score_method}/{progen_model}/{fitness_dir}" does not exist, creating directory')
-            os.mkdir(os.path.join('.', score_dir, score_method, progen_model, fitness_dir))
-        else:
-            print(f'Directory "{score_dir}/{score_method}/{progen_model}/{fitness_dir}" exists already')
+        # create score/model/progen_model/fitness/
+        dir_create(score_dir, score_method, progen_model, fitness_dir)
 
-        # check if the 'name_only' directory (ex: Hie2022_C143_Kd) exists inside 'score/score_method/progen_model/binding/', create if it doesn't
-        if not os.path.exists(os.path.join('.', score_dir, score_method, progen_model, fitness_dir, name_only)):
-            print(f'Directory "{score_dir}/{score_method}/{progen_model}/{fitness_dir}/{name_only}" does not exist, creating directory')
-            os.mkdir(os.path.join('.', score_dir, score_method, progen_model, fitness_dir, name_only))
-        else:
-            print(f'Directory "{score_dir}/{score_method}/{progen_model}/{fitness_dir}/{name_only}" exists already')
+        # create score/model/progen_model/fitness/csv/
+        dir_create(score_dir, score_method, progen_model, fitness_dir, name_only)
+    
     else:
-        # check if the fitness directory (ex: binding) exists inside 'score/score_method/', create if it doesn't
-        if not os.path.exists(os.path.join('.', score_dir, score_method, fitness_dir)):
-            print(f'Directory "{score_dir}/{score_method}/{fitness_dir}" does not exist, creating directory')
-            os.mkdir(os.path.join('.', score_dir, score_method, fitness_dir))
-        else:
-            print(f'Directory "{score_dir}/{score_method}/{fitness_dir}" exists already')
+        # create score/model/fitness/
+        dir_create(score_dir, score_method, fitness_dir)
 
-        # check if the 'name_only' directory (ex: Hie2022_C143_Kd) exists inside 'score/score_method/binding/', create if it doesn't
-        if not os.path.exists(os.path.join('.', score_dir, score_method, fitness_dir, name_only)):
-            print(f'Directory "{score_dir}/{score_method}/{fitness_dir}/{name_only}" does not exist, creating directory')
-            os.mkdir(os.path.join('.', score_dir, score_method, fitness_dir, name_only))
-        else:
-            print(f'Directory "{score_dir}/{score_method}/{fitness_dir}/{name_only}" exists already')
-
-    #device_type = 'cuda' if torch.cuda.is_available(
-    #) and args.use_gpu else 'cpu'
-    #device = torch.device(device_type)
+        # create score/model/fitness/csv/
+        dir_create(score_dir, score_method, fitness_dir, name_only)
 
     df = pd.read_csv(csv_path)
 

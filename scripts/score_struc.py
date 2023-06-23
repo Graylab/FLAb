@@ -13,7 +13,7 @@ from scipy.stats import pearsonr
 from scipy.stats import spearmanr
 from scipy.stats import kendalltau
 
-from structure_models import esmif_score
+from models import esmif_score, pyrosetta_score
 from extra import dir_create, extract_last_digits
 
 """
@@ -87,15 +87,19 @@ def _cli():
     df_scores = pd.DataFrame()
     pdb_list, pdb_score = [], []
 
-    if score_method == 'esmif':
-        for pdb_file in os.listdir(pdb_dir):
-            if pdb_file.endswith(".pdb"):
-                pdb_name = pdb_file.split('.')[0]
-                pdb_list.append(extract_last_digits(pdb_name))
+    for pdb_file in os.listdir(pdb_dir):
+        if pdb_file.endswith(".pdb"):
+            pdb_name = pdb_file.split('.')[0]
+            pdb_list.append(extract_last_digits(pdb_name))
+            
+            if score_method == 'esmif':
                 pdb_score.append(esmif_score(f'{pdb_dir}/{pdb_file}'))
+            elif score_method == 'pyrosetta':
+                # although pyrosetta E is not perplexity, I keep this notation for simplicity downstream
+                pdb_score.append(pyrosetta_score(f'{pdb_dir}/{pdb_file}'))
 
-        df_scores['pdb_file'] = pdb_list
-        df_scores['average_perplexity'] = pdb_score
+    df_scores['pdb_file'] = pdb_list
+    df_scores['average_perplexity'] = pdb_score
     
     df_order = df_scores.sort_values('pdb_file').reset_index(drop=True)
     df = pd.concat([df_og, df_order], axis=1)

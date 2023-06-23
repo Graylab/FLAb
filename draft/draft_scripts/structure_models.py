@@ -1,5 +1,4 @@
 import os
-import argparse
 import math
 
 # esm if
@@ -15,6 +14,15 @@ try:
     
     # use eval mode for deterministic output e.g. without random dropout
     model = model.eval()
+
+except ImportError:
+    pass
+
+# pyrsetta energy
+try:
+    import pyrosetta
+    from pyrosetta.teaching import *
+    pyrosetta.init()
 
 except ImportError:
     pass
@@ -48,3 +56,12 @@ def esmif_score(pdb):
     perplexity = math.exp(-ll_avg)
     
     return perplexity
+
+def pyrosetta_score(pdb):
+
+    # load pdb into pose
+    pose = pyrosetta.pose_from_pdb(pdb)
+
+    sfxn = get_score_function(True)
+
+    return(sfxn(pose))
