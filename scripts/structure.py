@@ -32,7 +32,7 @@ def _get_args():
 
 def _cli():
    args = _get_args()
-   
+
    csv_path = args.csv_path
 
    device_type = 'cuda' if torch.cuda.is_available(
