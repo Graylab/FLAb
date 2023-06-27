@@ -13,7 +13,7 @@ from scipy.stats import pearsonr
 from scipy.stats import spearmanr
 from scipy.stats import kendalltau
 
-from models import esmif_score, pyrosetta_score
+from models import esmif_score, pyrosetta_score, mpnn_score
 from extra import dir_create, extract_last_digits
 
 """
@@ -97,6 +97,8 @@ def _cli():
             elif score_method == 'pyrosetta':
                 # although pyrosetta E is not perplexity, I keep this notation for simplicity downstream
                 pdb_score.append(pyrosetta_score(f'{pdb_dir}/{pdb_file}'))
+            elif score_method == 'mpnn':
+                pdb_score.append(mpnn_score(f'{pdb_dir}/{pdb_file}'))
 
     df_scores['pdb_file'] = pdb_list
     df_scores['average_perplexity'] = pdb_score
