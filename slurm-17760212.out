@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/scratch16/jgray21/mchungy1/FLAb_neurips/FLAb/scripts/score_struc.py", line 5, in <module>
-    import seaborn as sns
-ModuleNotFoundError: No module named 'seaborn'
