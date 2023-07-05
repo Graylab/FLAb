@@ -1,0 +1,11 @@
+Directory "./score" exists already
+Directory "./score/iglm" exists already
+Directory "./score/iglm/tm" does not exist, creating directory
+Traceback (most recent call last):
+  File "/scratch16/jgray21/mchungy1/FLAb_neurips/FLAb/scripts/score_seq.py", line 182, in <module>
+    _cli()
+  File "/scratch16/jgray21/mchungy1/FLAb_neurips/FLAb/scripts/score_seq.py", line 93, in _cli
+    dir_create(score_dir, score_method, fitness_dir)
+  File "/scratch16/jgray21/mchungy1/FLAb_neurips/FLAb/scripts/extra.py", line 9, in dir_create
+    os.mkdir(path)
+FileExistsError: [Errno 17] File exists: './score/iglm/tm'

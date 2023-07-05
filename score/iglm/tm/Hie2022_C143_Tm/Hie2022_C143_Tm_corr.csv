@@ -1,4 +1,4 @@
 correlation_name,value,p-value
 pearson,-1.0,1.0
-spearman,,
-kendal tau,,
+spearman,-0.9999999999999999,
+kendal tau,-1.0,1.0
