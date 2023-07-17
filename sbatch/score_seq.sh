@@ -1,9 +1,11 @@
 #!/bin/bash
 
-#SBATCH --partition=defq
+#SBATCH --partition=a100
 #SBATCH --nodes=1
-#SBATCH --time=48:0:0
-#SBATCH --mem-per-cpu=2GB
+#SBATCH --account=jgray21_gpu
+#SBATCH --time=2:00:00
+#SBATCH --ntasks-per-node=6
+#SBATCH --gres=gpu:1
 
 csv_path=$1 # ex: data/tm/Hie2022_C143_Tm.csv
 score_method=$2 # ex: iglm

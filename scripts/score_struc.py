@@ -129,6 +129,13 @@ def _cli():
         fitness_metric = 'negative log expression'
         df[fitness_metric] = -np.log(df['fitness'])
 
+    elif fitness_dir == 'aggregation':
+        fitness_metric = 'aggregation metric'
+        df[fitness_metric] = df['fitness']
+
+    elif fitness_dir == 'polyreactivity':
+        fitness_metric = 'polyreactivity metric'
+        df[fitness_metric] = df['fitness']
 
     df['is_first_row'] = df.index == 0
     plt.scatter(df[fitness_metric], df['average_perplexity'], c=['orange' if row else 'blue' for row in df['is_first_row']])
