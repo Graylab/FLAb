@@ -3,7 +3,8 @@ import argparse
 import torch
 import pandas as pd
 import pyrosetta
-from igfold import IgFoldRunner, init_pyrosetta
+from igfold import IgFoldRunner
+from igfold.refine.pyrosetta_ref import init_pyrosetta
 import os
 from extra import dir_create
 
