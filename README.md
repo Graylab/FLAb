@@ -1,5 +1,5 @@
 # FLAb: Fitness Landscapes for Antibodies
-Official repository for FLAb: Benchmarking deep learning methods for antibody fitness prediction.
+Official repository for `FLAb: Benchmarking deep learning methods for antibody fitness prediction` submitted to the 2023 NeurIPS Benchmark track.
 
 ![Biophysical Properties](biophysical_properties.png)
 
@@ -45,7 +45,9 @@ $ sbatch sbatch/score_struc.sh data/tm/Hie2022_C143_Tm.csv esmif
 
 After the script completes, the CSV with heavy and light sequences will be updated with a new column for uncertainty. The CSV will be saved in a new directory path within `scores/tm/Hie2022_C143_Tm/`
 
-## Bug reports
+## Contributions & Bug reports
+
+We are motivated to continually expand the antibody fitness data utilized and methods evaluated on the FLAb benchmark. We encourage contributions and leave FLAb open for other models to be tested and added.
 
 If you run into any problems while using FLAb, please create a [Github issue](https://github.com/Graylab/FLAb/issues) with a description of the problem and the steps to reproduce it.
 
