@@ -1,5 +1,5 @@
 # FLAb: Fitness Landscapes for Antibodies
-Official repository for `FLAb: Benchmarking deep learning methods for antibody fitness prediction` submitted to the 2023 NeurIPS Benchmark track.
+Official repository for `FLAb: Benchmarking deep learning methods for antibody fitness prediction`. ADD LINES FROM ABSTRACT
 
 ![Biophysical Properties](Fig_biophysical_properties.png)
 
@@ -32,7 +32,7 @@ After the script completes, antibody structures will be saved in a new directory
 Calculate perplexity for a csv of sequences with the columns `heavy` for heavy chain sequences, `light` for light chain sequences, and `fitness` for some experimental antibody fitness metric.
 
 ```bash
-$ sbatch sbatch/score_seq.sh data/tm/Hie2022_C143_Tm.csv antiberty
+$ sbatch sbatch/score_seq.sh data/tm/Hie2022_C143_Tm.csv [model \in { antiberty, ...}]
 ```
 
 For structure-based scoring methods, structures must first be predicted.
@@ -57,7 +57,7 @@ If you run into any problems while using FLAb, please create a [Github issue](ht
 @article{chungyoun2023flab,
     title = {FLAb: Benchmarking tasks in fitness landscape inference for antibodies},
     author = {Chungyoun, Michael and Ruffolo, Jeff and Gray, Jeffrey J},
-    journal = {NeurIPS},
+    journal = {submitted to NeurIPS datasets and benchmarking track},
     year = {2023}
 }
 ```
