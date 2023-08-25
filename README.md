@@ -47,7 +47,7 @@ After the script completes, the CSV with heavy and light sequences will be updat
 
 ## Contributions & Bug reports
 
-We are motivated to continually expand the antibody fitness data utilized and methods evaluated on the FLAb benchmark. We invite contributions and encourage contributors to add data or test new models (e.g. ESM-2, CDConv, ProNet, MaSIF, MIF, CARP, ProtBERT, UniRep, ProteinBERT).
+FLAb is a living benchmark: We are motivated to continually expand the antibody fitness data utilized and methods evaluated. We invite contributions and encourage contributors to add data or test new models (e.g. ESM-2, CDConv, ProNet, MaSIF, MIF, CARP, ProtBERT, UniRep, ProteinBERT).
 
 If you run into any problems while using FLAb, please create a [Github issue](https://github.com/Graylab/FLAb/issues) with a description of the problem and the steps to reproduce it.
 
