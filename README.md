@@ -8,8 +8,10 @@ Official repository for `FLAb: Benchmarking deep learning methods for antibody f
 For easiest use, [create a conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) for each scoring and structure prediction method:
 
 ```bash
-$ conda env create --name iglm --file envs/iglm.yml
+$ conda env create --name ENV_NAME --file envs/[ENV]
 ```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Where `[ENV]` ∈ `antiberty.yml`, `esmif.yml`, `iglm.yml`, `mpnn.yml`, `progen.yml`, `pyrosetta.yml`
 
 ## Command line usage
 
@@ -32,8 +34,12 @@ After the script completes, antibody structures will be saved in a new directory
 Calculate perplexity for a csv of sequences with the columns `heavy` for heavy chain sequences, `light` for light chain sequences, and `fitness` for some experimental antibody fitness metric.
 
 ```bash
-$ sbatch sbatch/score_seq.sh data/tm/Hie2022_C143_Tm.csv [model \in { antiberty, ...}]
+$ sbatch sbatch/score_seq.sh data/tm/Hie2022_C143_Tm.csv [MODEL] [SIZE]
 ```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Where `[MODEL]` ∈ `antiberty`, `esmif`, `iglm`, `mpnn`, `progen`, `pyrosetta`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If using `progen`: `[SIZE]` ∈ `small`, `medium`, `base`, `oas`, `large`, `BFD90`, `xlarge`. Otherwise leave `[SIZE]` blank.
 
 For structure-based scoring methods, structures must first be predicted.
 
