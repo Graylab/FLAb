@@ -1,7 +1,7 @@
 # FLAb: Fitness Landscapes for Antibodies
 Official repository for `FLAb: Benchmarking deep learning methods for antibody fitness prediction` submitted to the 2023 NeurIPS Benchmark track.
 
-![Biophysical Properties](biophysical_properties.png)
+![Biophysical Properties](Fig_biophysical_properties.png)
 
 ## Install
 
