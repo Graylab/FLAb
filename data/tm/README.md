@@ -21,3 +21,11 @@
 `Rosace2023_Golimumab_Tm` - Thermostability of clinically approved antibody Golimumab bound to TNF-α, where Golumumab had several self-association and cross-reactivity flags. (°C)
 
 `Wittrup2017_CST_Tm` - Thermostability of clinical stage antibodies. (°C)
+
+`gsk2023_AM14_Tm` - Expression of AM14 engineered antibody (°C)
+
+`gsk2023_D25_Tm` - Expression of D25 engineered antibody (°C)
+
+`gsk2023_MOTA_Tm` - Expression of MOTA engineered antibody (°C)
+
+`gsk2023_RSB1_Tm` - Expression of RSB1 engineered antibody (°C)
