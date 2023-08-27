@@ -25,3 +25,11 @@
 `Shanehsazzadeh2023_trastuzumab_zero_kd` - Binding energy of Trastuzumab zero-shot CDR H3 designs bound to HER2. (KD, nM)
 
 `Warszawski2019_d44_Kd` - Binding energy of mutants of the anti-lysozyme antibody D44.1. (KD, nM)
+
+`gsk2023_AM14_exp` - Expression of AM14 engineered antibody (KD, nM)
+
+`gsk2023_D25_exp` - Expression of D25 engineered antibody (KD, nM)
+
+`gsk2023_MOTA_exp` - Expression of MOTA engineered antibody (KD, nM)
+
+`gsk2023_RSB1_exp` - Expression of RSB1 engineered antibody (KD, nM)
