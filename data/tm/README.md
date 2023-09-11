@@ -22,10 +22,10 @@
 
 `Wittrup2017_CST_Tm` - Thermostability of clinical stage antibodies. (°C)
 
-`gsk2023_AM14_Tm` - Expression of AM14 engineered antibody (°C)
+`gsk2023_[temporarily redacted]_Tm` - Expression of engineered antibody (°C)
 
-`gsk2023_D25_Tm` - Expression of D25 engineered antibody (°C)
+`gsk2023_[temporarily redacted]_Tm` - Expression of engineered antibody (°C)
 
-`gsk2023_MOTA_Tm` - Expression of MOTA engineered antibody (°C)
+`gsk2023_[temporarily redacted]_Tm` - Expression of engineered antibody (°C)
 
-`gsk2023_RSB1_Tm` - Expression of RSB1 engineered antibody (°C)
+`gsk2023_[temporarily redacted]_Tm` - Expression of engineered antibody (°C)
