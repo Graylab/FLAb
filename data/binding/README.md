@@ -26,10 +26,10 @@
 
 `Warszawski2019_d44_Kd` - Binding energy of mutants of the anti-lysozyme antibody D44.1. (KD, nM)
 
-`gsk2023_AM14_Kd` - Expression of AM14 engineered antibody (KD, nM)
+`gsk2023_[temporarily redacted]_Kd` - Expression of engineered antibody (KD, nM)
 
-`gsk2023_D25_Kd` - Expression of D25 engineered antibody (KD, nM)
+`gsk2023_[temporarily redacted]_Kd` - Expression of engineered antibody (KD, nM)
 
-`gsk2023_MOTA_Kd` - Expression of MOTA engineered antibody (KD, nM)
+`gsk2023_[temporarily redacted]_Kd` - Expression of engineered antibody (KD, nM)
 
-`gsk2023_RSB1_Kd` - Expression of RSB1 engineered antibody (KD, nM)
+`gsk2023_[temporarily redacted]_Kd` - Expression of engineered antibody (KD, nM)
