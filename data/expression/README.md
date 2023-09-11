@@ -6,10 +6,10 @@
 
 `Wittrup2017_CST_HEK` - Human embryonic kidney cell expression of clinical stage antibodies. (µg/mL)
 
-`gsk2023_AM14_exp` - Expression of AM14 engineered antibody (µg/mL)
+`gsk2023_[temporarily redacted]_exp` - Expression of engineered antibody (µg/mL)
 
-`gsk2023_D25_exp` - Expression of D25 engineered antibody (µg/mL)
+`gsk2023_[temporarily redacted]_exp` - Expression of engineered antibody (µg/mL)
 
-`gsk2023_MOTA_exp` - Expression of MOTA engineered antibody (µg/mL)
+`gsk2023_[temporarily redacted]_exp` - Expression of engineered antibody (µg/mL)
 
-`gsk2023_RSB1_exp` - Expression of RSB1 engineered antibody (µg/mL)
+`gsk2023_[temporarily redacted]_exp` - Expression of engineered antibody (µg/mL)
