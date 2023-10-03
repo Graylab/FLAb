@@ -53,7 +53,7 @@ After the script completes, the CSV with heavy and light sequences will be updat
 
 ## Contributions & Bug reports
 
-FLAb is a living benchmark: We are motivated to continually expand the antibody fitness data utilized and methods evaluated. We invite contributions and encourage contributors to add data or test new models (e.g. ESM-2, CDConv, ProNet, MaSIF, MIF, CARP, ProtBERT, UniRep, ProteinBERT).
+FLAb is a living benchmark: We are motivated to continually expand the antibody fitness data utilized and methods evaluated. We invite contributions and encourage contributors to add data or test new models (e.g. ESM-2, CDConv, ProNet, MaSIF, MIF, CARP, ProtBERT, UniRep, ProteinBERT). To make contributions, either submit a [pull request](https://github.com/Graylab/FLAb/pulls) or email `mchungy1@jhu.edu` for help on how to integrate your data into FLAb.
 
 If you run into any problems while using FLAb, please create a [Github issue](https://github.com/Graylab/FLAb/issues) with a description of the problem and the steps to reproduce it.
 
@@ -63,7 +63,7 @@ If you run into any problems while using FLAb, please create a [Github issue](ht
 @article{chungyoun2023flab,
     title = {FLAb: Benchmarking tasks in fitness landscape inference for antibodies},
     author = {Chungyoun, Michael and Ruffolo, Jeff and Gray, Jeffrey J},
-    journal = {submitted to NeurIPS datasets and benchmarking track},
+    journal = {submitted to NeurIPS Machine Learning in Structural Biology Workshop},
     year = {2023}
 }
 ```
