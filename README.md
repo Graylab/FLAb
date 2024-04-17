@@ -63,7 +63,8 @@ If you run into any problems while using FLAb, please create a [Github issue](ht
 @article{chungyoun2023flab,
     title = {FLAb: Benchmarking tasks in fitness landscape inference for antibodies},
     author = {Chungyoun, Michael and Ruffolo, Jeff and Gray, Jeffrey J},
-    journal = {submitted to NeurIPS Machine Learning in Structural Biology Workshop},
+    journal = {bioRxiv},
+    doi = {https://doi.org/10.1101/2024.01.13.575504}
     year = {2023}
 }
 ```
