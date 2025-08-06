@@ -23,3 +23,12 @@ All datasets are formatted to contain antibody variable domain sequence (heavy c
 | shanehsazzadeh2023unlocking_HICRRT.csv | 13 | HIC - RRT | Trastuzumab Fv antibodies | [Unlocking de novo antibody design with generative artificial intelligence](https://doi.org/10.1101/2023.01.08.523187) | 2024 |
 | shanehsazzadeh2023unlocking_NRCGE.csv | 13 | NR-CGE - Main (%) | Trastuzumab Fv antibodies | [Unlocking de novo antibody design with generative artificial intelligence](https://doi.org/10.1101/2023.01.08.523187) | 2024 |
 | shanehsazzadeh2023unlocking_SEC.csv | 13 | SEC - Main (%) | Trastuzumab Fv antibodies | [Unlocking de novo antibody design with generative artificial intelligence](https://doi.org/10.1101/2023.01.08.523187) | 2024 |
+
+
+# Additional data not included
+
+`Ginkgo Datapoints developability assays` - https://datapoints.ginkgo.bio/what-we-do/antibody-developability
+
+
+
+
