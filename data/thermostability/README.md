@@ -2,7 +2,7 @@
 
 All datasets are formatted to contain antibody variable domain sequence (heavy chain + light chain or heavy chain only), and one or more fitness metric.
 
-| Filename                                | Size | Assay/Units          | Description                   | Publication                                                                                       | Year | Direction of high developability| 
+| Filename                                | Size | Assay/Units          | Description                   | Publication                                                                                       | Year | Direction of higher developability| 
 |-----------------------------------------|------|---------------------|-------------------------------|-------------------------------------------------------------------------------------------------|------| -------- |
 | garbinski2023_tm1.csv                    | 86   | Tm1 (nanoDSF)       | None                          | None                                                                                            | 2023 | ↑ | 
 | hie2023efficient_C143_Tm.csv             | 2    | Tm                  | C143                          | [Efficient evolution of human antibodies from general protein language models](https://doi.org/10.1038/s41587-023-01763-2) | 2023 | ↑ | 
