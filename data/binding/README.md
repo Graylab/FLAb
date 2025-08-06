@@ -11,7 +11,7 @@ All datasets are formatted to contain antibody variable domain sequence (heavy c
 | adams2017measuring_4420-fluorescein_kd-titeseq.csv | 11052 | Kd (Tite-Seq) [M] | scFv, fluorescein, 4-4-20 | [Measuring the sequence-affinity landscape of antibodies with massively parallel titration curves](https://doi.org/10.7554/eLife.23156) | 2017 | ↑ | 
 | cognano_AVIDa-hTNFa.csv | 5580 | bind/no bind | VHH, human tumor necrosis factor alpha (TNFa) | [None](https://huggingface.co/datasets/COGNANO/AVIDa-hTNFa) | 2024 | ↑ | 
 | engelhart2022dataset_scFv-SARS-CoV-2_affinity.csv | 352140 | Predicted -log (Kd [nM]) | scFv, SARS-CoV-2 peptide, AlphaSeq | [A dataset comprised of binding interactions for 104,972 antibodies against a SARS-CoV-2 peptide](https://doi.org/10.1038/s41597-022-01779-4) | 2022 | ↑ | 
-| garbinski2023_kd.csv | 81 | -log (KD [M] ) | None | None | 2023 | ↑ | 
+| garbinski2023_kd.csv | 81 | -log (KD [M] ) | Provided from GSK | None | 2023 | ↑ | 
 | hie2023efficient_CoV2Beta_C143_Kd.csv | 17 | -log (Kd [nM]) IgG | Fv, C143, SARS-CoV-2-Beta-SP | [Efficient evolution of human antibodies from general protein language models](https://doi.org/10.1038/s41587-023-01763-2) | 2023 | ↑ | 
 | hie2023efficient_CoV2Beta_REGN10987_Kd.csv | 14 | -log (Kd [nM]) | Fv, REGN10987, SARS-CoV-Beta-SP | [Efficient evolution of human antibodies from general protein language models](https://doi.org/10.1038/s41587-023-01763-2) | 2023 | ↑ | 
 | hie2023efficient_CoV2_S309_Kd.csv | 20 | -log (Kd [nM]) | Fv, S309, SARS-CoV-2-WT-S6P | [Efficient evolution of human antibodies from general protein language models](https://doi.org/10.1038/s41587-023-01763-2) | 2023 | ↑ | 
