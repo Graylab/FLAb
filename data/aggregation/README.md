@@ -2,8 +2,6 @@
 
 All datasets are formatted to contain antibody variable domain sequence (heavy chain + light chain or heavy chain only), and one or more fitness metric.
 
-## Folder breakup and dataset sizes
-
 | filename | size | assay/units | description | publication | year |
 | -------- | ---- | ----------- | ----------- | ----------- | ---- |
 | jain2017biophyscial_HICRT.csv | 137 | HIC Retention Time (Min)a | Clinical stage therapeutic antibodies | [Biophysical properties of the clinical-stage antibody landscape](https://doi.org/10.1073/pnas.1616408114) | 2017 |
