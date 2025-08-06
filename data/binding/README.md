@@ -91,7 +91,9 @@ All datasets are formatted to contain antibody variable domain sequence (heavy c
 | warszawski2019_d44_Kd.csv | 2049 | -log( Kd [M]) | d44 | [Optimizing antibody affinity and stability by the automated design of the variable light-heavy chain interfaces](https://doi.org/10.1371/journal.pcbi.1007207) | 2019 |
 | zimmerman2020antibody_4420_kd.csv | 21 | -log( Kd [M]) | 4-4-20, fluorescein | [Antibody evolution constrains conformational heterogeneity by tailoring protein dynamics](https://doi.org/10.1073/pnas.0603282103) | 2006 |
 
+# Additional data not included
 
+`NaturalAntibody AbDesign Database` - https://naturalantibody.com/therapeutic-antibody-database/
 
 
 
