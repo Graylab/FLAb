@@ -1,35 +1,95 @@
 # File Descriptions
 
-`Hie2022_C143_Kd` - Binding energy of unmatured, patient-derived antibody that binds the SARS-CoV-2 Wuhan-Hu-1 Spike but was isolated before extensive in vivo somatic hypermutation. (KD, nM)
+| filename | size | assay/units | description | publication | year |
+| -------- | ---- | ----------- | ----------- | ----------- | ---- |
+| li2023machine_scFv-SARS-CoV-2_affinity1.csv | 1259701 | Predicted -log (Kd [nM]) | scFv, SARS-CoV-2 peptide, AlphaSeq | [Machine learning optimization of candidate antibody yields highly diverse sub-nanomolar affinity antibody libraries](https://doi.org/10.1038/s41467-023-39022-2) | 2023 |
+| li2023machine_scFv-SARS-CoV-2_affinity2.csv | 1903928 | Predicted -log (Kd [nM]) | scFv, SARS-CoV-2 peptide, AlphaSeq | [Machine learning optimization of candidate antibody yields highly diverse sub-nanomolar affinity antibody libraries](https://doi.org/10.1038/s41467-023-39022-2) | 2023 |
+| AbRank_dataset.csv | 342357 | Kd [nM], IC50 [ug/mL] | Fv | [AbRank: A Benchmark Dataset and Metric-Learning Framework for Antibody-Antigen Affinity Ranking](https://doi.org/10.48550/arXiv.2506.17857) | 2025 |
+| adams2017measuring_4420-fluorescein_kd-flow.csv | 15 | Kd (flow) [M] | Fv | [Measuring the sequence-affinity landscape of antibodies with massively parallel titration curves](https://doi.org/10.7554/eLife.23156) | 2017 |
+| adams2017measuring_4420-fluorescein_kd-titeseq.csv | 11052 | Kd (Tite-Seq) [M] | scFv, fluorescein, 4-4-20 | [Measuring the sequence-affinity landscape of antibodies with massively parallel titration curves](https://doi.org/10.7554/eLife.23156) | 2017 |
+| cognano_AVIDa-hTNFa.csv | 5580 | bind/no bind | VHH, human tumor necrosis factor alpha (TNFa) | [None](https://huggingface.co/datasets/COGNANO/AVIDa-hTNFa) | 2024 |
+| engelhart2022dataset_scFv-SARS-CoV-2_affinity.csv | 352140 | Predicted -log (Kd [nM]) | scFv, SARS-CoV-2 peptide, AlphaSeq | [A dataset comprised of binding interactions for 104,972 antibodies against a SARS-CoV-2 peptide](https://doi.org/10.1038/s41597-022-01779-4) | 2022 |
+| garbinski2023_kd.csv | 81 | -log (KD [M] ) | None | None | 2023 |
+| hie2023efficient_CoV2Beta_C143_Kd.csv | 17 | -log (Kd [nM]) IgG | Fv, C143, SARS-CoV-2-Beta-SP | [Efficient evolution of human antibodies from general protein language models](https://doi.org/10.1038/s41587-023-01763-2) | 2023 |
+| hie2023efficient_CoV2Beta_REGN10987_Kd.csv | 14 | -log (Kd [nM]) | Fv, REGN10987, SARS-CoV-Beta-SP | [Efficient evolution of human antibodies from general protein language models](https://doi.org/10.1038/s41587-023-01763-2) | 2023 |
+| hie2023efficient_CoV2_S309_Kd.csv | 20 | -log (Kd [nM]) | Fv, S309, SARS-CoV-2-WT-S6P | [Efficient evolution of human antibodies from general protein language models](https://doi.org/10.1038/s41587-023-01763-2) | 2023 |
+| hie2023efficient_CoV2omicron_REGN10987_Kd.csv | 8 | -log (Kd [nM]) IgG | Fv, REGN10987, SARS-CoV-2-Omicron | [Efficient evolution of human antibodies from general protein language models](https://doi.org/10.1038/s41587-023-01763-2) | 2023 |
+| hie2023efficient_MEDIUCA_H1Solomon_Kd.csv | 21 | -log (Kd [nM]) IgG | Fv, H1-Solomon, MEDI-UCA | [Efficient evolution of human antibodies from general protein language models](https://doi.org/10.1038/s41587-023-01763-2) | 2023 |
+| hie2023efficient_MEDIUCA_H4Hubei_Kd.csv | 12 | -log (Kd [nM]) IgG | Fv, H4-Hubei, MEDI-UCA | [Efficient evolution of human antibodies from general protein language models](https://doi.org/10.1038/s41587-023-01763-2) | 2023 |
+| hie2023efficient_MEDI_H4Hubei_Kd.csv | 16 | -log (Kd [nM]) IgG | Fv, H4-Hubei, MEDI | [Efficient evolution of human antibodies from general protein language models](https://doi.org/10.1038/s41587-023-01763-2) | 2023 |
+| hie2023efficient_MEDI_H7HK16_Kd.csv | 17 | -log (Kd [nM]) IgG | Fv, H7-HK16, MEDI | [Efficient evolution of human antibodies from general protein language models](https://doi.org/10.1038/s41587-023-01763-2) | 2023 |
+| hie2023efficient_ebola_mab114_Kd.csv | 21 | -log (Kd [nM]) IgG | Fv, Ebola-Virus-GP, mAb114 | [Efficient evolution of human antibodies from general protein language models](https://doi.org/10.1038/s41587-023-01763-2) | 2023 |
+| hutchinson2023enhancement_multikd_fab.csv | 15 | -log (Kd [nM]) Fab | Fv, hen egg lysozyme (HEL), NIP228 | [Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen](https://doi.org/10.1080/19420862.2024.2362775) | 2024 |
+| hutchinson2023enhancement_multikd_igg.csv | 15 | -log (Kd [nM]) IgG | Fv, hen egg lysozyme (HEL), NIP228 | [Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen](https://doi.org/10.1080/19420862.2024.2362775) | 2024 |
+| hutchinson2023enhancement_singlekd_fab.csv | 22 | -log (Kd [nM]) Fab | Fv, hen egg lysozyme (HEL), NIP228 | [Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen](https://doi.org/10.1080/19420862.2024.2362775) | 2024 |
+| hutchinson2023enhancement_singlekd_igg.csv | 23 | -log (Kd [nM]) IgG | Fv, hen egg lysozyme (HEL), NIP228 | [Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen](https://doi.org/10.1080/19420862.2024.2362775) | 2024 |
+| hutchinson2023enhancement_top200kd_fab.csv | 50 | -log (Kd [nM]) Fab | Fv, hen egg lysozyme (HEL), NIP228 | [Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen](https://doi.org/10.1080/19420862.2024.2362775) | 2024 |
+| hutchinson2023enhancement_top200kd_igg.csv | 182 | -log (Kd [nM]) IgG | Fv, hen egg lysozyme (HEL), NIP228 | [Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen](https://doi.org/10.1080/19420862.2024.2362775) | 2024 |
+| hutchinson2023enhancement_top27kd_fab.csv | 28 | -log (Kd [nM]) Fab | Fv, hen egg lysozyme (HEL), NIP228 | [Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen](https://doi.org/10.1080/19420862.2024.2362775) | 2024 |
+| hutchinson2023enhancement_top27kd_igg.csv | 27 | -log (Kd [nM]) IgG | Fv, hen egg lysozyme (HEL), NIP228 | [Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen](https://doi.org/10.1080/19420862.2024.2362775) | 2024 |
+| jain2024assessment_Hen_Lys_kd.csv | 31 | Octet b-Hen Lysozyme Kd Monovalent (M) | Fv, hen egg lysozyme (HEL), germline | [Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows](https://doi.org/10.1080/19420862.2024.2384104) | 2024 |
+| jain2024assessment_mouse_Ly_kd.csv | 2 | Octet IgG KD b-Mouse Lysozyme-Fc Avid (M) | Fv, b-Mouse Lysozyme-Fc, germline | [Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows](https://doi.org/10.1080/19420862.2024.2384104) | 2024 |
+| kirby2024retrospective_ab-SARSCoV2_binary_kd.csv | 1407 | bind/no bind | Fv, SARS-CoV-2-Wuhan-hu-1, CC12.1, 1-20 | [Retrospective SARS-CoV-2 human antibody development trajectories are largely sparse and permissive](https://doi.org/10.1073/pnas.2412787122) | 2025 |
+| kirby2024retrospective_ab-SARSCoV2_kd.csv | 869 | Kd [M] | Fv, SARS-CoV-2-Wuhan-hu-1, CC12.1, 1-20 | [Retrospective SARS-CoV-2 human antibody development trajectories are largely sparse and permissive](https://doi.org/10.1073/pnas.2412787122) | 2025 |
+| koenig2017mutational_kd_g6.csv | 4276 | -log (Kd [M]) | Fv, G6.31, VEGF | [Mutational landscape of antibody variable domains reveals a switch modulating the interdomain conformational dynamics and antigen binding](https://doi.org/10.1073/pnas.1613231114) | 2017 |
+| kothiwal2025htp_DCC_ec50.csv | 23 | Cell Display  - EC50 (nM) | Fv, DCC, VH1-69, VK4-1 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_DCC_spr.csv | 23 | SPR kinetics - KD (nM) | Fv, DCC, VH1-69, VK4-1 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_DKK 1.00_ec50.csv | 18 | Cell Display  - EC50 (nM) | Fv, DKK1, VH1-69, VK3-15, VH1-69, VK4-1 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_DKK 1.00_spr.csv | 20 | SPR kinetics - KD (nM) | Fv, DKK1, VH1-69, VK3-15, VH1-69, VK4-1 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_IL23R_ec50.csv | 56 | Cell Display  - EC50 (nM) | Fv, IL23R, VH1-69, VK3-15, VK3-20, VK4-1 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_IL23R_spr.csv | 70 | SPR kinetics - KD (nM) | Fv, IL23R, VH1-69, VK3-15, VK3-20, VK4-1 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_LOX1_ec50.csv | 52 | Cell Display  - EC50 (nM) | LOX1, VH1-69, VK4-1, VK3-15, VK1-39 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_LOX1_spr.csv | 53 | SPR kinetics - KD (nM) | LOX1, VH1-69, VK4-1, VK3-15, VK1-39 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_PDL1_ec50.csv | 34 | Cell Display  - EC50 (nM) | PDL1, VH1-69, VK4-1 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_PDL1_spr.csv | 29 | SPR kinetics - KD (nM) | PDL1, VH1-69, VK4-1 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_PDL2_ec50.csv | 23 | Cell Display  - EC50 (nM) | PDL2, VH1-69, VK1-39, VK3-15 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_PDL2_spr.csv | 23 | SPR kinetics - KD (nM) | PDL2, VH1-69, VK1-39, VK3-15 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_ROBO1_ec50.csv | 45 | Cell Display  - EC50 (nM) | ROBO1, VH1-69, VK4-1, VH1-69 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_ROBO1_spr.csv | 39 | SPR kinetics - KD (nM) | ROBO1, VH1-69, VK4-1, VH1-69 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_ROBO2N_hROBO2N_ec50.csv | 22 | Cell Display  - EC50 (nM) | ROBO2N, VH1-69, VK3-15, VK4-1 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_ROBO2N_hROBO2N_spr.csv | 22 | SPR kinetics - KD (nM) | ROBO2N, VH1-69, VK3-15, VK4-1 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_Syncytin2_ec50.csv | 48 | Cell Display  - EC50 (nM) | Syncytin2, VH1-69, VK4-1, VK1-39, VK3-15, VH1-39, VH1-69 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_Syncytin2_spr.csv | 51 | SPR kinetics - KD (nM) | Syncytin2, VH1-69, VK4-1, VK1-39, VK3-15, VH1-39, VH1-69 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_TIGIT_ec50.csv | 24 | Cell Display  - EC50 (nM) | TIGIT, VH1-69, VK4-1, VK1-39, VH1-69 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| kothiwal2025htp_TIGIT_spr.csv | 22 | SPR kinetics - KD (nM) | TIGIT, VH1-69, VK4-1, VK1-39, VH1-69 | [High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens](https://doi.org/10.1101/2025.05.15.650607) | 2025 |
+| makowksi2022cooptimization_iso_ant.csv | 126 | ANT binding | Fv, ANT, emibetuzumab | [Co-optimization of therapeutic antibody affinity and specificity using machine learning models that generalize to novel mutational space](https://doi.org/10.1038/s41467-022-31457-3) | 2022 |
+| makowski2022cooptimization_igg_ant.csv | 96 | ANT binding | Fv, ANT, emibetuzumab | [Co-optimization of therapeutic antibody affinity and specificity using machine learning models that generalize to novel mutational space](https://doi.org/10.1038/s41467-022-31457-3) | 2022 |
+| makowski2022cooptimization_igg_ova.csv | 96 | OVA binding | Fv, OVA, emibetuzumab | [Co-optimization of therapeutic antibody affinity and specificity using machine learning models that generalize to novel mutational space](https://doi.org/10.1038/s41467-022-31457-3) | 2022 |
+| makowski2022cooptimization_iso_ova.csv | 126 | OVA binding | Fv, OVA, emibetuzumab | [Co-optimization of therapeutic antibody affinity and specificity using machine learning models that generalize to novel mutational space](https://doi.org/10.1038/s41467-022-31457-3) | 2022 |
+| peterson2024integrated_ab_H1HA_binary.csv | 1071 | bind/no bind | Fv, H1HA | [An integrated technology for quantitative wide mutational scanning of human antibody Fab libraries](https://doi.org/10.1038/s41467-024-48072-z) | 2024 |
+| peterson2024integrated_ab_H1HA_kd.csv | 1040 | MAGMA-Seq, Kd [M] | Fv, H1HA | [An integrated technology for quantitative wide mutational scanning of human antibody Fab libraries](https://doi.org/10.1038/s41467-024-48072-z) | 2024 |
+| phillips2021binding_cr6261_h1_kd.csv | 953 | -log( Kd [nM]) Fab | Fv, cr6261, H1 | [Binding affinity landscapes constrain the evolution of broadly neutralizing anti-influenza antibodies](https://doi.org/10.7554/elife.71393) | 2021 |
+| phillips2021binding_cr6261_h9_kd.csv | 921 | -log( Kd [nM]) Fab | Fv, cr6261, H9 | [Binding affinity landscapes constrain the evolution of broadly neutralizing anti-influenza antibodies](https://doi.org/10.7554/elife.71393) | 2021 |
+| phillips2021binding_cr9114_h1_kd.csv | 32393 | -log( Kd [nM]) Fab | Fv, cr9114, H1 | [Binding affinity landscapes constrain the evolution of broadly neutralizing anti-influenza antibodies](https://doi.org/10.7554/elife.71393) | 2021 |
+| phillips2021binding_cr9114_h3_kd.csv | 32768 | -log( Kd [nM]) Fab | Fv, cr9114, H3 | [Binding affinity landscapes constrain the evolution of broadly neutralizing anti-influenza antibodies](https://doi.org/10.7554/elife.71393) | 2021 |
+| rawat2022abcov_ic50.csv | 427 | IC50 (ng/ml) | Fv, CoV | [Ab-CoV: a curated database for binding affinity and neutralization profiles of coronavirus-related antibodies](https://doi.org/10.1093/bioinformatics/btac439) | 2022 |
+| rawat2022abcov_kd.csv | 141 | -log( Kd [nM]) | Fv, CoV | [Ab-CoV: a curated database for binding affinity and neutralization profiles of coronavirus-related antibodies](https://doi.org/10.1093/bioinformatics/btac439) | 2022 |
+| rosace2023automated_kd_adalimumab.csv | 14 | -log( Kd [nM]) | Adalimumab, Fv | [Automated optimisation of solubility and conformational stability of antibodies and proteins](https://doi.org/10.1038/s41467-023-37668-6) | 2022 |
+| rosace2023automated_kd_golimumab.csv | 5 | -log( Kd [nM]) | Golimumab, Fv | [Automated optimisation of solubility and conformational stability of antibodies and proteins](https://doi.org/10.1038/s41467-023-37668-6) | 2022 |
+| shanehsazzadeh2023unlocking_adcc_ec50.csv | 13 | ADCC EC50 (pM) | Trastuzumab, Fv | [Unlocking de novo antibody design with generative artificial intelligence](https://doi.org/10.1101/2023.01.08.523187) | 2024 |
+| shanehsazzadeh2023unlocking_kd_hher2_fab.csv | 13 | -log( Kd [nM]) Fab | Trastuzumab, Fv, hHER2 | [Unlocking de novo antibody design with generative artificial intelligence](https://doi.org/10.1101/2023.01.08.523187) | 2024 |
+| shanehsazzadeh2023unlocking_kd_hher2_mab.csv | 13 | -log( Kd [nM]) mAb | Trastuzumab, Fv, hHER2 | [Unlocking de novo antibody design with generative artificial intelligence](https://doi.org/10.1101/2023.01.08.523187) | 2024 |
+| shanehsazzadeh2023unlocking_zerokd_trastuzumab.csv | 422 | -log( Kd [nM]) | Trastuzumab, Fv | [Unlocking de novo antibody design with generative artificial intelligence](https://doi.org/10.1101/2023.01.08.523187) | 2024 |
+| shanehsazzadeh2024igdesign_Afasevikumab-IL17A_kd.csv | 13 | -log( Kd [nM]) | Afasevikumab, IL17A | [IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding](https://doi.org/10.1101/2023.12.08.570889) | 2024 |
+| shanehsazzadeh2024igdesign_Bimagrumab-ACVR2B_kd.csv | 24 | -log( Kd [nM]) | Bimagrumab, ACVR2B | [IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding](https://doi.org/10.1101/2023.12.08.570889) | 2024 |
+| shanehsazzadeh2024igdesign_Eculizumab-C5_kd.csv | 34 | -log( Kd [nM]) | Eculizumab, C5 | [IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding](https://doi.org/10.1101/2023.12.08.570889) | 2024 |
+| shanehsazzadeh2024igdesign_Osocimab-FXI_kd.csv | 47 | -log( Kd [nM]) | Osocimab, FXI | [IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding](https://doi.org/10.1101/2023.12.08.570889) | 2024 |
+| shanehsazzadeh2024igdesign_Spesolimab-IL36R_kd.csv | 40 | -log( Kd [nM]) | Spesolimab, IL36R | [IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding](https://doi.org/10.1101/2023.12.08.570889) | 2024 |
+| shanehsazzadeh2024igdesign_Tezepelumab-TSLP_kd.csv | 127 | -log( Kd [nM]) | Tezepelumab, TSLP | [IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding](https://doi.org/10.1101/2023.12.08.570889) | 2024 |
+| shanehsazzadeh2024igdesign_Utomilumab-TNFRSF9_kd.csv | 36 | -log( Kd [nM]) | Utomilumab, TNFRSF9 | [IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding](https://doi.org/10.1101/2023.12.08.570889) | 2024 |
+| shanker2024unsupervised_Ly1404-BQ.1.1_IC50.csv | 50 | Avg Neutralization IC50 (ng/µL) | Ly1404, BQ.1.1 | [Unsupervised evolution of protein and antibody complexes with a structure-informed language model](https://doi.org/10.1126/science.adk8946) | 2024 |
+| shanker2024unsupervised_Ly1404-BQ.1.1_Kd.csv | 36 | Kd [M] | Ly1404, BQ.1.1 | [Unsupervised evolution of protein and antibody complexes with a structure-informed language model](https://doi.org/10.1126/science.adk8946) | 2024 |
+| shanker2024unsupervised_Ly1404_Wuhan_IC50.csv | 33 | Avg Neutralization IC50 (ng/µL) | Ly1404, SARS-CoV-2-Wuhan | [Unsupervised evolution of protein and antibody complexes with a structure-informed language model](https://doi.org/10.1126/science.adk8946) | 2024 |
+| shanker2024unsupervised_SA58-BA.1_IC50.csv | 19 | Avg Neutralization IC50 (ng/µL) | SA58, BA.1 | [Unsupervised evolution of protein and antibody complexes with a structure-informed language model](https://doi.org/10.1126/science.adk8946) | 2024 |
+| shanker2024unsupervised_SA58-BQ.1.1_IC50.csv | 49 | Avg Neutralization IC50 (ng/µL) | SA58, BQ.1.1 | [Unsupervised evolution of protein and antibody complexes with a structure-informed language model](https://doi.org/10.1126/science.adk8946) | 2024 |
+| shanker2024unsupervised_SA58-BQ.1.1_Kd.csv | 7 | Kd [M] | SA58, BQ.1.1 | [Unsupervised evolution of protein and antibody complexes with a structure-informed language model](https://doi.org/10.1126/science.adk8946) | 2024 |
+| shanker2024unsupervised_SA58-XBB.1.5_Kd.csv | 30 | Kd [M] | SA58, XBB.1.5 | [Unsupervised evolution of protein and antibody complexes with a structure-informed language model](https://doi.org/10.1126/science.adk8946) | 2024 |
+| tsuruta2024avida-hIL6_binary.csv | 573892 | bind/no bind | VHH, hIL6 | [AVIDa-hIL6: A Large-Scale VHH Dataset Produced from an Immunized Alpaca for Predicting Antigen-Antibody Interactions](https://doi.org/10.48550/arXiv.2306.03329) | 2023 |
+| tsuruta2024sarscov2_binary.csv | 77004 | bind/no bind | VHH, SARS-CoV-2 | [A SARS-CoV-2 Interaction Dataset and VHH Sequence Corpus for Antibody Language Models](https://doi.org/10.48550/arXiv.2405.18749) | 2024 |
+| warszawski2019_d44_Kd.csv | 2049 | -log( Kd [M]) | d44 | [Optimizing antibody affinity and stability by the automated design of the variable light-heavy chain interfaces](https://doi.org/10.1371/journal.pcbi.1007207) | 2019 |
+| zimmerman2020antibody_4420_kd.csv | 21 | -log( Kd [M]) | 4-4-20, fluorescein | [Antibody evolution constrains conformational heterogeneity by tailoring protein dynamics](https://doi.org/10.1073/pnas.0603282103) | 2006 |
 
-`Hie2022_mAb114_Kd` - Binding energy of matured, patient-derived antibody that neutralizes ebolavirus by binding to its glycoprotein. (KD, nM)
 
-`Hie2022_MEDI8852_Kd` - Binding energy of highly matured, broadly neutralizing antibody (bnAb) that binds influenza A hemagglutinin (HA) across variants of both major phylogenetic groups (group 1 and group 2) and that reached phase 2 clinical trials. (KD, nM)
 
-`Hie2022_MEDI8852UCA_Kd` - Binding energy of unmatured, inferred germline sequence of MEDI8852, which only neutralizes viruses with group 1 HAs. (KD, nM)
 
-`Hie2022_REGN10987_Kd` - Binding energy of matured, patient-derived antibody that binds early variants of SARS-CoV-2 Spike. (KD, nM)
 
-`Hie2022_S309_Kd` - Binding energy of matured, patient-derived antibody that cross-neutralizes the sarbecoviruses severe acute respiratory syndrome coronavirus 1 (SARS-CoV-1) and severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) by binding to the spike glycoprotein (Spike). (KD, nM)
-
-`Koenig2017_g6_Kd` - Binding energy of a well optimized, high affinity anti-VEGF antibody G6.31. (KD, nM)
-
-`Rosace2023_Adalimumab_Kd` - Binding energy of clinically approved antibody adalimumab bound to TNF-α, where adalimumab had no self-association or cross-reactivity flags. (KD, nM)
-
-`Rosace2023_CR3022_Kd` - Binding energy of antibody obtained from SARS CoV-1 patient, also capable of neutralizing SARS CoV-2 and some of its variants of concern. (KD, nM)
-
-`Rosace2023_Golimumab_Kd` - Binding energy of clinically approved antibody Golimumab bound to TNF-α, where Golumumab had several self-association and cross-reactivity flags. (KD, nM)
-
-`Shanehsazzadeh2023_trastuzumab_multi_kd` - Binding energy of Trastuzumab multi-step multi-CDR designs bound to HER2. (KD, nM)
-
-`Shanehsazzadeh2023_trastuzumab_zero_kd` - Binding energy of Trastuzumab zero-shot CDR H3 designs bound to HER2. (KD, nM)
-
-`Warszawski2019_d44_Kd` - Binding energy of mutants of the anti-lysozyme antibody D44.1. (KD, nM)
-
-`gsk2023_[temporarily redacted]_Kd` - Expression of engineered antibody (KD, nM)
-
-`gsk2023_[temporarily redacted]_Kd` - Expression of engineered antibody (KD, nM)
-
-`gsk2023_[temporarily redacted]_Kd` - Expression of engineered antibody (KD, nM)
-
-`gsk2023_[temporarily redacted]_Kd` - Expression of engineered antibody (KD, nM)
