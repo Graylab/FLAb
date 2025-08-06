@@ -29,3 +29,11 @@ All datasets are formatted to contain antibody variable domain sequence (heavy c
 | shanker2024unsupervised_APC-MFI_Elotuzumab-Ixekuzimab.csv | 6 | APC-MFI                      | Elotuzumab, Ixekuzimab, Fv    | [Unsupervised evolution of protein and antibody complexes with a structure-informed language model](https://doi.org/10.1126/science.adk8946) | 2024 |
 | shanker2024unsupervised_APC-MFI_Ly1404.csv        | 18   | APC-MFI                       | Ly1404, Fv                   | [Unsupervised evolution of protein and antibody complexes with a structure-informed language model](https://doi.org/10.1126/science.adk8946) | 2024 |
 | shanker2024unsupervised_APC-MFI_SA58.csv          | 15   | ACP-MFI                       | SA58                         | [Unsupervised evolution of protein and antibody complexes with a structure-informed language model](https://doi.org/10.1126/science.adk8946) | 2024 |
+
+
+# Additional data not included
+
+`Ginkgo Datapoints developability assays` - https://datapoints.ginkgo.bio/what-we-do/antibody-developability
+
+
+
