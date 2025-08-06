@@ -25,3 +25,10 @@ All datasets are formatted to contain antibody variable domain sequence (heavy c
 | shanehsazzadeh2023unlocking_DSF2.csv    | 13   | DSF - IP #2 (oC)    | Trastuzumab, Fv             | [Unlocking de novo antibody design with generative artificial intelligence](https://doi.org/10.1101/2023.01.08.523187) | 2024 |
 | sulea2019assisted_sdAb_tm.csv            | 33   | Tm                  | sdAb                        | [Assisted Design of Antibody and Protein Therapeutics (ADAPT)](https://doi.org/10.1371/journal.pone.0181490) | 2019 |
 | tresanco2023nbthermo_tm.csv              | 673  | Tm                  | Nanobody                    | [NbThermo: a new thermostability database for nanobodies](https://doi.org/10.1093/database/baad021) | 2023 |
+
+# Additional data not included
+
+`Ginkgo Datapoints developability assays` - https://datapoints.ginkgo.bio/what-we-do/antibody-developability
+
+
+
