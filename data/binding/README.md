@@ -2,7 +2,7 @@
 
 All datasets are formatted to contain antibody variable domain sequence (heavy chain + light chain or heavy chain only), and one or more fitness metric.
 
-| filename | size | assay/units | description | publication | year | Direction of better therapeutic-ness |
+| filename | size | assay/units | description | publication | year | Direction of favorable values |
 | -------- | ---- | ----------- | ----------- | ----------- | ---- | ---- |
 | li2023machine_scFv-SARS-CoV-2_affinity1.csv | 1259701 | Predicted -log (Kd [nM]) | scFv, SARS-CoV-2 peptide, AlphaSeq | [Machine learning optimization of candidate antibody yields highly diverse sub-nanomolar affinity antibody libraries](https://doi.org/10.1038/s41467-023-39022-2) | 2023 | ↑ | 
 | li2023machine_scFv-SARS-CoV-2_affinity2.csv | 1903928 | Predicted -log (Kd [nM]) | scFv, SARS-CoV-2 peptide, AlphaSeq | [Machine learning optimization of candidate antibody yields highly diverse sub-nanomolar affinity antibody libraries](https://doi.org/10.1038/s41467-023-39022-2) | 2023 | ↑ | 
