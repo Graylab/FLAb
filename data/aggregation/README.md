@@ -1,14 +1,17 @@
 # File Descriptions
 
-`Wittrup2017_CST_ACSINS` - Affinity capture self-interaction nanoparticle spectroscopy assay performed on clinical stage antibodies. (Wavelength change, nM)
+# Dataset Descriptions
 
-`Wittrup2017_CST_CSI` - Clone self-interaction by biospectroscopy assay performed on clinical stage antibodies. (BLI response units)
+All datasets are formatted to contain variable region heavy chain, variable region light chain, and one or more fitness metric.
 
-`Wittrup2017_CST_HIC` - Hydrophobic interaction chromatography assay performed on clinical stage antibodies. (Retention time, minutes)
+## Folder breakup and dataset sizes
 
-`Wittrup2017_CST_SAS` - Slope for accelerated stability of clinical stage antibodies. (Monomer percentage loss per day)
-
-`Wittrup2017_CST_SGAC` - Salt-gradient affinity-capture self-interaction nanoparticle spectroscopy assay performed on clinical stage antibodies. (Salt concentration, nM)
-
-`Wittrup2017_CST_SMAC` - Standup monolayer adsorption chromatography assay performed on clinical stage antibodies. (Retention time, minutes)
+|                |Thing|Thing|Thing|Thing|Thing|[Warsz.2019](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007207)|[Wittrup.2017](https://www.pnas.org/doi/10.1073/pnas.1616408114)| GSK.2023 |
+| --------       | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| Aggregation    | -        | -        | -        | -        | -        | -        | 822      | -        |
+| Binding        | 4275     | 103      | -        | 25       | 446      | 2049     | -        | 81       |
+| Expression     | 4275     | -        | -        | -        | -        | -        | 274      | 94       |
+| Immunogenicity | -        | -        | 217      | -        | -        | -        | -        | -        |
+| Polyreactivity | -        | -        | -        | 25       | -        | -        | 411      | -        |
+| Thermostability| -        | 37       | -        | 25       | -        | -        | 137      | 88       |
 
