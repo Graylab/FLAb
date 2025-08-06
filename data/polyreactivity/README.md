@@ -1,13 +1,18 @@
 # File Descriptions
 
-`Rosace2023_Adalimumab_CIC` - Cross-interaction chromatography assay performed on clinically approved antibody adalimumab bound to TNF-α, where adalimumab had no self-association or cross-reactivity flags. (Retention time, min)
+All datasets are formatted to contain antibody variable domain sequence (heavy chain + light chain or heavy chain only), and one or more fitness metric.
 
-`Rosace2023_CR3022_CIC` - Cross-interaction chromatography assay performed on antibody obtained from SARS CoV-1 patient, also capable of neutralizing SARS CoV-2 and some of its variants of concern. (Retention time, min)
+| filename                          | size | assay/units                      | description                   | publication                                                                                   | year |
+|---------------------------------|------|---------------------------------|-------------------------------|-----------------------------------------------------------------------------------------------|------|
+| jain2023identifying_FcRnRelRT3.csv  | 132  | FcRn.Rel.RT.3                   | clinical stage therapeutic, Fv| [Identifying developability risks for clinical progression of antibodies using high-throughput in vitro and in silico approaches](https://doi.org/10.1080/19420862.2023.2200540) | 2023 |
+| jain2023identifying_HEPRT3.csv       | 130  | Hep.RT.3                       | clinical stage therapeutic, Fv| [Identifying developability risks for clinical progression of antibodies using high-throughput in vitro and in silico approaches](https://doi.org/10.1080/19420862.2023.2200540) | 2023 |
+| jain2024assessment_FcRn.csv          | 43   | FcRn Cellular Recycling (ng/mL)| clinical stage therapeutic, Fv| [Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows](https://doi.org/10.1080/19420862.2024.2384104) | 2024 |
+| jain2024assessment_tg32_clearance.csv| 43   | Tg32 Clearance (ml/h/kg)       | clinical stage therapeutic, Fv| [Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows](https://doi.org/10.1080/19420862.2024.2384104) | 2024 |
+| jain2024assessment_tg32_halflife.csv | 43   | Tg32 half-life (h)             | clinical stage therapeutic, Fv| [Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows](https://doi.org/10.1080/19420862.2024.2384104) | 2024 |
+| makowski2022cooptimization_pI.csv    | 126  | pI                            | emibetuzumab                 | [Co-optimization of therapeutic antibody affinity and specificity using machine learning models that generalize to novel mutational space](https://doi.org/10.1038/s41467-022-31457-3) | 2022 |
+| shanehsazzadeh2023unlocking_FcRnPeak.csv| 13 | FcRn chromatography - Peak width (min) | Trastuzumab, Fv               | [Unlocking de novo antibody design with generative artificial intelligence](https://doi.org/10.1101/2023.01.08.523187) | 2024 |
+| shanehsazzadeh2023unlocking_FcRnRRT.csv | 13  | FcRn chromatography - RRT       | Trastuzumab, Fv               | [Unlocking de novo antibody design with generative artificial intelligence](https://doi.org/10.1101/2023.01.08.523187) | 2024 |
+| shanehsazzadeh2023unlocking_FcRnRT.csv  | 13  | FcRn chromatography - Retention time (min) | Trastuzumab, Fv               | [Unlocking de novo antibody design with generative artificial intelligence](https://doi.org/10.1101/2023.01.08.523187) | 2024 |
 
-`Rosace2023_Golimumab_CIC` - Cross-interaction chromatography assay performed on clinically approved antibody Golimumab bound to TNF-α, where Golumumab had several self-association and cross-reactivity flags. (Retention time, min)
 
-`Wittrup2017_CST_CIC` - Cross-interaction chromatography assay perforned on clinical stage antibodies. (Retention time, min)
 
-`Wittrup2017_CST_ELISA` - Enzyme-linked immunosorbent assay performed on clinical stage antibodies. (Fold-over-background)
-
-`Wittrup2017_CST_PSR` - Poly-specificity reagent used to measure binding to multiple different antibodies. (None)
