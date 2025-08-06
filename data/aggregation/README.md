@@ -1,8 +1,6 @@
 # File Descriptions
 
-# Dataset Descriptions
-
-All datasets are formatted to contain variable region heavy chain, variable region light chain, and one or more fitness metric.
+All datasets are formatted to contain antibody variable domain sequence (heavy chain + light chain or heavy chain only), and one or more fitness metric.
 
 ## Folder breakup and dataset sizes
 
