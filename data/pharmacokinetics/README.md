@@ -14,3 +14,10 @@ All datasets are formatted to contain antibody variable domain sequence (heavy c
 | shanehsazzadeh2023unlocking_FcRnPeak.csv| 13 | FcRn chromatography - Peak width (min) | Trastuzumab, Fv               | [Unlocking de novo antibody design with generative artificial intelligence](https://doi.org/10.1101/2023.01.08.523187) | 2024 |
 | shanehsazzadeh2023unlocking_FcRnRRT.csv | 13  | FcRn chromatography - RRT       | Trastuzumab, Fv               | [Unlocking de novo antibody design with generative artificial intelligence](https://doi.org/10.1101/2023.01.08.523187) | 2024 |
 | shanehsazzadeh2023unlocking_FcRnRT.csv  | 13  | FcRn chromatography - Retention time (min) | Trastuzumab, Fv               | [Unlocking de novo antibody design with generative artificial intelligence](https://doi.org/10.1101/2023.01.08.523187) | 2024 |
+
+# Additional data not included
+
+`Ginkgo Datapoints developability assays` - https://datapoints.ginkgo.bio/what-we-do/antibody-developability
+
+
+
