@@ -1,3 +1,7 @@
+# File Descriptions
+
+All datasets are formatted to contain antibody variable domain sequence (heavy chain + light chain or heavy chain only), and one or more fitness metric.
+
 
 | filename                          | size | assay/units                      | description                   | publication                                                                                   | year |
 |---------------------------------|------|---------------------------------|-------------------------------|-----------------------------------------------------------------------------------------------|------|
