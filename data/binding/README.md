@@ -93,7 +93,7 @@ All datasets are formatted to contain antibody variable domain sequence (heavy c
 
 # Additional data not included
 
-`NaturalAntibody AbDesign Database` - https://naturalantibody.com/therapeutic-antibody-database/
+`NaturalAntibody AbDesign Database` - https://naturalantibody.com/ab-design/
 
 
 
