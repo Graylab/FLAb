@@ -20,13 +20,19 @@ def process_key_words(value):
 files_data = []
 for _, row in df.iterrows():
     key_words_list = process_key_words(row['key_words'])
+    path = f"data/{row['category']}/{row['filename']}" if not pd.isna(row['category']) and not pd.isna(row['filename']) else "none"
+    
+    # Assert that the file exists if the path is not "none"
+    if path != "none":
+        assert os.path.isfile(path), f"File not found: {path}"
+
     file_entry = {
         "assay": row['assay/units'].split()[0] if isinstance(row['assay/units'], str) else "none",
         "category": row['category'] if not pd.isna(row['category']) else "none",
         "doi": row['doi'] if not pd.isna(row['doi']) else "none",
-        "key_words": key_words_list if key_words_list else "none",
+        "key_words": key_words_list if key_words_list else ["none"],
         "name": str(row['filename']) if not pd.isna(row['filename']) else "none",
-        "path": f"data/{row['category']}/{row['filename']}" if not pd.isna(row['category']) and not pd.isna(row['filename']) else "none",
+        "path": path,
         "study": row['publication_title'] if not pd.isna(row['publication_title']) else "none",
         "year": int(row['year']) if not pd.isna(row['year']) else "none",
         "license": row['license'] if not pd.isna(row['license']) else "none"
@@ -53,7 +59,7 @@ keys_data = {
     "key_words": list(
         {keyword.strip()
          for keywords in df['key_words'].apply(lambda x: x if not pd.isna(x) else "")
-         for keyword in process_key_words(keywords)}
+         for keyword in process_key_words(keywords)} | {"none"}
     ),
     "study": list(
         df['publication_title']
