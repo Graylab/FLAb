@@ -9,10 +9,11 @@
         "Fv"
       ],
       "name": "jain2017biophyscial_HICRT.csv",
-      "path": "data/aggregation/jain2017biophyscial_HICRT.csv",
+      "path": "../data/aggregation/jain2017biophyscial_HICRT.csv",
       "study": "Biophysical properties of the clinical-stage antibody landscape",
       "year": 2017,
-      "license": "none"
+      "license": "none",
+      "size": 137
     },
     {
       "assay": "Affinity-Capture",
@@ -23,10 +24,11 @@
         "Fv"
       ],
       "name": "jain2017biophysical_ACSINS.csv",
-      "path": "data/aggregation/jain2017biophysical_ACSINS.csv",
+      "path": "../data/aggregation/jain2017biophysical_ACSINS.csv",
       "study": "Biophysical properties of the clinical-stage antibody landscape",
       "year": 2017,
-      "license": "none"
+      "license": "none",
+      "size": 137
     },
     {
       "assay": "CSI-BLI",
@@ -37,10 +39,11 @@
         "Fv"
       ],
       "name": "jain2017biophysical_CSIBLI.csv",
-      "path": "data/aggregation/jain2017biophysical_CSIBLI.csv",
+      "path": "../data/aggregation/jain2017biophysical_CSIBLI.csv",
       "study": "Biophysical properties of the clinical-stage antibody landscape",
       "year": 2017,
-      "license": "none"
+      "license": "none",
+      "size": 137
     },
     {
       "assay": "Slope",
@@ -51,10 +54,11 @@
         "Fv"
       ],
       "name": "jain2017biophysical_SAS.csv",
-      "path": "data/aggregation/jain2017biophysical_SAS.csv",
+      "path": "../data/aggregation/jain2017biophysical_SAS.csv",
       "study": "Biophysical properties of the clinical-stage antibody landscape",
       "year": 2017,
-      "license": "none"
+      "license": "none",
+      "size": 137
     },
     {
       "assay": "SGAC-SINS",
@@ -65,10 +69,11 @@
         "Fv"
       ],
       "name": "jain2017biophysical_SGACSINS.csv",
-      "path": "data/aggregation/jain2017biophysical_SGACSINS.csv",
+      "path": "../data/aggregation/jain2017biophysical_SGACSINS.csv",
       "study": "Biophysical properties of the clinical-stage antibody landscape",
       "year": 2017,
-      "license": "none"
+      "license": "none",
+      "size": 137
     },
     {
       "assay": "AC-SINS",
@@ -79,10 +84,11 @@
         "Fv"
       ],
       "name": "jain2024assessment_ACSINS.csv",
-      "path": "data/aggregation/jain2024assessment_ACSINS.csv",
+      "path": "../data/aggregation/jain2024assessment_ACSINS.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 43
     },
     {
       "assay": "CIC",
@@ -93,10 +99,11 @@
         "Fv"
       ],
       "name": "jain2024assessment_CIC.csv",
-      "path": "data/aggregation/jain2024assessment_CIC.csv",
+      "path": "../data/aggregation/jain2024assessment_CIC.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 43
     },
     {
       "assay": "CS-SINS",
@@ -107,10 +114,11 @@
         "Fv"
       ],
       "name": "jain2024assessment_CSSINS.csv",
-      "path": "data/aggregation/jain2024assessment_CSSINS.csv",
+      "path": "../data/aggregation/jain2024assessment_CSSINS.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 43
     },
     {
       "assay": "Fab.pI",
@@ -121,10 +129,11 @@
         "Fv"
       ],
       "name": "jain2024assessment_Fab_pI.csv",
-      "path": "data/aggregation/jain2024assessment_Fab_pI.csv",
+      "path": "../data/aggregation/jain2024assessment_Fab_pI.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 43
     },
     {
       "assay": "HIC",
@@ -135,10 +144,11 @@
         "Fv"
       ],
       "name": "jain2024assessment_HIC.csv",
-      "path": "data/aggregation/jain2024assessment_HIC.csv",
+      "path": "../data/aggregation/jain2024assessment_HIC.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 43
     },
     {
       "assay": "SEC",
@@ -149,10 +159,11 @@
         "Fv"
       ],
       "name": "jain2024assessment_SEC.csv",
-      "path": "data/aggregation/jain2024assessment_SEC.csv",
+      "path": "../data/aggregation/jain2024assessment_SEC.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 43
     },
     {
       "assay": "cIEF",
@@ -163,10 +174,11 @@
         "Fv"
       ],
       "name": "jain2024assessment_cIEF.csv",
-      "path": "data/aggregation/jain2024assessment_cIEF.csv",
+      "path": "../data/aggregation/jain2024assessment_cIEF.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 43
     },
     {
       "assay": "HIC",
@@ -177,10 +189,11 @@
         "Fv"
       ],
       "name": "jetha2019homology_RT.csv",
-      "path": "data/aggregation/jetha2019homology_RT.csv",
+      "path": "../data/aggregation/jetha2019homology_RT.csv",
       "study": "Homology modeling and structure-based design improve hydrophobic interaction chromatography behavior of integrin binding antibodies",
       "year": 2018,
-      "license": "Attribution-NonCommercial-NoDerivatives 4.0 International"
+      "license": "Attribution-NonCommercial-NoDerivatives 4.0 International",
+      "size": 97
     },
     {
       "assay": "Heparin",
@@ -191,10 +204,11 @@
         "Fv"
       ],
       "name": "kraft2019herapin_relrt.csv",
-      "path": "data/aggregation/kraft2019herapin_relrt.csv",
+      "path": "../data/aggregation/kraft2019herapin_relrt.csv",
       "study": "Heparin chromatography as an in vitro predictor for antibody clearance rate through pinocytosis",
       "year": 2019,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 128
     },
     {
       "assay": "AC-SINS",
@@ -205,10 +219,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_ACSINS.csv",
-      "path": "data/aggregation/shanehsazzadeh2023unlocking_ACSINS.csv",
+      "path": "../data/aggregation/shanehsazzadeh2023unlocking_ACSINS.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "Red-CGE",
@@ -219,10 +234,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_CGE.csv",
-      "path": "data/aggregation/shanehsazzadeh2023unlocking_CGE.csv",
+      "path": "../data/aggregation/shanehsazzadeh2023unlocking_CGE.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "HIC",
@@ -233,10 +249,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_HICRRT.csv",
-      "path": "data/aggregation/shanehsazzadeh2023unlocking_HICRRT.csv",
+      "path": "../data/aggregation/shanehsazzadeh2023unlocking_HICRRT.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "NR-CGE",
@@ -247,10 +264,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_NRCGE.csv",
-      "path": "data/aggregation/shanehsazzadeh2023unlocking_NRCGE.csv",
+      "path": "../data/aggregation/shanehsazzadeh2023unlocking_NRCGE.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "SEC",
@@ -261,10 +279,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_SEC.csv",
-      "path": "data/aggregation/shanehsazzadeh2023unlocking_SEC.csv",
+      "path": "../data/aggregation/shanehsazzadeh2023unlocking_SEC.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "Predicted",
@@ -275,11 +294,12 @@
         "SARS-CoV-2 peptide",
         "alphaseq"
       ],
-      "name": "li2023machine_scFv-SARS-CoV-2_affinity1.csv",
-      "path": "data/binding/li2023machine_scFv-SARS-CoV-2_affinity1.csv",
+      "name": "li2023machine_scFv-SARS-CoV-2_affinity1.csv.zip",
+      "path": "../data/binding/li2023machine_scFv-SARS-CoV-2_affinity1.csv.zip",
       "study": "Machine learning optimization of candidate antibody yields highly diverse sub-nanomolar affinity antibody libraries",
       "year": 2023,
-      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License"
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+      "size": 1259701
     },
     {
       "assay": "Predicted",
@@ -290,11 +310,12 @@
         "SARS-CoV-2 peptide",
         "alphaseq"
       ],
-      "name": "li2023machine_scFv-SARS-CoV-2_affinity2.csv",
-      "path": "data/binding/li2023machine_scFv-SARS-CoV-2_affinity2.csv",
+      "name": "li2023machine_scFv-SARS-CoV-2_affinity2.csv.zip",
+      "path": "../data/binding/li2023machine_scFv-SARS-CoV-2_affinity2.csv.zip",
       "study": "Machine learning optimization of candidate antibody yields highly diverse sub-nanomolar affinity antibody libraries",
       "year": 2023,
-      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License"
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+      "size": 1903928
     },
     {
       "assay": "Kd",
@@ -304,10 +325,11 @@
         "Fv"
       ],
       "name": "AbRank_dataset.csv.zip",
-      "path": "data/binding/AbRank_dataset.csv.zip",
+      "path": "../data/binding/AbRank_dataset.csv.zip",
       "study": "AbRank: A Benchmark Dataset and Metric-Learning Framework for Antibody-Antigen Affinity Ranking",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 342357
     },
     {
       "assay": "Kd",
@@ -317,10 +339,11 @@
         "Fv"
       ],
       "name": "adams2017measuring_4420-fluorescein_kd-flow.csv",
-      "path": "data/binding/adams2017measuring_4420-fluorescein_kd-flow.csv",
+      "path": "../data/binding/adams2017measuring_4420-fluorescein_kd-flow.csv",
       "study": "Measuring the sequence-affinity landscape of antibodies with massively parallel titration curves",
       "year": 2017,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 15
     },
     {
       "assay": "Kd",
@@ -332,10 +355,11 @@
         "4-4-20"
       ],
       "name": "adams2017measuring_4420-fluorescein_kd-titeseq.csv",
-      "path": "data/binding/adams2017measuring_4420-fluorescein_kd-titeseq.csv",
+      "path": "../data/binding/adams2017measuring_4420-fluorescein_kd-titeseq.csv",
       "study": "Measuring the sequence-affinity landscape of antibodies with massively parallel titration curves",
       "year": 2017,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 11052
     },
     {
       "assay": "bind/no",
@@ -346,10 +370,11 @@
         "human tumor necrosis factor alpha (TNFa)"
       ],
       "name": "cognano_AVIDa-hTNFa.csv",
-      "path": "data/binding/cognano_AVIDa-hTNFa.csv",
+      "path": "../data/binding/cognano_AVIDa-hTNFa.csv",
       "study": "none",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 5580
     },
     {
       "assay": "Predicted",
@@ -361,10 +386,11 @@
         "alphaseq"
       ],
       "name": "engelhart2022dataset_scFv-SARS-CoV-2_affinity.csv.zip",
-      "path": "data/binding/engelhart2022dataset_scFv-SARS-CoV-2_affinity.csv.zip",
+      "path": "../data/binding/engelhart2022dataset_scFv-SARS-CoV-2_affinity.csv.zip",
       "study": "A dataset comprised of binding interactions for 104,972 antibodies against a SARS-CoV-2 peptide",
       "year": 2022,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 352140
     },
     {
       "assay": "-log",
@@ -374,10 +400,11 @@
         "none"
       ],
       "name": "garbinski2023_kd.csv",
-      "path": "data/binding/garbinski2023_kd.csv",
+      "path": "../data/binding/garbinski2023_kd.csv",
       "study": "none",
       "year": 2023,
-      "license": "none"
+      "license": "none",
+      "size": 81
     },
     {
       "assay": "-log",
@@ -389,10 +416,11 @@
         "SARS-CoV-2-Beta-SP"
       ],
       "name": "hie2023efficient_CoV2Beta_C143_Kd.csv",
-      "path": "data/binding/hie2023efficient_CoV2Beta_C143_Kd.csv",
+      "path": "../data/binding/hie2023efficient_CoV2Beta_C143_Kd.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 17
     },
     {
       "assay": "-log",
@@ -404,10 +432,11 @@
         "SARS-CoV-Beta-SP"
       ],
       "name": "hie2023efficient_CoV2Beta_REGN10987_Kd.csv",
-      "path": "data/binding/hie2023efficient_CoV2Beta_REGN10987_Kd.csv",
+      "path": "../data/binding/hie2023efficient_CoV2Beta_REGN10987_Kd.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 14
     },
     {
       "assay": "-log",
@@ -419,10 +448,11 @@
         "SARS-CoV-2-WT-S6P"
       ],
       "name": "hie2023efficient_CoV2_S309_Kd.csv",
-      "path": "data/binding/hie2023efficient_CoV2_S309_Kd.csv",
+      "path": "../data/binding/hie2023efficient_CoV2_S309_Kd.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 20
     },
     {
       "assay": "-log",
@@ -434,10 +464,11 @@
         "SARS-CoV-2-Omicron"
       ],
       "name": "hie2023efficient_CoV2omicron_REGN10987_Kd.csv",
-      "path": "data/binding/hie2023efficient_CoV2omicron_REGN10987_Kd.csv",
+      "path": "../data/binding/hie2023efficient_CoV2omicron_REGN10987_Kd.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 8
     },
     {
       "assay": "-log",
@@ -449,10 +480,11 @@
         "MEDI-UCA"
       ],
       "name": "hie2023efficient_MEDIUCA_H1Solomon_Kd.csv",
-      "path": "data/binding/hie2023efficient_MEDIUCA_H1Solomon_Kd.csv",
+      "path": "../data/binding/hie2023efficient_MEDIUCA_H1Solomon_Kd.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 21
     },
     {
       "assay": "-log",
@@ -464,10 +496,11 @@
         "MEDI-UCA"
       ],
       "name": "hie2023efficient_MEDIUCA_H4Hubei_Kd.csv",
-      "path": "data/binding/hie2023efficient_MEDIUCA_H4Hubei_Kd.csv",
+      "path": "../data/binding/hie2023efficient_MEDIUCA_H4Hubei_Kd.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 12
     },
     {
       "assay": "-log",
@@ -479,10 +512,11 @@
         "MEDI"
       ],
       "name": "hie2023efficient_MEDI_H4Hubei_Kd.csv",
-      "path": "data/binding/hie2023efficient_MEDI_H4Hubei_Kd.csv",
+      "path": "../data/binding/hie2023efficient_MEDI_H4Hubei_Kd.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 16
     },
     {
       "assay": "-log",
@@ -494,10 +528,11 @@
         "MEDI"
       ],
       "name": "hie2023efficient_MEDI_H7HK16_Kd.csv",
-      "path": "data/binding/hie2023efficient_MEDI_H7HK16_Kd.csv",
+      "path": "../data/binding/hie2023efficient_MEDI_H7HK16_Kd.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 17
     },
     {
       "assay": "-log",
@@ -509,10 +544,11 @@
         "mAb114"
       ],
       "name": "hie2023efficient_ebola_mab114_Kd.csv",
-      "path": "data/binding/hie2023efficient_ebola_mab114_Kd.csv",
+      "path": "../data/binding/hie2023efficient_ebola_mab114_Kd.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 21
     },
     {
       "assay": "-log",
@@ -524,10 +560,11 @@
         "NIP228"
       ],
       "name": "hutchinson2023enhancement_multikd_fab.csv",
-      "path": "data/binding/hutchinson2023enhancement_multikd_fab.csv",
+      "path": "../data/binding/hutchinson2023enhancement_multikd_fab.csv",
       "study": "Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 15
     },
     {
       "assay": "-log",
@@ -539,10 +576,11 @@
         "NIP228"
       ],
       "name": "hutchinson2023enhancement_multikd_igg.csv",
-      "path": "data/binding/hutchinson2023enhancement_multikd_igg.csv",
+      "path": "../data/binding/hutchinson2023enhancement_multikd_igg.csv",
       "study": "Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 15
     },
     {
       "assay": "-log",
@@ -554,10 +592,11 @@
         "NIP228"
       ],
       "name": "hutchinson2023enhancement_singlekd_fab.csv",
-      "path": "data/binding/hutchinson2023enhancement_singlekd_fab.csv",
+      "path": "../data/binding/hutchinson2023enhancement_singlekd_fab.csv",
       "study": "Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 22
     },
     {
       "assay": "-log",
@@ -569,10 +608,11 @@
         "NIP228"
       ],
       "name": "hutchinson2023enhancement_singlekd_igg.csv",
-      "path": "data/binding/hutchinson2023enhancement_singlekd_igg.csv",
+      "path": "../data/binding/hutchinson2023enhancement_singlekd_igg.csv",
       "study": "Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 23
     },
     {
       "assay": "-log",
@@ -584,10 +624,11 @@
         "NIP228"
       ],
       "name": "hutchinson2023enhancement_top200kd_fab.csv",
-      "path": "data/binding/hutchinson2023enhancement_top200kd_fab.csv",
+      "path": "../data/binding/hutchinson2023enhancement_top200kd_fab.csv",
       "study": "Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 50
     },
     {
       "assay": "-log",
@@ -599,10 +640,11 @@
         "NIP228"
       ],
       "name": "hutchinson2023enhancement_top200kd_igg.csv",
-      "path": "data/binding/hutchinson2023enhancement_top200kd_igg.csv",
+      "path": "../data/binding/hutchinson2023enhancement_top200kd_igg.csv",
       "study": "Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 182
     },
     {
       "assay": "-log",
@@ -614,10 +656,11 @@
         "NIP228"
       ],
       "name": "hutchinson2023enhancement_top27kd_fab.csv",
-      "path": "data/binding/hutchinson2023enhancement_top27kd_fab.csv",
+      "path": "../data/binding/hutchinson2023enhancement_top27kd_fab.csv",
       "study": "Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 28
     },
     {
       "assay": "-log",
@@ -629,10 +672,11 @@
         "NIP228"
       ],
       "name": "hutchinson2023enhancement_top27kd_igg.csv",
-      "path": "data/binding/hutchinson2023enhancement_top27kd_igg.csv",
+      "path": "../data/binding/hutchinson2023enhancement_top27kd_igg.csv",
       "study": "Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 27
     },
     {
       "assay": "Octet",
@@ -644,10 +688,11 @@
         "germline"
       ],
       "name": "jain2024assessment_Hen_Lys_kd.csv",
-      "path": "data/binding/jain2024assessment_Hen_Lys_kd.csv",
+      "path": "../data/binding/jain2024assessment_Hen_Lys_kd.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 31
     },
     {
       "assay": "Octet",
@@ -659,10 +704,11 @@
         "germline"
       ],
       "name": "jain2024assessment_mouse_Ly_kd.csv",
-      "path": "data/binding/jain2024assessment_mouse_Ly_kd.csv",
+      "path": "../data/binding/jain2024assessment_mouse_Ly_kd.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 2
     },
     {
       "assay": "bind/no",
@@ -675,10 +721,11 @@
         "1-20"
       ],
       "name": "kirby2024retrospective_ab-SARSCoV2_binary_kd.csv",
-      "path": "data/binding/kirby2024retrospective_ab-SARSCoV2_binary_kd.csv",
+      "path": "../data/binding/kirby2024retrospective_ab-SARSCoV2_binary_kd.csv",
       "study": "Retrospective SARS-CoV-2 human antibody development trajectories are largely sparse and permissive",
       "year": 2025,
-      "license": "none"
+      "license": "none",
+      "size": 1407
     },
     {
       "assay": "Kd",
@@ -691,10 +738,11 @@
         "1-20"
       ],
       "name": "kirby2024retrospective_ab-SARSCoV2_kd.csv",
-      "path": "data/binding/kirby2024retrospective_ab-SARSCoV2_kd.csv",
+      "path": "../data/binding/kirby2024retrospective_ab-SARSCoV2_kd.csv",
       "study": "Retrospective SARS-CoV-2 human antibody development trajectories are largely sparse and permissive",
       "year": 2025,
-      "license": "none"
+      "license": "none",
+      "size": 869
     },
     {
       "assay": "-log",
@@ -706,10 +754,11 @@
         "VEGF"
       ],
       "name": "koenig2017mutational_kd_g6.csv",
-      "path": "data/binding/koenig2017mutational_kd_g6.csv",
+      "path": "../data/binding/koenig2017mutational_kd_g6.csv",
       "study": "Mutational landscape of antibody variable domains reveals a switch modulating the interdomain conformational dynamics and antigen binding",
       "year": 2017,
-      "license": "none"
+      "license": "none",
+      "size": 4276
     },
     {
       "assay": "Cell",
@@ -722,10 +771,11 @@
         "VK4-1"
       ],
       "name": "kothiwal2025htp_DCC_ec50.csv",
-      "path": "data/binding/kothiwal2025htp_DCC_ec50.csv",
+      "path": "../data/binding/kothiwal2025htp_DCC_ec50.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 23
     },
     {
       "assay": "SPR",
@@ -738,10 +788,11 @@
         "VK4-1"
       ],
       "name": "kothiwal2025htp_DCC_spr.csv",
-      "path": "data/binding/kothiwal2025htp_DCC_spr.csv",
+      "path": "../data/binding/kothiwal2025htp_DCC_spr.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 23
     },
     {
       "assay": "Cell",
@@ -756,10 +807,11 @@
         "VK4-1"
       ],
       "name": "kothiwal2025htp_DKK_1.00_ec50.csv",
-      "path": "data/binding/kothiwal2025htp_DKK_1.00_ec50.csv",
+      "path": "../data/binding/kothiwal2025htp_DKK_1.00_ec50.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 18
     },
     {
       "assay": "SPR",
@@ -774,10 +826,11 @@
         "VK4-1"
       ],
       "name": "kothiwal2025htp_DKK_1.00_spr.csv",
-      "path": "data/binding/kothiwal2025htp_DKK_1.00_spr.csv",
+      "path": "../data/binding/kothiwal2025htp_DKK_1.00_spr.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 20
     },
     {
       "assay": "Cell",
@@ -792,10 +845,11 @@
         "VK4-1"
       ],
       "name": "kothiwal2025htp_IL23R_ec50.csv",
-      "path": "data/binding/kothiwal2025htp_IL23R_ec50.csv",
+      "path": "../data/binding/kothiwal2025htp_IL23R_ec50.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 56
     },
     {
       "assay": "SPR",
@@ -810,10 +864,11 @@
         "VK4-1"
       ],
       "name": "kothiwal2025htp_IL23R_spr.csv",
-      "path": "data/binding/kothiwal2025htp_IL23R_spr.csv",
+      "path": "../data/binding/kothiwal2025htp_IL23R_spr.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 70
     },
     {
       "assay": "Cell",
@@ -827,10 +882,11 @@
         "VK1-39"
       ],
       "name": "kothiwal2025htp_LOX1_ec50.csv",
-      "path": "data/binding/kothiwal2025htp_LOX1_ec50.csv",
+      "path": "../data/binding/kothiwal2025htp_LOX1_ec50.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 52
     },
     {
       "assay": "SPR",
@@ -844,10 +900,11 @@
         "VK1-39"
       ],
       "name": "kothiwal2025htp_LOX1_spr.csv",
-      "path": "data/binding/kothiwal2025htp_LOX1_spr.csv",
+      "path": "../data/binding/kothiwal2025htp_LOX1_spr.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 53
     },
     {
       "assay": "Cell",
@@ -859,10 +916,11 @@
         "VK4-1"
       ],
       "name": "kothiwal2025htp_PDL1_ec50.csv",
-      "path": "data/binding/kothiwal2025htp_PDL1_ec50.csv",
+      "path": "../data/binding/kothiwal2025htp_PDL1_ec50.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 34
     },
     {
       "assay": "SPR",
@@ -874,10 +932,11 @@
         "VK4-1"
       ],
       "name": "kothiwal2025htp_PDL1_spr.csv",
-      "path": "data/binding/kothiwal2025htp_PDL1_spr.csv",
+      "path": "../data/binding/kothiwal2025htp_PDL1_spr.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 29
     },
     {
       "assay": "Cell",
@@ -890,10 +949,11 @@
         "VK3-15"
       ],
       "name": "kothiwal2025htp_PDL2_ec50.csv",
-      "path": "data/binding/kothiwal2025htp_PDL2_ec50.csv",
+      "path": "../data/binding/kothiwal2025htp_PDL2_ec50.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 23
     },
     {
       "assay": "SPR",
@@ -906,10 +966,11 @@
         "VK3-15"
       ],
       "name": "kothiwal2025htp_PDL2_spr.csv",
-      "path": "data/binding/kothiwal2025htp_PDL2_spr.csv",
+      "path": "../data/binding/kothiwal2025htp_PDL2_spr.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 23
     },
     {
       "assay": "Cell",
@@ -922,10 +983,11 @@
         "VH1-69"
       ],
       "name": "kothiwal2025htp_ROBO1_ec50.csv",
-      "path": "data/binding/kothiwal2025htp_ROBO1_ec50.csv",
+      "path": "../data/binding/kothiwal2025htp_ROBO1_ec50.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 45
     },
     {
       "assay": "SPR",
@@ -938,10 +1000,11 @@
         "VH1-69"
       ],
       "name": "kothiwal2025htp_ROBO1_spr.csv",
-      "path": "data/binding/kothiwal2025htp_ROBO1_spr.csv",
+      "path": "../data/binding/kothiwal2025htp_ROBO1_spr.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 39
     },
     {
       "assay": "Cell",
@@ -954,10 +1017,11 @@
         "VK4-1"
       ],
       "name": "kothiwal2025htp_ROBO2N_hROBO2N_ec50.csv",
-      "path": "data/binding/kothiwal2025htp_ROBO2N_hROBO2N_ec50.csv",
+      "path": "../data/binding/kothiwal2025htp_ROBO2N_hROBO2N_ec50.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 22
     },
     {
       "assay": "SPR",
@@ -970,10 +1034,11 @@
         "VK4-1"
       ],
       "name": "kothiwal2025htp_ROBO2N_hROBO2N_spr.csv",
-      "path": "data/binding/kothiwal2025htp_ROBO2N_hROBO2N_spr.csv",
+      "path": "../data/binding/kothiwal2025htp_ROBO2N_hROBO2N_spr.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 22
     },
     {
       "assay": "Cell",
@@ -989,10 +1054,11 @@
         "VH1-69"
       ],
       "name": "kothiwal2025htp_Syncytin2_ec50.csv",
-      "path": "data/binding/kothiwal2025htp_Syncytin2_ec50.csv",
+      "path": "../data/binding/kothiwal2025htp_Syncytin2_ec50.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 48
     },
     {
       "assay": "SPR",
@@ -1008,10 +1074,11 @@
         "VH1-69"
       ],
       "name": "kothiwal2025htp_Syncytin2_spr.csv",
-      "path": "data/binding/kothiwal2025htp_Syncytin2_spr.csv",
+      "path": "../data/binding/kothiwal2025htp_Syncytin2_spr.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 51
     },
     {
       "assay": "Cell",
@@ -1025,10 +1092,11 @@
         "VH1-69"
       ],
       "name": "kothiwal2025htp_TIGIT_ec50.csv",
-      "path": "data/binding/kothiwal2025htp_TIGIT_ec50.csv",
+      "path": "../data/binding/kothiwal2025htp_TIGIT_ec50.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 24
     },
     {
       "assay": "SPR",
@@ -1042,10 +1110,11 @@
         "VH1-69"
       ],
       "name": "kothiwal2025htp_TIGIT_spr.csv",
-      "path": "data/binding/kothiwal2025htp_TIGIT_spr.csv",
+      "path": "../data/binding/kothiwal2025htp_TIGIT_spr.csv",
       "study": "High-Throughput Machine Learning-Aided Antibody Discovery for Cell Surface Antigens",
       "year": 2025,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 22
     },
     {
       "assay": "ANT",
@@ -1057,10 +1126,11 @@
         "emibetuzumab"
       ],
       "name": "makowksi2022cooptimization_iso_ant.csv",
-      "path": "data/binding/makowksi2022cooptimization_iso_ant.csv",
+      "path": "../data/binding/makowksi2022cooptimization_iso_ant.csv",
       "study": "Co-optimization of therapeutic antibody affinity and specificity using machine learning models that generalize to novel mutational space",
       "year": 2022,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 126
     },
     {
       "assay": "ANT",
@@ -1072,10 +1142,11 @@
         "emibetuzumab"
       ],
       "name": "makowski2022cooptimization_igg_ant.csv",
-      "path": "data/binding/makowski2022cooptimization_igg_ant.csv",
+      "path": "../data/binding/makowski2022cooptimization_igg_ant.csv",
       "study": "Co-optimization of therapeutic antibody affinity and specificity using machine learning models that generalize to novel mutational space",
       "year": 2022,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 96
     },
     {
       "assay": "OVA",
@@ -1087,10 +1158,11 @@
         "emibetuzumab"
       ],
       "name": "makowski2022cooptimization_igg_ova.csv",
-      "path": "data/binding/makowski2022cooptimization_igg_ova.csv",
+      "path": "../data/binding/makowski2022cooptimization_igg_ova.csv",
       "study": "Co-optimization of therapeutic antibody affinity and specificity using machine learning models that generalize to novel mutational space",
       "year": 2022,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 96
     },
     {
       "assay": "OVA",
@@ -1102,10 +1174,11 @@
         "emibetuzumab"
       ],
       "name": "makowski2022cooptimization_iso_ova.csv",
-      "path": "data/binding/makowski2022cooptimization_iso_ova.csv",
+      "path": "../data/binding/makowski2022cooptimization_iso_ova.csv",
       "study": "Co-optimization of therapeutic antibody affinity and specificity using machine learning models that generalize to novel mutational space",
       "year": 2022,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 126
     },
     {
       "assay": "bind/no",
@@ -1116,10 +1189,11 @@
         "H1HA"
       ],
       "name": "peterson2024integrated_ab_H1HA_binary.csv",
-      "path": "data/binding/peterson2024integrated_ab_H1HA_binary.csv",
+      "path": "../data/binding/peterson2024integrated_ab_H1HA_binary.csv",
       "study": "An integrated technology for quantitative wide mutational scanning of human antibody Fab libraries",
       "year": 2024,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 1071
     },
     {
       "assay": "MAGMA-Seq,",
@@ -1130,10 +1204,11 @@
         "H1HA"
       ],
       "name": "peterson2024integrated_ab_H1HA_kd.csv",
-      "path": "data/binding/peterson2024integrated_ab_H1HA_kd.csv",
+      "path": "../data/binding/peterson2024integrated_ab_H1HA_kd.csv",
       "study": "An integrated technology for quantitative wide mutational scanning of human antibody Fab libraries",
       "year": 2024,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 1040
     },
     {
       "assay": "-log(",
@@ -1145,10 +1220,11 @@
         "H1"
       ],
       "name": "phillips2021binding_cr6261_h1_kd.csv",
-      "path": "data/binding/phillips2021binding_cr6261_h1_kd.csv",
+      "path": "../data/binding/phillips2021binding_cr6261_h1_kd.csv",
       "study": "Binding affinity landscapes constrain the evolution of broadly neutralizing anti-influenza antibodies",
       "year": 2021,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 953
     },
     {
       "assay": "-log(",
@@ -1160,10 +1236,11 @@
         "H9"
       ],
       "name": "phillips2021binding_cr6261_h9_kd.csv",
-      "path": "data/binding/phillips2021binding_cr6261_h9_kd.csv",
+      "path": "../data/binding/phillips2021binding_cr6261_h9_kd.csv",
       "study": "Binding affinity landscapes constrain the evolution of broadly neutralizing anti-influenza antibodies",
       "year": 2021,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 921
     },
     {
       "assay": "-log(",
@@ -1175,10 +1252,11 @@
         "H1"
       ],
       "name": "phillips2021binding_cr9114_h1_kd.csv",
-      "path": "data/binding/phillips2021binding_cr9114_h1_kd.csv",
+      "path": "../data/binding/phillips2021binding_cr9114_h1_kd.csv",
       "study": "Binding affinity landscapes constrain the evolution of broadly neutralizing anti-influenza antibodies",
       "year": 2021,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 32393
     },
     {
       "assay": "-log(",
@@ -1190,10 +1268,11 @@
         "H3"
       ],
       "name": "phillips2021binding_cr9114_h3_kd.csv",
-      "path": "data/binding/phillips2021binding_cr9114_h3_kd.csv",
+      "path": "../data/binding/phillips2021binding_cr9114_h3_kd.csv",
       "study": "Binding affinity landscapes constrain the evolution of broadly neutralizing anti-influenza antibodies",
       "year": 2021,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 32768
     },
     {
       "assay": "IC50",
@@ -1204,10 +1283,11 @@
         "CoV"
       ],
       "name": "rawat2022abcov_ic50.csv",
-      "path": "data/binding/rawat2022abcov_ic50.csv",
+      "path": "../data/binding/rawat2022abcov_ic50.csv",
       "study": "Ab-CoV: a curated database for binding affinity and neutralization profiles of coronavirus-related antibodies",
       "year": 2022,
-      "license": "none"
+      "license": "none",
+      "size": 427
     },
     {
       "assay": "-log(",
@@ -1218,10 +1298,11 @@
         "CoV"
       ],
       "name": "rawat2022abcov_kd.csv",
-      "path": "data/binding/rawat2022abcov_kd.csv",
+      "path": "../data/binding/rawat2022abcov_kd.csv",
       "study": "Ab-CoV: a curated database for binding affinity and neutralization profiles of coronavirus-related antibodies",
       "year": 2022,
-      "license": "none"
+      "license": "none",
+      "size": 141
     },
     {
       "assay": "-log(",
@@ -1232,10 +1313,11 @@
         "Fv"
       ],
       "name": "rosace2023automated_kd_adalimumab.csv",
-      "path": "data/binding/rosace2023automated_kd_adalimumab.csv",
+      "path": "../data/binding/rosace2023automated_kd_adalimumab.csv",
       "study": "Automated optimisation of solubility and conformational stability of antibodies and proteins",
       "year": 2022,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 14
     },
     {
       "assay": "-log(",
@@ -1246,10 +1328,11 @@
         "Fv"
       ],
       "name": "rosace2023automated_kd_golimumab.csv",
-      "path": "data/binding/rosace2023automated_kd_golimumab.csv",
+      "path": "../data/binding/rosace2023automated_kd_golimumab.csv",
       "study": "Automated optimisation of solubility and conformational stability of antibodies and proteins",
       "year": 2022,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 5
     },
     {
       "assay": "ADCC",
@@ -1260,10 +1343,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_adcc_ec50.csv",
-      "path": "data/binding/shanehsazzadeh2023unlocking_adcc_ec50.csv",
+      "path": "../data/binding/shanehsazzadeh2023unlocking_adcc_ec50.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "-log(",
@@ -1275,10 +1359,11 @@
         "hHER2"
       ],
       "name": "shanehsazzadeh2023unlocking_kd_hher2_fab.csv",
-      "path": "data/binding/shanehsazzadeh2023unlocking_kd_hher2_fab.csv",
+      "path": "../data/binding/shanehsazzadeh2023unlocking_kd_hher2_fab.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "-log(",
@@ -1290,10 +1375,11 @@
         "hHER2"
       ],
       "name": "shanehsazzadeh2023unlocking_kd_hher2_mab.csv",
-      "path": "data/binding/shanehsazzadeh2023unlocking_kd_hher2_mab.csv",
+      "path": "../data/binding/shanehsazzadeh2023unlocking_kd_hher2_mab.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "-log(",
@@ -1304,10 +1390,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_zerokd_trastuzumab.csv",
-      "path": "data/binding/shanehsazzadeh2023unlocking_zerokd_trastuzumab.csv",
+      "path": "../data/binding/shanehsazzadeh2023unlocking_zerokd_trastuzumab.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 422
     },
     {
       "assay": "-log(",
@@ -1318,10 +1405,11 @@
         "IL17A"
       ],
       "name": "shanehsazzadeh2024igdesign_Afasevikumab-IL17A_kd.csv",
-      "path": "data/binding/shanehsazzadeh2024igdesign_Afasevikumab-IL17A_kd.csv",
+      "path": "../data/binding/shanehsazzadeh2024igdesign_Afasevikumab-IL17A_kd.csv",
       "study": "IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 13
     },
     {
       "assay": "-log(",
@@ -1332,10 +1420,11 @@
         "ACVR2B"
       ],
       "name": "shanehsazzadeh2024igdesign_Bimagrumab-ACVR2B_kd.csv",
-      "path": "data/binding/shanehsazzadeh2024igdesign_Bimagrumab-ACVR2B_kd.csv",
+      "path": "../data/binding/shanehsazzadeh2024igdesign_Bimagrumab-ACVR2B_kd.csv",
       "study": "IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 24
     },
     {
       "assay": "-log(",
@@ -1346,10 +1435,11 @@
         "C5"
       ],
       "name": "shanehsazzadeh2024igdesign_Eculizumab-C5_kd.csv",
-      "path": "data/binding/shanehsazzadeh2024igdesign_Eculizumab-C5_kd.csv",
+      "path": "../data/binding/shanehsazzadeh2024igdesign_Eculizumab-C5_kd.csv",
       "study": "IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 34
     },
     {
       "assay": "-log(",
@@ -1360,10 +1450,11 @@
         "FXI"
       ],
       "name": "shanehsazzadeh2024igdesign_Osocimab-FXI_kd.csv",
-      "path": "data/binding/shanehsazzadeh2024igdesign_Osocimab-FXI_kd.csv",
+      "path": "../data/binding/shanehsazzadeh2024igdesign_Osocimab-FXI_kd.csv",
       "study": "IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 47
     },
     {
       "assay": "-log(",
@@ -1374,10 +1465,11 @@
         "IL36R"
       ],
       "name": "shanehsazzadeh2024igdesign_Spesolimab-IL36R_kd.csv",
-      "path": "data/binding/shanehsazzadeh2024igdesign_Spesolimab-IL36R_kd.csv",
+      "path": "../data/binding/shanehsazzadeh2024igdesign_Spesolimab-IL36R_kd.csv",
       "study": "IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 40
     },
     {
       "assay": "-log(",
@@ -1388,10 +1480,11 @@
         "TSLP"
       ],
       "name": "shanehsazzadeh2024igdesign_Tezepelumab-TSLP_kd.csv",
-      "path": "data/binding/shanehsazzadeh2024igdesign_Tezepelumab-TSLP_kd.csv",
+      "path": "../data/binding/shanehsazzadeh2024igdesign_Tezepelumab-TSLP_kd.csv",
       "study": "IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 127
     },
     {
       "assay": "-log(",
@@ -1402,10 +1495,11 @@
         "TNFRSF9"
       ],
       "name": "shanehsazzadeh2024igdesign_Utomilumab-TNFRSF9_kd.csv",
-      "path": "data/binding/shanehsazzadeh2024igdesign_Utomilumab-TNFRSF9_kd.csv",
+      "path": "../data/binding/shanehsazzadeh2024igdesign_Utomilumab-TNFRSF9_kd.csv",
       "study": "IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 36
     },
     {
       "assay": "Avg",
@@ -1416,10 +1510,11 @@
         "BQ.1.1"
       ],
       "name": "shanker2024unsupervised_Ly1404-BQ.1.1_IC50.csv",
-      "path": "data/binding/shanker2024unsupervised_Ly1404-BQ.1.1_IC50.csv",
+      "path": "../data/binding/shanker2024unsupervised_Ly1404-BQ.1.1_IC50.csv",
       "study": "Unsupervised evolution of protein and antibody complexes with a structure-informed language model",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 50
     },
     {
       "assay": "Kd",
@@ -1430,10 +1525,11 @@
         "BQ.1.1"
       ],
       "name": "shanker2024unsupervised_Ly1404-BQ.1.1_Kd.csv",
-      "path": "data/binding/shanker2024unsupervised_Ly1404-BQ.1.1_Kd.csv",
+      "path": "../data/binding/shanker2024unsupervised_Ly1404-BQ.1.1_Kd.csv",
       "study": "Unsupervised evolution of protein and antibody complexes with a structure-informed language model",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 36
     },
     {
       "assay": "Avg",
@@ -1444,10 +1540,11 @@
         "SARS-CoV-2-Wuhan"
       ],
       "name": "shanker2024unsupervised_Ly1404_Wuhan_IC50.csv",
-      "path": "data/binding/shanker2024unsupervised_Ly1404_Wuhan_IC50.csv",
+      "path": "../data/binding/shanker2024unsupervised_Ly1404_Wuhan_IC50.csv",
       "study": "Unsupervised evolution of protein and antibody complexes with a structure-informed language model",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 33
     },
     {
       "assay": "Avg",
@@ -1458,10 +1555,11 @@
         "BA.1"
       ],
       "name": "shanker2024unsupervised_SA58-BA.1_IC50.csv",
-      "path": "data/binding/shanker2024unsupervised_SA58-BA.1_IC50.csv",
+      "path": "../data/binding/shanker2024unsupervised_SA58-BA.1_IC50.csv",
       "study": "Unsupervised evolution of protein and antibody complexes with a structure-informed language model",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 19
     },
     {
       "assay": "Avg",
@@ -1472,10 +1570,11 @@
         "BQ.1.1"
       ],
       "name": "shanker2024unsupervised_SA58-BQ.1.1_IC50.csv",
-      "path": "data/binding/shanker2024unsupervised_SA58-BQ.1.1_IC50.csv",
+      "path": "../data/binding/shanker2024unsupervised_SA58-BQ.1.1_IC50.csv",
       "study": "Unsupervised evolution of protein and antibody complexes with a structure-informed language model",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 49
     },
     {
       "assay": "Kd",
@@ -1486,10 +1585,11 @@
         "BQ.1.1"
       ],
       "name": "shanker2024unsupervised_SA58-BQ.1.1_Kd.csv",
-      "path": "data/binding/shanker2024unsupervised_SA58-BQ.1.1_Kd.csv",
+      "path": "../data/binding/shanker2024unsupervised_SA58-BQ.1.1_Kd.csv",
       "study": "Unsupervised evolution of protein and antibody complexes with a structure-informed language model",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 7
     },
     {
       "assay": "Kd",
@@ -1500,10 +1600,11 @@
         "XBB.1.5"
       ],
       "name": "shanker2024unsupervised_SA58-XBB.1.5_Kd.csv",
-      "path": "data/binding/shanker2024unsupervised_SA58-XBB.1.5_Kd.csv",
+      "path": "../data/binding/shanker2024unsupervised_SA58-XBB.1.5_Kd.csv",
       "study": "Unsupervised evolution of protein and antibody complexes with a structure-informed language model",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 30
     },
     {
       "assay": "bind/no",
@@ -1514,10 +1615,11 @@
         "hIL6"
       ],
       "name": "tsuruta2024avida-hIL6_binary.csv.zip",
-      "path": "data/binding/tsuruta2024avida-hIL6_binary.csv.zip",
+      "path": "../data/binding/tsuruta2024avida-hIL6_binary.csv.zip",
       "study": "AVIDa-hIL6: A Large-Scale VHH Dataset Produced from an Immunized Alpaca for Predicting Antigen-Antibody Interactions",
       "year": 2023,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 573892
     },
     {
       "assay": "bind/no",
@@ -1528,10 +1630,11 @@
         "SARS-CoV-2"
       ],
       "name": "tsuruta2024sarscov2_binary.csv.zip",
-      "path": "data/binding/tsuruta2024sarscov2_binary.csv.zip",
+      "path": "../data/binding/tsuruta2024sarscov2_binary.csv.zip",
       "study": "A SARS-CoV-2 Interaction Dataset and VHH Sequence Corpus for Antibody Language Models",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 77004
     },
     {
       "assay": "-log(",
@@ -1541,10 +1644,11 @@
         "d44"
       ],
       "name": "warszawski2019_d44_Kd.csv",
-      "path": "data/binding/warszawski2019_d44_Kd.csv",
+      "path": "../data/binding/warszawski2019_d44_Kd.csv",
       "study": "Optimizing antibody affinity and stability by the automated design of the variable light-heavy chain interfaces",
       "year": 2019,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 2049
     },
     {
       "assay": "-log(",
@@ -1555,10 +1659,11 @@
         "fluorescein"
       ],
       "name": "zimmerman2020antibody_4420_kd.csv",
-      "path": "data/binding/zimmerman2020antibody_4420_kd.csv",
+      "path": "../data/binding/zimmerman2020antibody_4420_kd.csv",
       "study": "Antibody evolution constrains conformational heterogeneity by tailoring protein dynamics",
       "year": 2006,
-      "license": "none"
+      "license": "none",
+      "size": 21
     },
     {
       "assay": "Expression",
@@ -1570,10 +1675,11 @@
         "Fab"
       ],
       "name": "adams2017measuring_4420-fluorescein_exp_er.csv",
-      "path": "data/expression/adams2017measuring_4420-fluorescein_exp_er.csv",
+      "path": "../data/expression/adams2017measuring_4420-fluorescein_exp_er.csv",
       "study": "Measuring the sequence-affinity landscape of antibodies with massively parallel titration curves",
       "year": 2017,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 10970
     },
     {
       "assay": "Expression",
@@ -1583,10 +1689,11 @@
         "none"
       ],
       "name": "garbinski2023_exp.csv",
-      "path": "data/expression/garbinski2023_exp.csv",
+      "path": "../data/expression/garbinski2023_exp.csv",
       "study": "none",
       "year": 2023,
-      "license": "none"
+      "license": "none",
+      "size": 94
     },
     {
       "assay": "HEK",
@@ -1597,10 +1704,11 @@
         "Fv"
       ],
       "name": "jain2017biophysical_HEK.csv",
-      "path": "data/expression/jain2017biophysical_HEK.csv",
+      "path": "../data/expression/jain2017biophysical_HEK.csv",
       "study": "Biophysical properties of the clinical-stage antibody landscape",
       "year": 2017,
-      "license": "none"
+      "license": "none",
+      "size": 137
     },
     {
       "assay": "Expression",
@@ -1611,10 +1719,11 @@
         "VEGF"
       ],
       "name": "koenig2017mutational_er_g6.csv",
-      "path": "data/expression/koenig2017mutational_er_g6.csv",
+      "path": "../data/expression/koenig2017mutational_er_g6.csv",
       "study": "Mutational landscape of antibody variable domains reveals a switch modulating the interdomain conformational dynamics and antigen binding",
       "year": 2017,
-      "license": "none"
+      "license": "none",
+      "size": 4276
     },
     {
       "assay": "%ADA",
@@ -1625,10 +1734,11 @@
         "Fv"
       ],
       "name": "marks2021humanization_immunogenicity.csv",
-      "path": "data/immunogenicity/marks2021humanization_immunogenicity.csv",
+      "path": "../data/immunogenicity/marks2021humanization_immunogenicity.csv",
       "study": "Humanization of antibodies using a machine learning approach on large-scale repertoire data",
       "year": 2021,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 217
     },
     {
       "assay": "FcRn.Rel.RT.3",
@@ -1639,10 +1749,11 @@
         "Fv"
       ],
       "name": "jain2023identifying_FcRnRelRT3.csv",
-      "path": "data/pharmacokinetics/jain2023identifying_FcRnRelRT3.csv",
+      "path": "../data/pharmacokinetics/jain2023identifying_FcRnRelRT3.csv",
       "study": "Identifying developability risks for clinical progression of antibodies using high-throughput in vitro and in silico approaches",
       "year": 2023,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 132
     },
     {
       "assay": "Hep.RT.3",
@@ -1653,10 +1764,11 @@
         "Fv"
       ],
       "name": "jain2023identifying_HEPRT3.csv",
-      "path": "data/pharmacokinetics/jain2023identifying_HEPRT3.csv",
+      "path": "../data/pharmacokinetics/jain2023identifying_HEPRT3.csv",
       "study": "Identifying developability risks for clinical progression of antibodies using high-throughput in vitro and in silico approaches",
       "year": 2023,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 130
     },
     {
       "assay": "FcRn",
@@ -1667,10 +1779,11 @@
         "Fv"
       ],
       "name": "jain2024assessment_FcRn.csv",
-      "path": "data/pharmacokinetics/jain2024assessment_FcRn.csv",
+      "path": "../data/pharmacokinetics/jain2024assessment_FcRn.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 43
     },
     {
       "assay": "Tg32",
@@ -1681,10 +1794,11 @@
         "Fv"
       ],
       "name": "jain2024assessment_tg32_clearance.csv",
-      "path": "data/pharmacokinetics/jain2024assessment_tg32_clearance.csv",
+      "path": "../data/pharmacokinetics/jain2024assessment_tg32_clearance.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 43
     },
     {
       "assay": "Tg32",
@@ -1695,10 +1809,11 @@
         "Fv"
       ],
       "name": "jain2024assessment_tg32_halflife.csv",
-      "path": "data/pharmacokinetics/jain2024assessment_tg32_halflife.csv",
+      "path": "../data/pharmacokinetics/jain2024assessment_tg32_halflife.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 43
     },
     {
       "assay": "pI",
@@ -1708,10 +1823,11 @@
         "emibetuzumab"
       ],
       "name": "makowski2022cooptimization_pI.csv",
-      "path": "data/pharmacokinetics/makowski2022cooptimization_pI.csv",
+      "path": "../data/pharmacokinetics/makowski2022cooptimization_pI.csv",
       "study": "Co-optimization of therapeutic antibody affinity and specificity using machine learning models that generalize to novel mutational space",
       "year": 2022,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 126
     },
     {
       "assay": "FcRn",
@@ -1722,10 +1838,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_FcRnPeak.csv",
-      "path": "data/pharmacokinetics/shanehsazzadeh2023unlocking_FcRnPeak.csv",
+      "path": "../data/pharmacokinetics/shanehsazzadeh2023unlocking_FcRnPeak.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "CLEAR BSD"
+      "license": "CLEAR BSD",
+      "size": 13
     },
     {
       "assay": "FcRn",
@@ -1736,10 +1853,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_FcRnRRT.csv",
-      "path": "data/pharmacokinetics/shanehsazzadeh2023unlocking_FcRnRRT.csv",
+      "path": "../data/pharmacokinetics/shanehsazzadeh2023unlocking_FcRnRRT.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "FcRn",
@@ -1750,10 +1868,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_FcRnRT.csv",
-      "path": "data/pharmacokinetics/shanehsazzadeh2023unlocking_FcRnRT.csv",
+      "path": "../data/pharmacokinetics/shanehsazzadeh2023unlocking_FcRnRT.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "BVP",
@@ -1764,10 +1883,11 @@
         "Fv"
       ],
       "name": "jain2017biophysical_BVPELISA.csv",
-      "path": "data/polyreactivity/jain2017biophysical_BVPELISA.csv",
+      "path": "../data/polyreactivity/jain2017biophysical_BVPELISA.csv",
       "study": "Biophysical properties of the clinical-stage antibody landscape",
       "year": 2017,
-      "license": "none"
+      "license": "none",
+      "size": 137
     },
     {
       "assay": "CIC",
@@ -1778,10 +1898,11 @@
         "Fv"
       ],
       "name": "jain2017biophysical_CICRT.csv",
-      "path": "data/polyreactivity/jain2017biophysical_CICRT.csv",
+      "path": "../data/polyreactivity/jain2017biophysical_CICRT.csv",
       "study": "Biophysical properties of the clinical-stage antibody landscape",
       "year": 2017,
-      "license": "none"
+      "license": "none",
+      "size": 137
     },
     {
       "assay": "ELISA",
@@ -1792,10 +1913,11 @@
         "Fv"
       ],
       "name": "jain2017biophysical_ELISA.csv",
-      "path": "data/polyreactivity/jain2017biophysical_ELISA.csv",
+      "path": "../data/polyreactivity/jain2017biophysical_ELISA.csv",
       "study": "Biophysical properties of the clinical-stage antibody landscape",
       "year": 2017,
-      "license": "none"
+      "license": "none",
+      "size": 137
     },
     {
       "assay": "Poly-Specficity",
@@ -1806,10 +1928,11 @@
         "Fv"
       ],
       "name": "jain2017biophysical_PSR.csv",
-      "path": "data/polyreactivity/jain2017biophysical_PSR.csv",
+      "path": "../data/polyreactivity/jain2017biophysical_PSR.csv",
       "study": "Biophysical properties of the clinical-stage antibody landscape",
       "year": 2017,
-      "license": "none"
+      "license": "none",
+      "size": 137
     },
     {
       "assay": "SMAC",
@@ -1820,10 +1943,11 @@
         "Fv"
       ],
       "name": "jain2017biophysical_SMACRT.csv",
-      "path": "data/polyreactivity/jain2017biophysical_SMACRT.csv",
+      "path": "../data/polyreactivity/jain2017biophysical_SMACRT.csv",
       "study": "Biophysical properties of the clinical-stage antibody landscape",
       "year": 2017,
-      "license": "none"
+      "license": "none",
+      "size": 137
     },
     {
       "assay": "DNP",
@@ -1834,10 +1958,11 @@
         "Fv"
       ],
       "name": "jain2023identifying_DNP.csv",
-      "path": "data/polyreactivity/jain2023identifying_DNP.csv",
+      "path": "../data/polyreactivity/jain2023identifying_DNP.csv",
       "study": "Identifying developability risks for clinical progression of antibodies using high-throughput in vitro and in silico approaches",
       "year": 2023,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 112
     },
     {
       "assay": "FA.2",
@@ -1848,10 +1973,11 @@
         "Fv"
       ],
       "name": "jain2023identifying_FA2.csv",
-      "path": "data/polyreactivity/jain2023identifying_FA2.csv",
+      "path": "../data/polyreactivity/jain2023identifying_FA2.csv",
       "study": "Identifying developability risks for clinical progression of antibodies using high-throughput in vitro and in silico approaches",
       "year": 2023,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 113
     },
     {
       "assay": "Fe.C3.2",
@@ -1862,10 +1988,11 @@
         "Fv"
       ],
       "name": "jain2023identifying_FVC32.csv",
-      "path": "data/polyreactivity/jain2023identifying_FVC32.csv",
+      "path": "../data/polyreactivity/jain2023identifying_FVC32.csv",
       "study": "Identifying developability risks for clinical progression of antibodies using high-throughput in vitro and in silico approaches",
       "year": 2023,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 115
     },
     {
       "assay": "Fe.FVIII.2",
@@ -1876,10 +2003,11 @@
         "Fv"
       ],
       "name": "jain2023identifying_FvFVIII2.csv",
-      "path": "data/polyreactivity/jain2023identifying_FvFVIII2.csv",
+      "path": "../data/polyreactivity/jain2023identifying_FvFVIII2.csv",
       "study": "Identifying developability risks for clinical progression of antibodies using high-throughput in vitro and in silico approaches",
       "year": 2023,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 115
     },
     {
       "assay": "Fe.LysM.2",
@@ -1890,10 +2018,11 @@
         "Fv"
       ],
       "name": "jain2023identifying_FvLysM2.csv",
-      "path": "data/polyreactivity/jain2023identifying_FvLysM2.csv",
+      "path": "../data/polyreactivity/jain2023identifying_FvLysM2.csv",
       "study": "Identifying developability risks for clinical progression of antibodies using high-throughput in vitro and in silico approaches",
       "year": 2023,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 115
     },
     {
       "assay": "Heme.2",
@@ -1904,10 +2033,11 @@
         "Fv"
       ],
       "name": "jain2023identifying_Heme2.csv",
-      "path": "data/polyreactivity/jain2023identifying_Heme2.csv",
+      "path": "../data/polyreactivity/jain2023identifying_Heme2.csv",
       "study": "Identifying developability risks for clinical progression of antibodies using high-throughput in vitro and in silico approaches",
       "year": 2023,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 113
     },
     {
       "assay": "Heme.C3.2",
@@ -1918,10 +2048,11 @@
         "Fv"
       ],
       "name": "jain2023identifying_HemeC32.csv",
-      "path": "data/polyreactivity/jain2023identifying_HemeC32.csv",
+      "path": "../data/polyreactivity/jain2023identifying_HemeC32.csv",
       "study": "Identifying developability risks for clinical progression of antibodies using high-throughput in vitro and in silico approaches",
       "year": 2023,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 113
     },
     {
       "assay": "Heme.FViii.2",
@@ -1932,10 +2063,11 @@
         "Fv"
       ],
       "name": "jain2023identifying_HemeFVIII2.csv",
-      "path": "data/polyreactivity/jain2023identifying_HemeFVIII2.csv",
+      "path": "../data/polyreactivity/jain2023identifying_HemeFVIII2.csv",
       "study": "Identifying developability risks for clinical progression of antibodies using high-throughput in vitro and in silico approaches",
       "year": 2023,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 113
     },
     {
       "assay": "Heme.LysM.2",
@@ -1946,10 +2078,11 @@
         "Fv"
       ],
       "name": "jain2023identifying_HemeLysM2.csv",
-      "path": "data/polyreactivity/jain2023identifying_HemeLysM2.csv",
+      "path": "../data/polyreactivity/jain2023identifying_HemeLysM2.csv",
       "study": "Identifying developability risks for clinical progression of antibodies using high-throughput in vitro and in silico approaches",
       "year": 2023,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 113
     },
     {
       "assay": "Herapin",
@@ -1960,10 +2093,11 @@
         "Fv"
       ],
       "name": "jain2024assessment_Herapin_RT.csv",
-      "path": "data/polyreactivity/jain2024assessment_Herapin_RT.csv",
+      "path": "../data/polyreactivity/jain2024assessment_Herapin_RT.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 43
     },
     {
       "assay": "PSR",
@@ -1974,10 +2108,11 @@
         "Fv"
       ],
       "name": "jain2024assessment_PSR.csv",
-      "path": "data/polyreactivity/jain2024assessment_PSR.csv",
+      "path": "../data/polyreactivity/jain2024assessment_PSR.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 43
     },
     {
       "assay": "CIC",
@@ -1988,10 +2123,11 @@
         "Fv"
       ],
       "name": "rosace2023automated_CICRT1_adalimumab.csv",
-      "path": "data/polyreactivity/rosace2023automated_CICRT1_adalimumab.csv",
+      "path": "../data/polyreactivity/rosace2023automated_CICRT1_adalimumab.csv",
       "study": "Automated optimisation of solubility and conformational stability of antibodies and proteins",
       "year": 2022,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 14
     },
     {
       "assay": "CIC",
@@ -2002,10 +2138,11 @@
         "Fv"
       ],
       "name": "rosace2023automated_CICRT1_golimumab.csv",
-      "path": "data/polyreactivity/rosace2023automated_CICRT1_golimumab.csv",
+      "path": "../data/polyreactivity/rosace2023automated_CICRT1_golimumab.csv",
       "study": "Automated optimisation of solubility and conformational stability of antibodies and proteins",
       "year": 2022,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 5
     },
     {
       "assay": "CIC",
@@ -2016,10 +2153,11 @@
         "Fv"
       ],
       "name": "rosace2023automated_CICRT2_adalimumab.csv",
-      "path": "data/polyreactivity/rosace2023automated_CICRT2_adalimumab.csv",
+      "path": "../data/polyreactivity/rosace2023automated_CICRT2_adalimumab.csv",
       "study": "Automated optimisation of solubility and conformational stability of antibodies and proteins",
       "year": 2022,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 14
     },
     {
       "assay": "CIC",
@@ -2030,10 +2168,11 @@
         "Fv"
       ],
       "name": "rosace2023automated_CICRT2_golimumab.csv",
-      "path": "data/polyreactivity/rosace2023automated_CICRT2_golimumab.csv",
+      "path": "../data/polyreactivity/rosace2023automated_CICRT2_golimumab.csv",
       "study": "Automated optimisation of solubility and conformational stability of antibodies and proteins",
       "year": 2022,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 5
     },
     {
       "assay": "cELISA",
@@ -2044,10 +2183,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_elisa_ec50.csv",
-      "path": "data/polyreactivity/shanehsazzadeh2023unlocking_elisa_ec50.csv",
+      "path": "../data/polyreactivity/shanehsazzadeh2023unlocking_elisa_ec50.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "Polyspecificity",
@@ -2058,10 +2198,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_polyspecificity.csv",
-      "path": "data/polyreactivity/shanehsazzadeh2023unlocking_polyspecificity.csv",
+      "path": "../data/polyreactivity/shanehsazzadeh2023unlocking_polyspecificity.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "APC-MFI",
@@ -2073,10 +2214,11 @@
         "Fv"
       ],
       "name": "shanker2024unsupervised_APC-MFI_Elotuzumab-Ixekuzimab.csv",
-      "path": "data/polyreactivity/shanker2024unsupervised_APC-MFI_Elotuzumab-Ixekuzimab.csv",
+      "path": "../data/polyreactivity/shanker2024unsupervised_APC-MFI_Elotuzumab-Ixekuzimab.csv",
       "study": "Unsupervised evolution of protein and antibody complexes with a structure-informed language model",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 6
     },
     {
       "assay": "APC-MFI",
@@ -2087,10 +2229,11 @@
         "Fv"
       ],
       "name": "shanker2024unsupervised_APC-MFI_Ly1404.csv",
-      "path": "data/polyreactivity/shanker2024unsupervised_APC-MFI_Ly1404.csv",
+      "path": "../data/polyreactivity/shanker2024unsupervised_APC-MFI_Ly1404.csv",
       "study": "Unsupervised evolution of protein and antibody complexes with a structure-informed language model",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 18
     },
     {
       "assay": "ACP-MFI",
@@ -2100,10 +2243,11 @@
         "SA58"
       ],
       "name": "shanker2024unsupervised_APC-MFI_SA58.csv",
-      "path": "data/polyreactivity/shanker2024unsupervised_APC-MFI_SA58.csv",
+      "path": "../data/polyreactivity/shanker2024unsupervised_APC-MFI_SA58.csv",
       "study": "Unsupervised evolution of protein and antibody complexes with a structure-informed language model",
       "year": 2024,
-      "license": "MIT License"
+      "license": "MIT License",
+      "size": 15
     },
     {
       "assay": "Tm1",
@@ -2113,10 +2257,11 @@
         "none"
       ],
       "name": "garbinski2023_tm1.csv",
-      "path": "data/thermostability/garbinski2023_tm1.csv",
+      "path": "../data/thermostability/garbinski2023_tm1.csv",
       "study": "none",
       "year": 2023,
-      "license": "none"
+      "license": "none",
+      "size": 86
     },
     {
       "assay": "Tm",
@@ -2126,10 +2271,11 @@
         "C143"
       ],
       "name": "hie2023efficient_C143_Tm.csv",
-      "path": "data/thermostability/hie2023efficient_C143_Tm.csv",
+      "path": "../data/thermostability/hie2023efficient_C143_Tm.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 2
     },
     {
       "assay": "Tm",
@@ -2139,10 +2285,11 @@
         "MEDIUCA"
       ],
       "name": "hie2023efficient_MEDIUCA_Tm.csv",
-      "path": "data/thermostability/hie2023efficient_MEDIUCA_Tm.csv",
+      "path": "../data/thermostability/hie2023efficient_MEDIUCA_Tm.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 6
     },
     {
       "assay": "Tm",
@@ -2152,10 +2299,11 @@
         "MEDI"
       ],
       "name": "hie2023efficient_MEDI_Tm.csv",
-      "path": "data/thermostability/hie2023efficient_MEDI_Tm.csv",
+      "path": "../data/thermostability/hie2023efficient_MEDI_Tm.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 2
     },
     {
       "assay": "Tm",
@@ -2165,10 +2313,11 @@
         "REGN10987"
       ],
       "name": "hie2023efficient_REGN10987_Tm.csv",
-      "path": "data/thermostability/hie2023efficient_REGN10987_Tm.csv",
+      "path": "../data/thermostability/hie2023efficient_REGN10987_Tm.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 8
     },
     {
       "assay": "Tm",
@@ -2178,10 +2327,11 @@
         "S309"
       ],
       "name": "hie2023efficient_S309_Tm.csv",
-      "path": "data/thermostability/hie2023efficient_S309_Tm.csv",
+      "path": "../data/thermostability/hie2023efficient_S309_Tm.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 10
     },
     {
       "assay": "Tm",
@@ -2191,10 +2341,11 @@
         "mAb114UCA"
       ],
       "name": "hie2023efficient_mAb114UCA_Tm.csv",
-      "path": "data/thermostability/hie2023efficient_mAb114UCA_Tm.csv",
+      "path": "../data/thermostability/hie2023efficient_mAb114UCA_Tm.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 2
     },
     {
       "assay": "Tm",
@@ -2204,10 +2355,11 @@
         "mAb114"
       ],
       "name": "hie2023efficient_mAb114_Tm.csv",
-      "path": "data/thermostability/hie2023efficient_mAb114_Tm.csv",
+      "path": "../data/thermostability/hie2023efficient_mAb114_Tm.csv",
       "study": "Efficient evolution of human antibodies from general protein language models",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 7
     },
     {
       "assay": "Tm1",
@@ -2217,10 +2369,11 @@
         "Fv"
       ],
       "name": "hutchinson2023enhancement_multitm1_igg.csv",
-      "path": "data/thermostability/hutchinson2023enhancement_multitm1_igg.csv",
+      "path": "../data/thermostability/hutchinson2023enhancement_multitm1_igg.csv",
       "study": "Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 15
     },
     {
       "assay": "Tm1",
@@ -2230,10 +2383,11 @@
         "Fv"
       ],
       "name": "hutchinson2023enhancement_singletm1_igg.csv",
-      "path": "data/thermostability/hutchinson2023enhancement_singletm1_igg.csv",
+      "path": "../data/thermostability/hutchinson2023enhancement_singletm1_igg.csv",
       "study": "Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 23
     },
     {
       "assay": "Tm1",
@@ -2243,10 +2397,11 @@
         "Fv"
       ],
       "name": "hutchinson2023enhancement_top200tm1_igg.csv",
-      "path": "data/thermostability/hutchinson2023enhancement_top200tm1_igg.csv",
+      "path": "../data/thermostability/hutchinson2023enhancement_top200tm1_igg.csv",
       "study": "Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 192
     },
     {
       "assay": "Tm1",
@@ -2256,10 +2411,11 @@
         "Fv"
       ],
       "name": "hutchinson2023enhancement_top27tm1_igg.csv",
-      "path": "data/thermostability/hutchinson2023enhancement_top27tm1_igg.csv",
+      "path": "../data/thermostability/hutchinson2023enhancement_top27tm1_igg.csv",
       "study": "Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 28
     },
     {
       "assay": "Fab",
@@ -2270,10 +2426,11 @@
         "Fv"
       ],
       "name": "jain2017biophysical_Tm.csv",
-      "path": "data/thermostability/jain2017biophysical_Tm.csv",
+      "path": "../data/thermostability/jain2017biophysical_Tm.csv",
       "study": "Biophysical properties of the clinical-stage antibody landscape",
       "year": 2017,
-      "license": "none"
+      "license": "none",
+      "size": 137
     },
     {
       "assay": "Fab",
@@ -2284,10 +2441,11 @@
         "Fv"
       ],
       "name": "jain2024assessment_Tm.csv",
-      "path": "data/thermostability/jain2024assessment_Tm.csv",
+      "path": "../data/thermostability/jain2024assessment_Tm.csv",
       "study": "Assessment and incorporation of in vitro correlates to pharmacokinetic outcomes in antibody developability workflows",
       "year": 2024,
-      "license": "Attribution-NonCommercial 4.0 International"
+      "license": "Attribution-NonCommercial 4.0 International",
+      "size": 43
     },
     {
       "assay": "Tm",
@@ -2298,10 +2456,11 @@
         "Fv"
       ],
       "name": "rosace2023automated_tm1_adalimumab.csv",
-      "path": "data/thermostability/rosace2023automated_tm1_adalimumab.csv",
+      "path": "../data/thermostability/rosace2023automated_tm1_adalimumab.csv",
       "study": "Automated optimisation of solubility and conformational stability of antibodies and proteins",
       "year": 2022,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 14
     },
     {
       "assay": "Tm",
@@ -2312,10 +2471,11 @@
         "Fv"
       ],
       "name": "rosace2023automated_tm1_golimumab.csv",
-      "path": "data/thermostability/rosace2023automated_tm1_golimumab.csv",
+      "path": "../data/thermostability/rosace2023automated_tm1_golimumab.csv",
       "study": "Automated optimisation of solubility and conformational stability of antibodies and proteins",
       "year": 2022,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 5
     },
     {
       "assay": "DLS",
@@ -2326,10 +2486,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_DLS.csv",
-      "path": "data/thermostability/shanehsazzadeh2023unlocking_DLS.csv",
+      "path": "../data/thermostability/shanehsazzadeh2023unlocking_DLS.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "DSF",
@@ -2340,10 +2501,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_DSF1.csv",
-      "path": "data/thermostability/shanehsazzadeh2023unlocking_DSF1.csv",
+      "path": "../data/thermostability/shanehsazzadeh2023unlocking_DSF1.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "DSF",
@@ -2354,10 +2516,11 @@
         "Fv"
       ],
       "name": "shanehsazzadeh2023unlocking_DSF2.csv",
-      "path": "data/thermostability/shanehsazzadeh2023unlocking_DSF2.csv",
+      "path": "../data/thermostability/shanehsazzadeh2023unlocking_DSF2.csv",
       "study": "Unlocking de novo antibody design with generative artificial intelligence",
       "year": 2024,
-      "license": "Clear BSD"
+      "license": "Clear BSD",
+      "size": 13
     },
     {
       "assay": "Tm",
@@ -2367,10 +2530,11 @@
         "sdAb"
       ],
       "name": "sulea2019assisted_sdAb_tm.csv",
-      "path": "data/thermostability/sulea2019assisted_sdAb_tm.csv",
+      "path": "../data/thermostability/sulea2019assisted_sdAb_tm.csv",
       "study": "Assisted Design of Antibody and Protein Therapeutics (ADAPT)",
       "year": 2019,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 33
     },
     {
       "assay": "Tm",
@@ -2380,10 +2544,11 @@
         "Nanobody"
       ],
       "name": "tresanco2023nbthermo_tm.csv",
-      "path": "data/thermostability/tresanco2023nbthermo_tm.csv",
+      "path": "../data/thermostability/tresanco2023nbthermo_tm.csv",
       "study": "NbThermo: a new thermostability database for nanobodies ",
       "year": 2023,
-      "license": "Attribution 4.0 International"
+      "license": "Attribution 4.0 International",
+      "size": 673
     }
   ],
   "keys": {
@@ -2493,101 +2658,101 @@
     ],
     "key_words": [
       "",
-      "clinical stage therapeutic",
-      "TNFRSF9",
-      "b-Mouse Lysozyme-Fc",
-      "H1",
-      "scFv",
-      "Trastuzumab",
-      "SARS-CoV-2",
-      "d44",
-      "cr6261",
-      "Ebola-Virus-GP",
-      "hen egg lysozyme (HEL)",
-      "NIP228",
-      "Nanobody",
-      "SARS-CoV-2-Beta-SP",
-      "Elotuzumab",
-      "LOX1",
-      "Ixekuzimab",
-      "trastuzumab",
-      "CC12.1",
-      "Fab",
-      "VK3-20",
-      "BQ.1.1",
-      "integrin alpha11",
-      "Golimumab",
-      "BA.1",
-      "C143",
-      "none",
-      "human tumor necrosis factor alpha (TNFa)",
-      "SARS-CoV-2-Wuhan",
-      "H9",
-      "IL36R",
-      "DKK1",
-      "alphaseq",
-      "Ly1404",
-      "REGN10987",
-      "VEGF",
-      "VK4-1",
-      "hHER2",
-      "FXI",
-      "IL17A",
-      "SARS-CoV-2-Wuhan-hu-1",
-      "Syncytin2",
-      "Osocimab",
-      "DCC",
-      "Bimagrumab",
-      "SARS-CoV-2-Omicron",
-      "Spesolimab",
-      "TSLP",
-      "H1HA",
-      "VH1-39",
-      "H7-HK16",
-      "ROBO1",
-      "MEDI",
-      "PDL1",
-      "Fv",
-      "ACVR2B",
-      "H4-Hubei",
-      "H3",
-      "germline",
-      "MEDIUCA",
-      "sdAb",
-      "VHH",
-      "4-4-20",
-      "mAb114",
-      "Tezepelumab",
-      "VH1-69",
-      "SARS-CoV-2 peptide",
-      "IL23R",
-      "SA58",
-      "Adalimumab",
-      "TIGIT",
-      "emibetuzumab",
-      "mAb114UCA",
-      "VK3-15",
-      "fluorescein",
-      "PDL2",
-      "hIL6",
-      "CoV",
       "XBB.1.5",
-      "G6.31",
-      "cr9114",
-      "Utomilumab",
-      "H1-Solomon",
-      "OVA",
-      "S309",
-      "1-20",
-      "VK1-39",
+      "Nanobody",
+      "Spesolimab",
+      "hHER2",
       "ANT",
+      "Osocimab",
+      "VH1-39",
+      "CC12.1",
+      "scFv",
+      "H1-Solomon",
+      "germline",
+      "TNFRSF9",
+      "REGN10987",
+      "PDL2",
+      "Ebola-Virus-GP",
+      "H9",
+      "emibetuzumab",
+      "MEDIUCA",
+      "G6.31",
+      "SARS-CoV-2",
+      "ROBO1",
+      "DKK1",
+      "H4-Hubei",
+      "Fv",
+      "Fab",
+      "MEDI",
+      "cr6261",
+      "LOX1",
+      "d44",
+      "VK1-39",
       "Eculizumab",
       "Afasevikumab",
+      "CoV",
+      "Elotuzumab",
+      "S309",
+      "hIL6",
+      "Ixekuzimab",
+      "H3",
+      "VEGF",
+      "VK3-20",
+      "alphaseq",
+      "NIP228",
       "ROBO2N",
+      "SARS-CoV-2-Beta-SP",
+      "integrin alpha11",
+      "H1HA",
+      "VHH",
+      "BQ.1.1",
+      "Tezepelumab",
+      "SARS-CoV-2-Omicron",
+      "b-Mouse Lysozyme-Fc",
+      "FXI",
+      "TSLP",
+      "1-20",
+      "Syncytin2",
+      "IL36R",
+      "H7-HK16",
+      "SARS-CoV-2-WT-S6P",
+      "mAb114",
       "C5",
+      "H1",
+      "cr9114",
+      "SARS-CoV-2 peptide",
+      "Bimagrumab",
       "MEDI-UCA",
       "SARS-CoV-Beta-SP",
-      "SARS-CoV-2-WT-S6P"
+      "clinical stage therapeutic",
+      "IL17A",
+      "trastuzumab",
+      "TIGIT",
+      "BA.1",
+      "Trastuzumab",
+      "SARS-CoV-2-Wuhan",
+      "none",
+      "VK3-15",
+      "mAb114UCA",
+      "IL23R",
+      "DCC",
+      "4-4-20",
+      "ACVR2B",
+      "OVA",
+      "Adalimumab",
+      "sdAb",
+      "fluorescein",
+      "Utomilumab",
+      "Ly1404",
+      "SA58",
+      "PDL1",
+      "hen egg lysozyme (HEL)",
+      "VK4-1",
+      "human tumor necrosis factor alpha (TNFa)",
+      "SARS-CoV-2-Wuhan-hu-1",
+      "C143",
+      "VH1-69",
+      "Golimumab"
     ],
     "study": [
       "Biophysical properties of the clinical-stage antibody landscape",
@@ -2641,6 +2806,88 @@
       "Attribution 4.0 International",
       "MIT License",
       "CLEAR BSD"
+    ],
+    "size": [
+      137,
+      43,
+      97,
+      128,
+      13,
+      1259701,
+      1903928,
+      342357,
+      15,
+      11052,
+      5580,
+      352140,
+      81,
+      17,
+      14,
+      20,
+      8,
+      21,
+      12,
+      16,
+      22,
+      23,
+      50,
+      182,
+      28,
+      27,
+      31,
+      2,
+      1407,
+      869,
+      4276,
+      18,
+      56,
+      70,
+      52,
+      53,
+      34,
+      29,
+      45,
+      39,
+      48,
+      51,
+      24,
+      126,
+      96,
+      1071,
+      1040,
+      953,
+      921,
+      32393,
+      32768,
+      427,
+      141,
+      5,
+      422,
+      47,
+      40,
+      127,
+      36,
+      33,
+      19,
+      49,
+      7,
+      30,
+      573892,
+      77004,
+      2049,
+      10970,
+      94,
+      217,
+      132,
+      130,
+      112,
+      113,
+      115,
+      6,
+      86,
+      10,
+      192,
+      673
     ]
   }
 }

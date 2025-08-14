@@ -6,9 +6,6 @@ import os
 csv_file = "../data/flab_metadata.csv"
 df = pd.read_csv(csv_file)
 
-# Exclude the 'size' column
-df = df.drop(columns=['size'])
-
 # Function to safely split and clean key_words
 def process_key_words(value):
     if isinstance(value, str):  # Check if value is a string
@@ -20,7 +17,7 @@ def process_key_words(value):
 files_data = []
 for _, row in df.iterrows():
     key_words_list = process_key_words(row['key_words'])
-    path = f"data/{row['category']}/{row['filename']}" if not pd.isna(row['category']) and not pd.isna(row['filename']) else "none"
+    path = f"../data/{row['category']}/{row['filename']}" if not pd.isna(row['category']) and not pd.isna(row['filename']) else "none"
     
     # Assert that the file exists if the path is not "none"
     if path != "none":
@@ -35,7 +32,8 @@ for _, row in df.iterrows():
         "path": path,
         "study": row['publication_title'] if not pd.isna(row['publication_title']) else "none",
         "year": int(row['year']) if not pd.isna(row['year']) else "none",
-        "license": row['license'] if not pd.isna(row['license']) else "none"
+        "license": row['license'] if not pd.isna(row['license']) else "none",
+        "size": int(row['size']) if not pd.isna(row['size']) else "none"
     }
     files_data.append(file_entry)
 
@@ -74,7 +72,11 @@ keys_data = {
         df['license']
         .apply(lambda x: x if not pd.isna(x) else "none")
         .unique()
-    )
+    ),
+    "size": [
+        int(x) if not pd.isna(x) else "none"
+        for x in df['size'].astype(object).unique()
+    ]
 }
 
 # Create the final JSON structure
