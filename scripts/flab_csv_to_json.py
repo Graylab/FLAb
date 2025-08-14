@@ -24,7 +24,7 @@ for _, row in df.iterrows():
         assert os.path.isfile(path), f"File not found: {path}"
 
     file_entry = {
-        "assay": row['assay/units'].split()[0] if isinstance(row['assay/units'], str) else "none",
+        "assay": row['assay/units'] if isinstance(row['assay/units'], str) else "none",
         "category": row['category'] if not pd.isna(row['category']) else "none",
         "doi": row['doi'] if not pd.isna(row['doi']) else "none",
         "key_words": key_words_list if key_words_list else ["none"],
@@ -41,7 +41,7 @@ for _, row in df.iterrows():
 keys_data = {
     "assay": list(
         df['assay/units']
-        .apply(lambda x: x.split()[0] if isinstance(x, str) else "none")
+        .apply(lambda x: x if isinstance(x, str) else "none")
         .unique()
     ),
     "category": list(
