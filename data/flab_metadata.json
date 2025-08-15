@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "assay": "HIC",
+      "assay": "HIC Retention Time (Min)a",
       "category": "aggregation",
       "doi": "https://doi.org/10.1073/pnas.1616408114",
       "key_words": [
@@ -16,7 +16,7 @@
       "size": 137
     },
     {
-      "assay": "Affinity-Capture",
+      "assay": "Affinity-Capture Self-Interaction Nanoparticle Spectroscopy (AC-SINS) delta lambda max (nm) Average",
       "category": "aggregation",
       "doi": "https://doi.org/10.1073/pnas.1616408114",
       "key_words": [
@@ -31,7 +31,7 @@
       "size": 137
     },
     {
-      "assay": "CSI-BLI",
+      "assay": "CSI-BLI Delta Response (nm)",
       "category": "aggregation",
       "doi": "https://doi.org/10.1073/pnas.1616408114",
       "key_words": [
@@ -46,7 +46,7 @@
       "size": 137
     },
     {
-      "assay": "Slope",
+      "assay": "Slope for Accelerated Stability",
       "category": "aggregation",
       "doi": "https://doi.org/10.1073/pnas.1616408114",
       "key_words": [
@@ -61,7 +61,7 @@
       "size": 137
     },
     {
-      "assay": "SGAC-SINS",
+      "assay": "SGAC-SINS AS100 ((NH4)2SO4 mM)",
       "category": "aggregation",
       "doi": "https://doi.org/10.1073/pnas.1616408114",
       "key_words": [
@@ -76,7 +76,7 @@
       "size": 137
     },
     {
-      "assay": "AC-SINS",
+      "assay": "AC-SINS delta lambda max (nm)",
       "category": "aggregation",
       "doi": "https://doi.org/10.1080/19420862.2024.2384104",
       "key_words": [
@@ -91,7 +91,7 @@
       "size": 43
     },
     {
-      "assay": "CIC",
+      "assay": "CIC Column K",
       "category": "aggregation",
       "doi": "https://doi.org/10.1080/19420862.2024.2384104",
       "key_words": [
@@ -106,7 +106,7 @@
       "size": 43
     },
     {
-      "assay": "CS-SINS",
+      "assay": "CS-SINS (ave)",
       "category": "aggregation",
       "doi": "https://doi.org/10.1080/19420862.2024.2384104",
       "key_words": [
@@ -136,7 +136,7 @@
       "size": 43
     },
     {
-      "assay": "HIC",
+      "assay": "HIC RT (min)",
       "category": "aggregation",
       "doi": "https://doi.org/10.1080/19420862.2024.2384104",
       "key_words": [
@@ -151,7 +151,7 @@
       "size": 43
     },
     {
-      "assay": "SEC",
+      "assay": "SEC % Monomer",
       "category": "aggregation",
       "doi": "https://doi.org/10.1080/19420862.2024.2384104",
       "key_words": [
@@ -166,7 +166,7 @@
       "size": 43
     },
     {
-      "assay": "cIEF",
+      "assay": "cIEF Main peak",
       "category": "aggregation",
       "doi": "https://doi.org/10.1080/19420862.2024.2384104",
       "key_words": [
@@ -181,7 +181,7 @@
       "size": 43
     },
     {
-      "assay": "HIC",
+      "assay": "HIC RT (min)",
       "category": "aggregation",
       "doi": "https://doi.org/10.1080/19420862.2018.1475871",
       "key_words": [
@@ -196,7 +196,7 @@
       "size": 97
     },
     {
-      "assay": "Heparin",
+      "assay": "Heparin retention time (min)",
       "category": "aggregation",
       "doi": "https://doi.org/10.1080/19420862.2019.1683432",
       "key_words": [
@@ -211,7 +211,7 @@
       "size": 128
     },
     {
-      "assay": "AC-SINS",
+      "assay": "AC-SINS - Shift (nm)",
       "category": "aggregation",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -226,7 +226,7 @@
       "size": 13
     },
     {
-      "assay": "Red-CGE",
+      "assay": "Red-CGE - Purity (%)",
       "category": "aggregation",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -241,7 +241,7 @@
       "size": 13
     },
     {
-      "assay": "HIC",
+      "assay": "HIC - RRT",
       "category": "aggregation",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -256,7 +256,7 @@
       "size": 13
     },
     {
-      "assay": "NR-CGE",
+      "assay": "NR-CGE - Main (%)",
       "category": "aggregation",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -271,7 +271,7 @@
       "size": 13
     },
     {
-      "assay": "SEC",
+      "assay": "SEC - Main (%)",
       "category": "aggregation",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -286,7 +286,7 @@
       "size": 13
     },
     {
-      "assay": "Predicted",
+      "assay": "Predicted -log (Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41467-023-39022-2",
       "key_words": [
@@ -302,7 +302,7 @@
       "size": 1259701
     },
     {
-      "assay": "Predicted",
+      "assay": "Predicted -log (Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41467-023-39022-2",
       "key_words": [
@@ -318,7 +318,7 @@
       "size": 1903928
     },
     {
-      "assay": "Kd",
+      "assay": "Kd [nM], IC50 [ug/mL]",
       "category": "binding",
       "doi": "https://doi.org/10.48550/arXiv.2506.17857",
       "key_words": [
@@ -332,7 +332,7 @@
       "size": 342357
     },
     {
-      "assay": "Kd",
+      "assay": "Kd (flow) [M]",
       "category": "binding",
       "doi": "https://doi.org/10.7554/eLife.23156",
       "key_words": [
@@ -346,7 +346,7 @@
       "size": 15
     },
     {
-      "assay": "Kd",
+      "assay": "Kd (Tite-Seq) [M]",
       "category": "binding",
       "doi": "https://doi.org/10.7554/eLife.23156",
       "key_words": [
@@ -362,7 +362,7 @@
       "size": 11052
     },
     {
-      "assay": "bind/no",
+      "assay": "bind/no bind",
       "category": "binding",
       "doi": "https://huggingface.co/datasets/COGNANO/AVIDa-hTNFa",
       "key_words": [
@@ -377,7 +377,7 @@
       "size": 5580
     },
     {
-      "assay": "Predicted",
+      "assay": "Predicted -log (Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41597-022-01779-4",
       "key_words": [
@@ -393,7 +393,7 @@
       "size": 352140
     },
     {
-      "assay": "-log",
+      "assay": "-log (KD [M] )",
       "category": "binding",
       "doi": "none",
       "key_words": [
@@ -407,7 +407,7 @@
       "size": 81
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) IgG",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41587-023-01763-2",
       "key_words": [
@@ -423,7 +423,7 @@
       "size": 17
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41587-023-01763-2",
       "key_words": [
@@ -439,7 +439,7 @@
       "size": 14
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41587-023-01763-2",
       "key_words": [
@@ -455,7 +455,7 @@
       "size": 20
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) IgG",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41587-023-01763-2",
       "key_words": [
@@ -471,7 +471,7 @@
       "size": 8
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) IgG",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41587-023-01763-2",
       "key_words": [
@@ -487,7 +487,7 @@
       "size": 21
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) IgG",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41587-023-01763-2",
       "key_words": [
@@ -503,7 +503,7 @@
       "size": 12
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) IgG",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41587-023-01763-2",
       "key_words": [
@@ -519,7 +519,7 @@
       "size": 16
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) IgG",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41587-023-01763-2",
       "key_words": [
@@ -535,7 +535,7 @@
       "size": 17
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) IgG",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41587-023-01763-2",
       "key_words": [
@@ -551,7 +551,7 @@
       "size": 21
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) Fab",
       "category": "binding",
       "doi": "https://doi.org/10.1080/19420862.2024.2362775",
       "key_words": [
@@ -567,7 +567,7 @@
       "size": 15
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) IgG",
       "category": "binding",
       "doi": "https://doi.org/10.1080/19420862.2024.2362775",
       "key_words": [
@@ -583,7 +583,7 @@
       "size": 15
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) Fab",
       "category": "binding",
       "doi": "https://doi.org/10.1080/19420862.2024.2362775",
       "key_words": [
@@ -599,7 +599,7 @@
       "size": 22
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) IgG",
       "category": "binding",
       "doi": "https://doi.org/10.1080/19420862.2024.2362775",
       "key_words": [
@@ -615,7 +615,7 @@
       "size": 23
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) Fab",
       "category": "binding",
       "doi": "https://doi.org/10.1080/19420862.2024.2362775",
       "key_words": [
@@ -631,7 +631,7 @@
       "size": 50
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) IgG",
       "category": "binding",
       "doi": "https://doi.org/10.1080/19420862.2024.2362775",
       "key_words": [
@@ -647,7 +647,7 @@
       "size": 182
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) Fab",
       "category": "binding",
       "doi": "https://doi.org/10.1080/19420862.2024.2362775",
       "key_words": [
@@ -663,7 +663,7 @@
       "size": 28
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [nM]) IgG",
       "category": "binding",
       "doi": "https://doi.org/10.1080/19420862.2024.2362775",
       "key_words": [
@@ -679,7 +679,7 @@
       "size": 27
     },
     {
-      "assay": "Octet",
+      "assay": "Octet b-Hen Lysozyme Kd Monovalent (M)",
       "category": "binding",
       "doi": "https://doi.org/10.1080/19420862.2024.2384104",
       "key_words": [
@@ -695,7 +695,7 @@
       "size": 31
     },
     {
-      "assay": "Octet",
+      "assay": "Octet IgG KD b-Mouse Lysozyme-Fc Avid (M)",
       "category": "binding",
       "doi": "https://doi.org/10.1080/19420862.2024.2384104",
       "key_words": [
@@ -711,7 +711,7 @@
       "size": 2
     },
     {
-      "assay": "bind/no",
+      "assay": "bind/no bind",
       "category": "binding",
       "doi": "https://doi.org/10.1073/pnas.2412787122",
       "key_words": [
@@ -728,7 +728,7 @@
       "size": 1407
     },
     {
-      "assay": "Kd",
+      "assay": "Kd [M]",
       "category": "binding",
       "doi": "https://doi.org/10.1073/pnas.2412787122",
       "key_words": [
@@ -745,7 +745,7 @@
       "size": 869
     },
     {
-      "assay": "-log",
+      "assay": "-log (Kd [M])",
       "category": "binding",
       "doi": "https://doi.org/10.1073/pnas.1613231114",
       "key_words": [
@@ -761,7 +761,7 @@
       "size": 4276
     },
     {
-      "assay": "Cell",
+      "assay": "Cell Display  - EC50 (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -778,7 +778,7 @@
       "size": 23
     },
     {
-      "assay": "SPR",
+      "assay": "SPR kinetics - KD (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -795,7 +795,7 @@
       "size": 23
     },
     {
-      "assay": "Cell",
+      "assay": "Cell Display  - EC50 (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -814,7 +814,7 @@
       "size": 18
     },
     {
-      "assay": "SPR",
+      "assay": "SPR kinetics - KD (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -833,7 +833,7 @@
       "size": 20
     },
     {
-      "assay": "Cell",
+      "assay": "Cell Display  - EC50 (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -852,7 +852,7 @@
       "size": 56
     },
     {
-      "assay": "SPR",
+      "assay": "SPR kinetics - KD (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -871,7 +871,7 @@
       "size": 70
     },
     {
-      "assay": "Cell",
+      "assay": "Cell Display  - EC50 (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -889,7 +889,7 @@
       "size": 52
     },
     {
-      "assay": "SPR",
+      "assay": "SPR kinetics - KD (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -907,7 +907,7 @@
       "size": 53
     },
     {
-      "assay": "Cell",
+      "assay": "Cell Display  - EC50 (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -923,7 +923,7 @@
       "size": 34
     },
     {
-      "assay": "SPR",
+      "assay": "SPR kinetics - KD (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -939,7 +939,7 @@
       "size": 29
     },
     {
-      "assay": "Cell",
+      "assay": "Cell Display  - EC50 (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -956,7 +956,7 @@
       "size": 23
     },
     {
-      "assay": "SPR",
+      "assay": "SPR kinetics - KD (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -973,7 +973,7 @@
       "size": 23
     },
     {
-      "assay": "Cell",
+      "assay": "Cell Display  - EC50 (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -990,7 +990,7 @@
       "size": 45
     },
     {
-      "assay": "SPR",
+      "assay": "SPR kinetics - KD (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -1007,7 +1007,7 @@
       "size": 39
     },
     {
-      "assay": "Cell",
+      "assay": "Cell Display  - EC50 (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -1024,7 +1024,7 @@
       "size": 22
     },
     {
-      "assay": "SPR",
+      "assay": "SPR kinetics - KD (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -1041,7 +1041,7 @@
       "size": 22
     },
     {
-      "assay": "Cell",
+      "assay": "Cell Display  - EC50 (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -1061,7 +1061,7 @@
       "size": 48
     },
     {
-      "assay": "SPR",
+      "assay": "SPR kinetics - KD (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -1081,7 +1081,7 @@
       "size": 51
     },
     {
-      "assay": "Cell",
+      "assay": "Cell Display  - EC50 (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -1099,7 +1099,7 @@
       "size": 24
     },
     {
-      "assay": "SPR",
+      "assay": "SPR kinetics - KD (nM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2025.05.15.650607",
       "key_words": [
@@ -1117,7 +1117,7 @@
       "size": 22
     },
     {
-      "assay": "ANT",
+      "assay": "ANT binding",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41467-022-31457-3",
       "key_words": [
@@ -1133,7 +1133,7 @@
       "size": 126
     },
     {
-      "assay": "ANT",
+      "assay": "ANT binding",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41467-022-31457-3",
       "key_words": [
@@ -1149,7 +1149,7 @@
       "size": 96
     },
     {
-      "assay": "OVA",
+      "assay": "OVA binding",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41467-022-31457-3",
       "key_words": [
@@ -1165,7 +1165,7 @@
       "size": 96
     },
     {
-      "assay": "OVA",
+      "assay": "OVA binding",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41467-022-31457-3",
       "key_words": [
@@ -1181,7 +1181,7 @@
       "size": 126
     },
     {
-      "assay": "bind/no",
+      "assay": "bind/no bind",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41467-024-48072-z",
       "key_words": [
@@ -1196,7 +1196,7 @@
       "size": 1071
     },
     {
-      "assay": "MAGMA-Seq,",
+      "assay": "MAGMA-Seq Kd [M]",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41467-024-48072-z",
       "key_words": [
@@ -1211,7 +1211,7 @@
       "size": 1040
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM]) Fab",
       "category": "binding",
       "doi": "https://doi.org/10.7554/elife.71393",
       "key_words": [
@@ -1227,7 +1227,7 @@
       "size": 953
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM]) Fab",
       "category": "binding",
       "doi": "https://doi.org/10.7554/elife.71393",
       "key_words": [
@@ -1243,7 +1243,7 @@
       "size": 921
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM]) Fab",
       "category": "binding",
       "doi": "https://doi.org/10.7554/elife.71393",
       "key_words": [
@@ -1259,7 +1259,7 @@
       "size": 32393
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM]) Fab",
       "category": "binding",
       "doi": "https://doi.org/10.7554/elife.71393",
       "key_words": [
@@ -1275,7 +1275,7 @@
       "size": 32768
     },
     {
-      "assay": "IC50",
+      "assay": "IC50 (ng/ml)",
       "category": "binding",
       "doi": "https://doi.org/10.1093/bioinformatics/btac439",
       "key_words": [
@@ -1290,7 +1290,7 @@
       "size": 427
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1093/bioinformatics/btac439",
       "key_words": [
@@ -1305,7 +1305,7 @@
       "size": 141
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41467-023-37668-6",
       "key_words": [
@@ -1320,7 +1320,7 @@
       "size": 14
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1038/s41467-023-37668-6",
       "key_words": [
@@ -1335,7 +1335,7 @@
       "size": 5
     },
     {
-      "assay": "ADCC",
+      "assay": "ADCC EC50 (pM)",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -1350,7 +1350,7 @@
       "size": 13
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM]) Fab",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -1366,7 +1366,7 @@
       "size": 13
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM]) mAb",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -1382,7 +1382,7 @@
       "size": 13
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -1397,7 +1397,7 @@
       "size": 422
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2023.12.08.570889",
       "key_words": [
@@ -1412,7 +1412,7 @@
       "size": 13
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2023.12.08.570889",
       "key_words": [
@@ -1427,7 +1427,7 @@
       "size": 24
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2023.12.08.570889",
       "key_words": [
@@ -1442,7 +1442,7 @@
       "size": 34
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2023.12.08.570889",
       "key_words": [
@@ -1457,7 +1457,7 @@
       "size": 47
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2023.12.08.570889",
       "key_words": [
@@ -1472,7 +1472,7 @@
       "size": 40
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2023.12.08.570889",
       "key_words": [
@@ -1487,7 +1487,7 @@
       "size": 127
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [nM])",
       "category": "binding",
       "doi": "https://doi.org/10.1101/2023.12.08.570889",
       "key_words": [
@@ -1502,7 +1502,7 @@
       "size": 36
     },
     {
-      "assay": "Avg",
+      "assay": "Avg Neutralization IC50 (ng/microL)",
       "category": "binding",
       "doi": "https://doi.org/10.1126/science.adk8946",
       "key_words": [
@@ -1517,7 +1517,7 @@
       "size": 50
     },
     {
-      "assay": "Kd",
+      "assay": "Kd [M]",
       "category": "binding",
       "doi": "https://doi.org/10.1126/science.adk8946",
       "key_words": [
@@ -1532,7 +1532,7 @@
       "size": 36
     },
     {
-      "assay": "Avg",
+      "assay": "Avg Neutralization IC50 (ng/microL)",
       "category": "binding",
       "doi": "https://doi.org/10.1126/science.adk8946",
       "key_words": [
@@ -1547,7 +1547,7 @@
       "size": 33
     },
     {
-      "assay": "Avg",
+      "assay": "Avg Neutralization IC50 (ng/microL)",
       "category": "binding",
       "doi": "https://doi.org/10.1126/science.adk8946",
       "key_words": [
@@ -1562,7 +1562,7 @@
       "size": 19
     },
     {
-      "assay": "Avg",
+      "assay": "Avg Neutralization IC50 (ng/microL)",
       "category": "binding",
       "doi": "https://doi.org/10.1126/science.adk8946",
       "key_words": [
@@ -1577,7 +1577,7 @@
       "size": 49
     },
     {
-      "assay": "Kd",
+      "assay": "Kd [M]",
       "category": "binding",
       "doi": "https://doi.org/10.1126/science.adk8946",
       "key_words": [
@@ -1592,7 +1592,7 @@
       "size": 7
     },
     {
-      "assay": "Kd",
+      "assay": "Kd [M]",
       "category": "binding",
       "doi": "https://doi.org/10.1126/science.adk8946",
       "key_words": [
@@ -1607,7 +1607,7 @@
       "size": 30
     },
     {
-      "assay": "bind/no",
+      "assay": "bind/no bind",
       "category": "binding",
       "doi": "https://doi.org/10.48550/arXiv.2306.03329",
       "key_words": [
@@ -1622,7 +1622,7 @@
       "size": 573892
     },
     {
-      "assay": "bind/no",
+      "assay": "bind/no bind",
       "category": "binding",
       "doi": "https://doi.org/10.48550/arXiv.2405.18749",
       "key_words": [
@@ -1637,7 +1637,7 @@
       "size": 77004
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [M])",
       "category": "binding",
       "doi": "https://doi.org/10.1371/journal.pcbi.1007207",
       "key_words": [
@@ -1651,7 +1651,7 @@
       "size": 2049
     },
     {
-      "assay": "-log(",
+      "assay": "-log( Kd [M])",
       "category": "binding",
       "doi": "https://doi.org/10.1073/pnas.0603282103",
       "key_words": [
@@ -1666,7 +1666,7 @@
       "size": 21
     },
     {
-      "assay": "Expression",
+      "assay": "Expression [ER]",
       "category": "expression",
       "doi": "https://doi.org/10.7554/eLife.23156",
       "key_words": [
@@ -1682,7 +1682,7 @@
       "size": 10970
     },
     {
-      "assay": "Expression",
+      "assay": "Expression (microg/mL)",
       "category": "expression",
       "doi": "none",
       "key_words": [
@@ -1696,7 +1696,7 @@
       "size": 94
     },
     {
-      "assay": "HEK",
+      "assay": "HEK Titer (mg/L)",
       "category": "expression",
       "doi": "https://doi.org/10.1073/pnas.1616408114",
       "key_words": [
@@ -1711,7 +1711,7 @@
       "size": 137
     },
     {
-      "assay": "Expression",
+      "assay": "Expression [ER]",
       "category": "expression",
       "doi": "https://doi.org/10.1073/pnas.1613231114",
       "key_words": [
@@ -1726,7 +1726,7 @@
       "size": 4276
     },
     {
-      "assay": "%ADA",
+      "assay": "%ADA response",
       "category": "immunogenicity",
       "doi": "https://doi.org/10.1093/bioinformatics/btab434",
       "key_words": [
@@ -1771,7 +1771,7 @@
       "size": 130
     },
     {
-      "assay": "FcRn",
+      "assay": "FcRn Cellular Recycling (ng/mL)",
       "category": "pharmacokinetics",
       "doi": "https://doi.org/10.1080/19420862.2024.2384104",
       "key_words": [
@@ -1786,7 +1786,7 @@
       "size": 43
     },
     {
-      "assay": "Tg32",
+      "assay": "Tg32 Clearance (ml/h/kg)",
       "category": "pharmacokinetics",
       "doi": "https://doi.org/10.1080/19420862.2024.2384104",
       "key_words": [
@@ -1801,7 +1801,7 @@
       "size": 43
     },
     {
-      "assay": "Tg32",
+      "assay": "Tg32 half-life (h)",
       "category": "pharmacokinetics",
       "doi": "https://doi.org/10.1080/19420862.2024.2384104",
       "key_words": [
@@ -1830,7 +1830,7 @@
       "size": 126
     },
     {
-      "assay": "FcRn",
+      "assay": "FcRn chromatography - Peak width (min)",
       "category": "pharmacokinetics",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -1845,7 +1845,7 @@
       "size": 13
     },
     {
-      "assay": "FcRn",
+      "assay": "FcRn chromatography - RRT",
       "category": "pharmacokinetics",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -1860,7 +1860,7 @@
       "size": 13
     },
     {
-      "assay": "FcRn",
+      "assay": "FcRn chromatography - Retention time (min)",
       "category": "pharmacokinetics",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -1875,7 +1875,7 @@
       "size": 13
     },
     {
-      "assay": "BVP",
+      "assay": "BVP ELISA",
       "category": "polyreactivity",
       "doi": "https://doi.org/10.1073/pnas.1616408114",
       "key_words": [
@@ -1890,7 +1890,7 @@
       "size": 137
     },
     {
-      "assay": "CIC",
+      "assay": "CIC Retention Time (Min)",
       "category": "polyreactivity",
       "doi": "https://doi.org/10.1073/pnas.1616408114",
       "key_words": [
@@ -1920,7 +1920,7 @@
       "size": 137
     },
     {
-      "assay": "Poly-Specficity",
+      "assay": "Poly-Specficity Reagent (PSR) SMP Score (0-1)",
       "category": "polyreactivity",
       "doi": "https://doi.org/10.1073/pnas.1616408114",
       "key_words": [
@@ -1935,7 +1935,7 @@
       "size": 137
     },
     {
-      "assay": "SMAC",
+      "assay": "SMAC Retention Time (Min)a",
       "category": "polyreactivity",
       "doi": "https://doi.org/10.1073/pnas.1616408114",
       "key_words": [
@@ -2085,7 +2085,7 @@
       "size": 113
     },
     {
-      "assay": "Herapin",
+      "assay": "Herapin Column Rel RT",
       "category": "polyreactivity",
       "doi": "https://doi.org/10.1080/19420862.2024.2384104",
       "key_words": [
@@ -2115,7 +2115,7 @@
       "size": 43
     },
     {
-      "assay": "CIC",
+      "assay": "CIC RT (min) rep1",
       "category": "polyreactivity",
       "doi": "https://doi.org/10.1038/s41467-023-37668-6",
       "key_words": [
@@ -2130,7 +2130,7 @@
       "size": 14
     },
     {
-      "assay": "CIC",
+      "assay": "CIC RT (min) rep1",
       "category": "polyreactivity",
       "doi": "https://doi.org/10.1038/s41467-023-37668-6",
       "key_words": [
@@ -2145,7 +2145,7 @@
       "size": 5
     },
     {
-      "assay": "CIC",
+      "assay": "CIC RT (min) rep2",
       "category": "polyreactivity",
       "doi": "https://doi.org/10.1038/s41467-023-37668-6",
       "key_words": [
@@ -2160,7 +2160,7 @@
       "size": 14
     },
     {
-      "assay": "CIC",
+      "assay": "CIC RT (min) rep2",
       "category": "polyreactivity",
       "doi": "https://doi.org/10.1038/s41467-023-37668-6",
       "key_words": [
@@ -2175,7 +2175,7 @@
       "size": 5
     },
     {
-      "assay": "cELISA",
+      "assay": "cELISA EC50 (pM)",
       "category": "polyreactivity",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -2190,7 +2190,7 @@
       "size": 13
     },
     {
-      "assay": "Polyspecificity",
+      "assay": "Polyspecificity - Anti-DNA (AU)",
       "category": "polyreactivity",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -2250,7 +2250,7 @@
       "size": 15
     },
     {
-      "assay": "Tm1",
+      "assay": "Tm1 (nanoDSF)",
       "category": "thermostability",
       "doi": "none",
       "key_words": [
@@ -2362,7 +2362,7 @@
       "size": 7
     },
     {
-      "assay": "Tm1",
+      "assay": "Tm1 (degreeC) IgG",
       "category": "thermostability",
       "doi": "https://doi.org/10.1080/19420862.2024.2362775",
       "key_words": [
@@ -2376,7 +2376,7 @@
       "size": 15
     },
     {
-      "assay": "Tm1",
+      "assay": "Tm1 (degreeC) IgG",
       "category": "thermostability",
       "doi": "https://doi.org/10.1080/19420862.2024.2362775",
       "key_words": [
@@ -2390,7 +2390,7 @@
       "size": 23
     },
     {
-      "assay": "Tm1",
+      "assay": "Tm1 (degreeC) IgG",
       "category": "thermostability",
       "doi": "https://doi.org/10.1080/19420862.2024.2362775",
       "key_words": [
@@ -2404,7 +2404,7 @@
       "size": 192
     },
     {
-      "assay": "Tm1",
+      "assay": "Tm1 (degreeC) IgG",
       "category": "thermostability",
       "doi": "https://doi.org/10.1080/19420862.2024.2362775",
       "key_words": [
@@ -2418,7 +2418,7 @@
       "size": 28
     },
     {
-      "assay": "Fab",
+      "assay": "Fab Tm by DSF (degreeC)",
       "category": "thermostability",
       "doi": "https://doi.org/10.1073/pnas.1616408114",
       "key_words": [
@@ -2433,7 +2433,7 @@
       "size": 137
     },
     {
-      "assay": "Fab",
+      "assay": "Fab Tm by DSF (degreeC)",
       "category": "thermostability",
       "doi": "https://doi.org/10.1080/19420862.2024.2384104",
       "key_words": [
@@ -2448,7 +2448,7 @@
       "size": 43
     },
     {
-      "assay": "Tm",
+      "assay": "Tm (C) rep1",
       "category": "thermostability",
       "doi": "https://doi.org/10.1038/s41467-023-37668-6",
       "key_words": [
@@ -2463,7 +2463,7 @@
       "size": 14
     },
     {
-      "assay": "Tm",
+      "assay": "Tm (C) rep1",
       "category": "thermostability",
       "doi": "https://doi.org/10.1038/s41467-023-37668-6",
       "key_words": [
@@ -2478,7 +2478,7 @@
       "size": 5
     },
     {
-      "assay": "DLS",
+      "assay": "DLS - Cumulant PDI",
       "category": "thermostability",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -2493,7 +2493,7 @@
       "size": 13
     },
     {
-      "assay": "DSF",
+      "assay": "DSF - IP #1 (oC)",
       "category": "thermostability",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -2508,7 +2508,7 @@
       "size": 13
     },
     {
-      "assay": "DSF",
+      "assay": "DSF - IP #2 (oC)",
       "category": "thermostability",
       "doi": "https://doi.org/10.1101/2023.01.08.523187",
       "key_words": [
@@ -2553,46 +2553,67 @@
   ],
   "keys": {
     "assay": [
-      "HIC",
-      "Affinity-Capture",
-      "CSI-BLI",
-      "Slope",
-      "SGAC-SINS",
-      "AC-SINS",
-      "CIC",
-      "CS-SINS",
+      "HIC Retention Time (Min)a",
+      "Affinity-Capture Self-Interaction Nanoparticle Spectroscopy (AC-SINS) delta lambda max (nm) Average",
+      "CSI-BLI Delta Response (nm)",
+      "Slope for Accelerated Stability",
+      "SGAC-SINS AS100 ((NH4)2SO4 mM)",
+      "AC-SINS delta lambda max (nm)",
+      "CIC Column K",
+      "CS-SINS (ave)",
       "Fab.pI",
-      "SEC",
-      "cIEF",
-      "Heparin",
-      "Red-CGE",
-      "NR-CGE",
-      "Predicted",
-      "Kd",
-      "bind/no",
-      "-log",
-      "Octet",
-      "Cell",
-      "SPR",
-      "ANT",
-      "OVA",
-      "MAGMA-Seq,",
-      "-log(",
-      "IC50",
-      "ADCC",
-      "Avg",
-      "Expression",
-      "HEK",
-      "%ADA",
+      "HIC RT (min)",
+      "SEC % Monomer",
+      "cIEF Main peak",
+      "Heparin retention time (min)",
+      "AC-SINS - Shift (nm)",
+      "Red-CGE - Purity (%)",
+      "HIC - RRT",
+      "NR-CGE - Main (%)",
+      "SEC - Main (%)",
+      "Predicted -log (Kd [nM])",
+      "Kd [nM], IC50 [ug/mL]",
+      "Kd (flow) [M]",
+      "Kd (Tite-Seq) [M]",
+      "bind/no bind",
+      "-log (KD [M] )",
+      "-log (Kd [nM]) IgG",
+      "-log (Kd [nM])",
+      "-log (Kd [nM]) Fab",
+      "Octet b-Hen Lysozyme Kd Monovalent (M)",
+      "Octet IgG KD b-Mouse Lysozyme-Fc Avid (M)",
+      "Kd [M]",
+      "-log (Kd [M])",
+      "Cell Display  - EC50 (nM)",
+      "SPR kinetics - KD (nM)",
+      "ANT binding",
+      "OVA binding",
+      "MAGMA-Seq Kd [M]",
+      "-log( Kd [nM]) Fab",
+      "IC50 (ng/ml)",
+      "-log( Kd [nM])",
+      "ADCC EC50 (pM)",
+      "-log( Kd [nM]) mAb",
+      "Avg Neutralization IC50 (ng/microL)",
+      "-log( Kd [M])",
+      "Expression [ER]",
+      "Expression (microg/mL)",
+      "HEK Titer (mg/L)",
+      "%ADA response",
       "FcRn.Rel.RT.3",
       "Hep.RT.3",
-      "FcRn",
-      "Tg32",
+      "FcRn Cellular Recycling (ng/mL)",
+      "Tg32 Clearance (ml/h/kg)",
+      "Tg32 half-life (h)",
       "pI",
-      "BVP",
+      "FcRn chromatography - Peak width (min)",
+      "FcRn chromatography - RRT",
+      "FcRn chromatography - Retention time (min)",
+      "BVP ELISA",
+      "CIC Retention Time (Min)",
       "ELISA",
-      "Poly-Specficity",
-      "SMAC",
+      "Poly-Specficity Reagent (PSR) SMP Score (0-1)",
+      "SMAC Retention Time (Min)a",
       "DNP",
       "FA.2",
       "Fe.C3.2",
@@ -2602,17 +2623,22 @@
       "Heme.C3.2",
       "Heme.FViii.2",
       "Heme.LysM.2",
-      "Herapin",
+      "Herapin Column Rel RT",
       "PSR",
-      "cELISA",
-      "Polyspecificity",
+      "CIC RT (min) rep1",
+      "CIC RT (min) rep2",
+      "cELISA EC50 (pM)",
+      "Polyspecificity - Anti-DNA (AU)",
       "APC-MFI",
       "ACP-MFI",
-      "Tm1",
+      "Tm1 (nanoDSF)",
       "Tm",
-      "Fab",
-      "DLS",
-      "DSF"
+      "Tm1 (degreeC) IgG",
+      "Fab Tm by DSF (degreeC)",
+      "Tm (C) rep1",
+      "DLS - Cumulant PDI",
+      "DSF - IP #1 (oC)",
+      "DSF - IP #2 (oC)"
     ],
     "category": [
       "aggregation",
@@ -2658,101 +2684,101 @@
     ],
     "key_words": [
       "",
-      "NIP228",
-      "CoV",
-      "H1",
-      "cr6261",
-      "clinical stage therapeutic",
-      "TNFRSF9",
-      "hIL6",
-      "PDL2",
-      "VH1-39",
-      "ACVR2B",
-      "Fv",
-      "b-Mouse Lysozyme-Fc",
-      "H7-HK16",
-      "Bimagrumab",
-      "XBB.1.5",
-      "scFv",
-      "IL23R",
-      "human tumor necrosis factor alpha (TNFa)",
-      "SARS-CoV-2-Omicron",
-      "Syncytin2",
-      "1-20",
-      "ANT",
-      "DKK1",
-      "S309",
-      "fluorescein",
-      "none",
-      "VK3-15",
-      "IL36R",
-      "MEDIUCA",
-      "VK3-20",
-      "hen egg lysozyme (HEL)",
-      "TIGIT",
       "Adalimumab",
-      "CC12.1",
-      "REGN10987",
-      "Ly1404",
-      "SARS-CoV-2",
-      "Fab",
-      "H3",
-      "Trastuzumab",
-      "C143",
-      "Ebola-Virus-GP",
-      "H1-Solomon",
-      "germline",
-      "LOX1",
-      "Tezepelumab",
-      "H4-Hubei",
-      "Utomilumab",
-      "H9",
-      "Golimumab",
-      "SARS-CoV-2-Wuhan",
-      "hHER2",
-      "mAb114",
-      "H1HA",
-      "VH1-69",
-      "VK4-1",
-      "VHH",
-      "MEDI",
-      "OVA",
-      "SARS-CoV-2-WT-S6P",
-      "TSLP",
-      "VK1-39",
-      "emibetuzumab",
-      "Spesolimab",
-      "d44",
-      "trastuzumab",
-      "MEDI-UCA",
-      "SARS-CoV-Beta-SP",
-      "alphaseq",
-      "IL17A",
-      "BQ.1.1",
-      "Nanobody",
-      "mAb114UCA",
-      "C5",
-      "4-4-20",
-      "SARS-CoV-2 peptide",
+      "human tumor necrosis factor alpha (TNFa)",
       "G6.31",
-      "FXI",
       "DCC",
-      "Afasevikumab",
-      "SARS-CoV-2-Wuhan-hu-1",
-      "BA.1",
-      "VEGF",
-      "sdAb",
+      "Spesolimab",
+      "ANT",
+      "Nanobody",
+      "SARS-CoV-2-Omicron",
+      "Fab",
+      "CC12.1",
       "Elotuzumab",
-      "PDL1",
-      "Ixekuzimab",
-      "cr9114",
-      "Osocimab",
-      "ROBO1",
-      "Eculizumab",
+      "C5",
+      "TSLP",
+      "VH1-39",
+      "Tezepelumab",
+      "CoV",
+      "NIP228",
+      "MEDIUCA",
+      "IL17A",
+      "LOX1",
       "SARS-CoV-2-Beta-SP",
+      "SARS-CoV-Beta-SP",
+      "trastuzumab",
+      "hIL6",
+      "TIGIT",
+      "VK4-1",
+      "d44",
       "ROBO2N",
+      "C143",
+      "sdAb",
+      "H3",
+      "cr9114",
+      "b-Mouse Lysozyme-Fc",
+      "BQ.1.1",
+      "Utomilumab",
+      "H4-Hubei",
+      "alphaseq",
+      "VK3-20",
+      "VK3-15",
+      "IL23R",
+      "OVA",
+      "SARS-CoV-2",
+      "TNFRSF9",
+      "BA.1",
+      "hen egg lysozyme (HEL)",
+      "mAb114",
+      "ACVR2B",
+      "Ly1404",
+      "SARS-CoV-2-Wuhan-hu-1",
+      "VEGF",
+      "H1HA",
+      "hHER2",
+      "1-20",
+      "Trastuzumab",
+      "4-4-20",
+      "clinical stage therapeutic",
+      "H1-Solomon",
+      "scFv",
+      "VH1-69",
+      "H1",
+      "SARS-CoV-2-Wuhan",
+      "Ixekuzimab",
+      "mAb114UCA",
+      "VK1-39",
+      "cr6261",
+      "Fv",
+      "S309",
+      "PDL2",
+      "Eculizumab",
+      "VHH",
+      "Golimumab",
+      "Syncytin2",
+      "integrin alpha11",
+      "Ebola-Virus-GP",
+      "MEDI-UCA",
+      "SARS-CoV-2 peptide",
+      "IL36R",
+      "FXI",
+      "Osocimab",
+      "germline",
+      "ROBO1",
+      "emibetuzumab",
+      "REGN10987",
       "SA58",
-      "integrin alpha11"
+      "fluorescein",
+      "Afasevikumab",
+      "Bimagrumab",
+      "PDL1",
+      "DKK1",
+      "SARS-CoV-2-WT-S6P",
+      "H9",
+      "H7-HK16",
+      "MEDI",
+      "none",
+      "XBB.1.5"
     ],
     "study": [
       "Biophysical properties of the clinical-stage antibody landscape",
