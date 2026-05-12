@@ -23,8 +23,7 @@ FLAb/
 ├── figures/               # Manuscript figure scripts and outputs
 ├── metadata/              # Model size tables and summary CSVs used by figures
 ├── sbatch/                # SLURM job scripts (Rockfish cluster)
-├── envs/                  # Conda environment YAML files
-└── scripts/               # Legacy scoring scripts (v1)
+└── envs/                  # Conda environment YAML files
 ```
 
 ## Data
@@ -60,13 +59,6 @@ python models/scoring_esm2_150M.py data/binding/hie2023efficient_CoV2_S309_Kd.cs
 
 Output is written to `score/{method_name}/{category}_{dataset}.csv.gz` with columns:
 `folder`, `csv`, `{method}`, `{method}_pval`, `{method}_ld`, `{method}_ld_pval`
-
-To run all missing zero-shot jobs:
-```bash
-# All missing runs are listed in missing_scoring_runs.txt (3470 commands)
-# Run a specific model:
-grep "scoring_esm2_150M" missing_scoring_runs.txt | bash
-```
 
 **Available zero-shot models:** `antiberty`, `iglm`, `ld_score`, `esm2_{8M,35M,150M,650M,3B}`, `esm2_15B`, `bp_{aromaticity,average_flexibility,charge_at_7_4,gravy,instability_index,isoelectric_point,molecular_weight}`, `ism_{3B_uc30,650M_uc30,650M_uc30pdb}`, `progen2_{151M_small,2p7B_bfd90,2p7B_large,6p4B_xlarge,764M_{base,medium,oas}}`, `pyrosetta`, `abmpnn`, `chai1`, `esmif`, `igfold`, `proteinmpnn`
 
