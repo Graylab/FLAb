@@ -19,8 +19,6 @@ FLAb/
 ├── score/                 # Zero-shot scored outputs per model
 ├── score_ft/              # Few-shot scored outputs per model
 ├── score_ablation/        # Ablation study outputs (empty — runs pending)
-├── analysis/              # Heatmap and summary analysis scripts
-├── metadata/              # Model size tables and summary CSVs used by figures
 └── envs/                  # Conda environment YAML files
 ```
 
@@ -71,20 +69,6 @@ python models/ft_scoring_esm2_150M.py data/binding/hie2023efficient_CoV2_S309_Kd
 **Available few-shot models:** `ft_{antiberty,esm2_{8M,35M,150M,650M,3B},esmif,igfold2_{bert,gt,structure},ism_{3B,650M_uc30,650M_uc30pdb},onehot}`
 
 Pre-computed few-shot results are in `score_ft/ft_combined_data.csv`.
-
-## Analysis
-
-Heatmap and correlation analysis scripts are in `analysis/`. See [`analysis/README.md`](analysis/README.md).
-
-```bash
-# Generate combined zero-shot heatmap
-python analysis/heatmap_all.py
-
-# Generate few-shot heatmap
-python analysis/heatmap_all_ft.py
-```
-
-Reference data: `analysis/combined_heatmap_all_models.csv` (180 datasets × 30 models matrix), `analysis/flab2025_reference.csv`.
 
 ## Install
 
