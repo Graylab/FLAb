@@ -1,119 +1,151 @@
 # FLAb: Fitness Landscapes for Antibodies
 
 ## Summary
-`The Fitness Landscape for Antibodies (FLAb)` is the largest publicly available therapeutic antibody dataset designed to train and benchmark protein AI models. It provides open-access, high-quality developability data on diverse therapeutic properties, including expression, thermostability, immunogenicity, aggregation, polyreactivity, binding affinity, and pharmacokinetics. FLAb encompasses over 3 million antibody developability assay data points, aggregated from public studies. Each dataset is stored in CSV format, with columns representing the amino acid sequence(s) of antibody variable domains (e.g., one column per chain for two-chain antibodies) and the corresponding therapeutic assay value. Additional metadata columns may also be included. A convenience interface to the FLAb Github repository can be found [here](https://r2.graylab.jhu.edu/flab?current_page=1&key_words_value=&category=aggregation&assay=any&study=any&year=any&license=any&size=any&).
+
+`The Fitness Landscape for Antibodies (FLAb)` is the largest publicly available therapeutic antibody dataset designed to train and benchmark protein AI models. It provides open-access, high-quality developability data on diverse therapeutic properties — expression, thermostability, immunogenicity, aggregation, polyreactivity, binding affinity, and pharmacokinetics — spanning **241 datasets** and over 3 million antibody assay data points aggregated from public studies.
+
+Each dataset is a CSV with `heavy` (and optionally `light`) amino acid sequence columns and a `fitness` column containing the experimental assay value. Additional metadata columns may also be present.
+
+A web interface to FLAb can be found [here](https://r2.graylab.jhu.edu/flab).
 
 ![Biophysical Properties](Fig_biophysical_properties.png)
 
-## About
+## Repository Structure
 
-The FLAb dataset is used to benchmark and train protein AI models for (1) therapeutic antibody design and prediction of therapeutic properties. FLAb represents a unique, centralized resource encompassing diverse and experimentally validated therapeutic antibody properties, including data from assays commonly used in antibody discovery pipelines. To date, no publicly available dataset has been compiled at this scale or breadth, making FLAb a first-of-its-kind tool for the protein design and AI research communities. By providing access to high-quality, multi-dimensional benchmark data, FLAb supports the development of models that generate or filter optimized antibody candidates more efficiently than current experimental approaches. Our long-term vision is for FLAb to serve as a foundation for advancing therapeutic antibody design.
+```
+FLAb/
+├── data/                  # 241 datasets in 7 therapeutic property categories
+├── models/                # Scoring scripts (zero-shot, few-shot, ablation)
+├── score/                 # Zero-shot scored outputs per model
+├── score_ft/              # Few-shot scored outputs per model
+├── score_ablation/        # Ablation study outputs (empty — runs pending)
+├── analysis/              # Heatmap and summary analysis scripts
+├── figures/               # Manuscript figure scripts and outputs
+├── metadata/              # Model size tables and summary CSVs used by figures
+├── sbatch/                # SLURM job scripts (Rockfish cluster)
+├── envs/                  # Conda environment YAML files
+└── scripts/               # Legacy scoring scripts (v1)
+```
 
 ## Data
 
-The dataset has been partitioned based on therapeutic properties (e.g., "expression," "thermostability," "binding affinity") into separate folders within [the data directory](https://github.com/Graylab/FLAb/tree/main/data).
+Datasets are organized by therapeutic property under `data/`. Each category folder has its own README describing each dataset (size, assay units, publication, license, direction of favorable values).
+
+See [`data/README.md`](data/README.md) for the full dataset index.
 
 ```
-├── data/
-|    ├── README.md
-|    ├── aggregation/
-|    |    ├── README.md
-|    |    ├── jain2017biophyscial_HICRT.csv
-|    |    ├── jain2017biophysical_ACSINS.csv
-|    |    ├── ...
-|    |    └── shanehsazzadeh2023unlocking_SEC.csv
-|    ├── binding/
-|    |    ├── README.md
-|    |    ├── AbRank_dataset.csv.zip
-|    |    ├── adams2017measuring_4420-fluorescein_kd-flow.csv
-|    |    ├── ...
-|    |    ├── zimmerman2020antibody_4420_kd.csv
-|    ├── expression/
-|    |    ├── ...
-|    ├── immunogenicity/
-|    |    ├── ...
-|    ├── immunogenicity/
-|    |    ├── ...
-|    ├── pharmacokinetics
-|    |    ├── ...
-|    ├── polyreactivity/
-|    |    ├── ...
-|    ├── thermostability/
-|    |    ├── ...
+data/
+├── aggregation/       (31 datasets)
+├── binding/           (132 datasets)
+├── expression/        (7 datasets)
+├── immunogenicity/    (4 datasets)
+├── pharmacokinetics/  (9 datasets)
+├── polyreactivity/    (33 datasets)
+└── thermostability/   (25 datasets)
 ```
-The [README.md](https://github.com/Graylab/FLAb/tree/main/data#readme) file within the data directory provides a tabular description of the with the study name, a link to the study, the shorthand naming convention used for the corresponding CSV file, the amount of data the study provides in each developability category, and the associated license of the data.
 
-The README.md file provided in each respective fitness category folder provides a description of each dataset in that folder, including size, assay units, key words associated with that file (such as "germline", "clinical stage", "nanobody", "SARS-CoV-2"), the associated publication and link, the year of the publication, and the direction of favorable (higher fitness) values. For example, the [expression README.md](https://github.com/Graylab/FLAb/tree/main/data/expression) provides a description for all the expression datasets.
+**Format:** Each CSV has at minimum `heavy` and `fitness` columns. Two-chain antibodies also have `light`. Nanobody datasets have `heavy` only. Fifteen datasets have non-standard fitness column names (`jain2024assessment_*`, `kirby2024retrospective_*`) and are kept as reference but excluded from automated scoring.
 
-## Examples
+## Scoring
 
-Examples of zero shot and few shot scoring are in the [examples directory](https://github.com/Graylab/FLAb/tree/main/examples).
+All scoring scripts live in `models/` and are run from the `FLAb/` root directory. See [`models/README.md`](models/README.md) for full details.
+
+### Zero-shot scoring
+
+Each `scoring_*.py` script takes a single dataset and a method name:
+
+```bash
+python models/scoring_esm2_150M.py data/binding/hie2023efficient_CoV2_S309_Kd.csv esm2_150M_score
+```
+
+Output is written to `score/{method_name}/{category}_{dataset}.csv.gz` with columns:
+`folder`, `csv`, `{method}`, `{method}_pval`, `{method}_ld`, `{method}_ld_pval`
+
+To run all missing zero-shot jobs:
+```bash
+# All missing runs are listed in missing_scoring_runs.txt (3470 commands)
+# Run a specific model:
+grep "scoring_esm2_150M" missing_scoring_runs.txt | bash
+```
+
+**Available zero-shot models:** `antiberty`, `iglm`, `ld_score`, `esm2_{8M,35M,150M,650M,3B}`, `esm2_15B`, `bp_{aromaticity,average_flexibility,charge_at_7_4,gravy,instability_index,isoelectric_point,molecular_weight}`, `ism_{3B_uc30,650M_uc30,650M_uc30pdb}`, `progen2_{151M_small,2p7B_bfd90,2p7B_large,6p4B_xlarge,764M_{base,medium,oas}}`, `pyrosetta`, `abmpnn`, `chai1`, `esmif`, `igfold`, `proteinmpnn`
+
+### Few-shot scoring
+
+Few-shot scripts use an 80/10/10 train/val/test split and output to `score_ft/ft_{model}/`:
+
+```bash
+python models/ft_scoring_esm2_150M.py data/binding/hie2023efficient_CoV2_S309_Kd.csv ft_esm2_150M_score
+```
+
+**Available few-shot models:** `ft_{antiberty,esm2_{8M,35M,150M,650M,3B},esmif,igfold2_{bert,gt,structure},ism_{3B,650M_uc30,650M_uc30pdb},onehot}`
+
+Pre-computed few-shot results are in `score_ft/ft_combined_data.csv`.
+
+## Analysis
+
+Heatmap and correlation analysis scripts are in `analysis/`. See [`analysis/README.md`](analysis/README.md).
+
+```bash
+# Generate combined zero-shot heatmap
+python analysis/heatmap_all.py
+
+# Generate few-shot heatmap
+python analysis/heatmap_all_ft.py
+```
+
+Reference data: `analysis/combined_heatmap_all_models.csv` (180 datasets × 30 models matrix), `analysis/flab2025_reference.csv`.
+
+## Figures
+
+Manuscript figures are in `figures/`, one subdirectory per figure. Each contains a `.py` script and the output `.png`. See [`figures/README.md`](figures/README.md) for how to reproduce each figure.
+
+```bash
+# Example: reproduce zero-shot whisker plot (Fig 4)
+cd figures/fig04_zeroShotWhisker
+python fig04_zeroshot_whisker.py
+```
+
+All figure scripts read from `metadata/` and run from their own subdirectory.
+
 ## Install
 
-For easiest use, [create a conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) for each scoring and structure prediction method:
+Create a conda environment for each scoring method:
 
 ```bash
-$ conda env create --name ENV_NAME --file envs/[ENV]
+conda env create --name ENV_NAME --file envs/ENV.yml
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Where `[ENV]` ∈ `antiberty.yml`, `esmif.yml`, `iglm.yml`, `mpnn.yml`, `progen.yml`, `pyrosetta.yml`
+Available environments: `antiberty.yml`, `esmif.yml`, `iglm.yml`, `mpnn.yml`, `progen.yml`, `pyrosetta.yml`
 
-## Command line usage
+Model weights (ISM, ProGen2, AbMPNN, ProteinMPNN) are expected at `~/models/`. See [`models/README.md`](models/README.md) for exact paths.
 
-FLAb supports structure prediction with IgFold and perplexity scoring with AntiBERTy, ProGen2, IgLM, ESM-2, ESM-IF, proteinMPNN, and Rosetta energy.
+## SLURM (Rockfish cluster)
 
-### Antibody structure prediction from sequence in csv format
-
-Antibody sequences must be provided as a csv of sequences, where the columns are chains `heavy` and `light` and column values are the sequences. This step is necessary to complete first before scoring with structure-based methods (i.e. ESM-IF, proteinMPNN, Rosetta energy).
+Batch scripts for each model are in `sbatch/`. Each script takes a dataset path as `$1`:
 
 ```bash
-$ sbatch sbatch/structure.sh data/tm/Hie2022_C143_Tm.csv 
+sbatch sbatch/scoring_esm2_150M.sh data/binding/hie2023efficient_CoV2_S309_Kd.csv
 ```
 
-### Expected output
+## Contributions & Bug Reports
 
-After the script completes, antibody structures will be saved in a new directory path `structures/tm/Hie2022_C143_Tm/`
+FLAb is a living benchmark. To contribute data or models, submit a [pull request](https://github.com/Graylab/FLAb/pulls) or email `mchungy1@jhu.edu`.
 
-## Perplexity scoring and correlation to fitness
-
-Calculate perplexity for a csv of sequences with the columns `heavy` for heavy chain sequences, `light` for light chain sequences, and `fitness` for some experimental antibody fitness metric.
-
-```bash
-$ sbatch sbatch/score_seq.sh data/tm/Hie2022_C143_Tm.csv [MODEL] [SIZE]
-```
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Where `[MODEL]` ∈ `antiberty`, `esmif`, `iglm`, `mpnn`, `progen`, `pyrosetta`
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If using `progen`: `[SIZE]` ∈ `small`, `medium`, `base`, `oas`, `large`, `BFD90`, `xlarge`. Otherwise leave `[SIZE]` blank.
-
-For structure-based scoring methods, structures must first be predicted.
-
-```bash
-$ sbatch sbatch/score_struc.sh data/tm/Hie2022_C143_Tm.csv esmif
-```
-
-### Expected output
-
-After the script completes, the CSV with heavy and light sequences will be updated with a new column for uncertainty. The CSV will be saved in a new directory path within `scores/tm/Hie2022_C143_Tm/`
-
-## Contributions & Bug reports
-
-FLAb is a living benchmark: We are motivated to continually expand the antibody fitness data utilized and methods evaluated. We invite contributions and encourage contributors to add data or test new models (e.g. ESM-2, CDConv, ProNet, MaSIF, MIF, CARP, ProtBERT, UniRep, ProteinBERT). To make contributions, either submit a [pull request](https://github.com/Graylab/FLAb/pulls) or email `mchungy1@jhu.edu` for help on how to integrate your data into FLAb.
-
-If you run into any problems while using FLAb, please create a [Github issue](https://github.com/Graylab/FLAb/issues) with a description of the problem and the steps to reproduce it.
+For bugs, open a [GitHub issue](https://github.com/Graylab/FLAb/issues).
 
 ## Citing this work
 
 ```bibtex
-@article{chungyoun2023flab,
-    title = {FLAb: Benchmarking tasks in fitness landscape inference for antibodies},
-    author = {Chungyoun, Michael and Ruffolo, Jeff and Gray, Jeffrey J},
+@article{chungyoun2025flab2,
+    title   = {Fitness Landscape for Antibodies 2: Benchmarking Reveals That Protein AI Models Cannot Yet Consistently Predict Developability Properties},
+    author  = {Chungyoun, Michael and Gray, Jeffrey},
     journal = {bioRxiv},
-    doi = {https://doi.org/10.1101/2024.01.13.575504}
-    year = {2023}
+    doi     = {https://doi.org/10.64898/2025.12.27.696706},
+    year    = {2025}
 }
 ```
 
 ### License
 
-The license of each dataset can be found in https://github.com/Graylab/FLAb/blob/main/data/README.md
+Dataset licenses are listed in [`data/README.md`](data/README.md).
