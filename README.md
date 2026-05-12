@@ -20,9 +20,7 @@ FLAb/
 ├── score_ft/              # Few-shot scored outputs per model
 ├── score_ablation/        # Ablation study outputs (empty — runs pending)
 ├── analysis/              # Heatmap and summary analysis scripts
-├── figures/               # Manuscript figure scripts and outputs
 ├── metadata/              # Model size tables and summary CSVs used by figures
-├── sbatch/                # SLURM job scripts (Rockfish cluster)
 └── envs/                  # Conda environment YAML files
 ```
 
@@ -88,18 +86,6 @@ python analysis/heatmap_all_ft.py
 
 Reference data: `analysis/combined_heatmap_all_models.csv` (180 datasets × 30 models matrix), `analysis/flab2025_reference.csv`.
 
-## Figures
-
-Manuscript figures are in `figures/`, one subdirectory per figure. Each contains a `.py` script and the output `.png`. See [`figures/README.md`](figures/README.md) for how to reproduce each figure.
-
-```bash
-# Example: reproduce zero-shot whisker plot (Fig 4)
-cd figures/fig04_zeroShotWhisker
-python fig04_zeroshot_whisker.py
-```
-
-All figure scripts read from `metadata/` and run from their own subdirectory.
-
 ## Install
 
 Create a conda environment for each scoring method:
@@ -111,14 +97,6 @@ conda env create --name ENV_NAME --file envs/ENV.yml
 Available environments: `antiberty.yml`, `esmif.yml`, `iglm.yml`, `mpnn.yml`, `progen.yml`, `pyrosetta.yml`
 
 Model weights (ISM, ProGen2, AbMPNN, ProteinMPNN) are expected at `~/models/`. See [`models/README.md`](models/README.md) for exact paths.
-
-## SLURM (Rockfish cluster)
-
-Batch scripts for each model are in `sbatch/`. Each script takes a dataset path as `$1`:
-
-```bash
-sbatch sbatch/scoring_esm2_150M.sh data/binding/hie2023efficient_CoV2_S309_Kd.csv
-```
 
 ## Contributions & Bug Reports
 
